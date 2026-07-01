@@ -23,13 +23,17 @@ build/
 # Debug artifacts
 debug_*.png
 
-# Douyin cache (reproducible)
+# Douyin + WeChat caches (reproducible)
 data/douyin_content.json
+data/wechat_content.json
 
 # Temp scripts (one-off test/debug scripts)
 data/rescrape_details.py
 data/smart_scrape.py
 data/scrape_full.py
+
+# Intermediate build artifacts
+output/yangling_city_brief_v2.md
 
 # Old outputs
 output/yangling_communities.csv
