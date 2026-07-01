@@ -1,0 +1,36 @@
+# Credentials & secrets
+anjuke_cookies.json
+anjuke_state.json
+detail_progress.json
+*.key
+*.pem
+
+# Database files (reproducible from scrapers)
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+
+# Debug artifacts
+debug_*.png
+
+# Douyin cache (reproducible)
+data/douyin_content.json
+
+# Temp scripts (one-off test/debug scripts)
+data/rescrape_details.py
+data/smart_scrape.py
+data/scrape_full.py
+
+# Old outputs
+output/yangling_communities.csv
+output/qinyuanchunju_3br_85w.md

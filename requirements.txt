@@ -1,0 +1,4 @@
+playwright
+litellm
+pymilvus
+requests
