@@ -1,0 +1,2682 @@
+{
+ "alaer": {
+  "name": "阿拉尔",
+  "gb_name": "阿拉尔市",
+  "gb_city_code": "6590",
+  "gb_area_code": "659002",
+  "province_id": "65",
+  "parent_city_id": null
+ },
+ "anjixian": {
+  "name": "安吉",
+  "gb_name": "安吉县",
+  "gb_city_code": "3305",
+  "gb_area_code": "330523",
+  "province_id": "33",
+  "parent_city_id": "huzhou"
+ },
+ "anyuexian": {
+  "name": "安岳",
+  "gb_name": "安岳县",
+  "gb_city_code": "5120",
+  "gb_area_code": "512021",
+  "province_id": "51",
+  "parent_city_id": "ziyang"
+ },
+ "anxi": {
+  "name": "安溪",
+  "gb_name": "安溪县",
+  "gb_city_code": "3505",
+  "gb_area_code": "350524",
+  "province_id": "35",
+  "parent_city_id": "quanzhou"
+ },
+ "anqiu": {
+  "name": "安丘",
+  "gb_name": "安丘市",
+  "gb_city_code": "3707",
+  "gb_area_code": "370784",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "anning": {
+  "name": "安宁",
+  "gb_name": "安宁市",
+  "gb_city_code": "5301",
+  "gb_area_code": "530181",
+  "province_id": "53",
+  "parent_city_id": "km"
+ },
+ "shanda": {
+  "name": "安达",
+  "gb_name": "安达市",
+  "gb_city_code": "2312",
+  "gb_area_code": "231281",
+  "province_id": "23",
+  "parent_city_id": "suihua"
+ },
+ "xganlu": {
+  "name": "安陆",
+  "gb_name": "安陆市",
+  "gb_city_code": "4209",
+  "gb_area_code": "420982",
+  "province_id": "42",
+  "parent_city_id": "xiaogan"
+ },
+ "boluoxian": {
+  "name": "博罗",
+  "gb_name": "博罗县",
+  "gb_city_code": "4413",
+  "gb_area_code": "441322",
+  "province_id": "44",
+  "parent_city_id": "dayawana"
+ },
+ "baoyingxian": {
+  "name": "宝应县",
+  "gb_name": "宝应县",
+  "gb_city_code": "3210",
+  "gb_area_code": "321023",
+  "province_id": "32",
+  "parent_city_id": "yangzhou"
+ },
+ "bazh": {
+  "name": "霸州",
+  "gb_name": "霸州市",
+  "gb_city_code": "1310",
+  "gb_area_code": "131081",
+  "province_id": "13",
+  "parent_city_id": "langfang"
+ },
+ "beipiao": {
+  "name": "北票",
+  "gb_name": "北票市",
+  "gb_city_code": "2113",
+  "gb_area_code": "211381",
+  "province_id": "21",
+  "parent_city_id": "chaoyang"
+ },
+ "beiliu": {
+  "name": "北流",
+  "gb_name": "北流市",
+  "gb_city_code": "4509",
+  "gb_area_code": "450981",
+  "province_id": "45",
+  "parent_city_id": "yulinshi"
+ },
+ "boxingxian": {
+  "name": "博兴",
+  "gb_name": "博兴县",
+  "gb_city_code": "3716",
+  "gb_area_code": "371625",
+  "province_id": "37",
+  "parent_city_id": "binzhou"
+ },
+ "bobaixian": {
+  "name": "博白",
+  "gb_name": "博白县",
+  "gb_city_code": "4509",
+  "gb_area_code": "450923",
+  "province_id": "45",
+  "parent_city_id": "yulinshi"
+ },
+ "chaohu": {
+  "name": "巢湖",
+  "gb_name": "巢湖市",
+  "gb_city_code": "3401",
+  "gb_area_code": "340181",
+  "province_id": "34",
+  "parent_city_id": "hf"
+ },
+ "changge": {
+  "name": "长葛",
+  "gb_name": "长葛市",
+  "gb_city_code": "4110",
+  "gb_area_code": "411082",
+  "province_id": "41",
+  "parent_city_id": "xuchang"
+ },
+ "changxingxian": {
+  "name": "长兴",
+  "gb_name": "长兴县",
+  "gb_city_code": "3305",
+  "gb_area_code": "330522",
+  "province_id": "33",
+  "parent_city_id": "huzhou"
+ },
+ "cixi": {
+  "name": "慈溪",
+  "gb_name": "慈溪市",
+  "gb_city_code": "3302",
+  "gb_area_code": "330282",
+  "province_id": "33",
+  "parent_city_id": "nb"
+ },
+ "cm": {
+  "name": "澄迈",
+  "gb_name": "澄迈县",
+  "gb_city_code": "4690",
+  "gb_area_code": "469023",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "changshushi": {
+  "name": "常熟",
+  "gb_name": "常熟市",
+  "gb_city_code": "3205",
+  "gb_area_code": "320581",
+  "province_id": "32",
+  "parent_city_id": "suzhou"
+ },
+ "cangnanxian": {
+  "name": "苍南",
+  "gb_name": "苍南县",
+  "gb_city_code": "3303",
+  "gb_area_code": "330327",
+  "province_id": "33",
+  "parent_city_id": "wenzhou"
+ },
+ "caoxian": {
+  "name": "曹县",
+  "gb_name": "曹县",
+  "gb_city_code": "3717",
+  "gb_area_code": "371721",
+  "province_id": "37",
+  "parent_city_id": "heze"
+ },
+ "changyuanxian": {
+  "name": "长垣",
+  "gb_name": "长垣市",
+  "gb_city_code": "4107",
+  "gb_area_code": "410783",
+  "province_id": "41",
+  "parent_city_id": "xinxiang"
+ },
+ "jlchangyi": {
+  "name": "昌邑",
+  "gb_name": "昌邑市",
+  "gb_city_code": "3707",
+  "gb_area_code": "370786",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "changle": {
+  "name": "昌乐",
+  "gb_name": "昌乐县",
+  "gb_city_code": "3707",
+  "gb_area_code": "370725",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "chibi": {
+  "name": "赤壁",
+  "gb_name": "赤壁市",
+  "gb_city_code": "4212",
+  "gb_area_code": "421281",
+  "province_id": "42",
+  "parent_city_id": "xianning"
+ },
+ "cengxi": {
+  "name": "岑溪",
+  "gb_name": "岑溪市",
+  "gb_city_code": "4504",
+  "gb_area_code": "450481",
+  "province_id": "45",
+  "parent_city_id": "wuzhou"
+ },
+ "cangxian": {
+  "name": "沧县",
+  "gb_name": "沧县",
+  "gb_city_code": "1309",
+  "gb_area_code": "130921",
+  "province_id": "13",
+  "parent_city_id": "cangzhou"
+ },
+ "changning": {
+  "name": "长宁",
+  "gb_name": "长宁县",
+  "gb_city_code": "5115",
+  "gb_area_code": "511524",
+  "province_id": "51",
+  "parent_city_id": "yibin"
+ },
+ "cixian": {
+  "name": "磁县",
+  "gb_name": "磁县",
+  "gb_city_code": "1304",
+  "gb_area_code": "130427",
+  "province_id": "13",
+  "parent_city_id": "handan"
+ },
+ "cilixian": {
+  "name": "慈利",
+  "gb_name": "慈利县",
+  "gb_city_code": "4308",
+  "gb_area_code": "430821",
+  "province_id": "43",
+  "parent_city_id": "zhangjiajie"
+ },
+ "changlingxian": {
+  "name": "长岭",
+  "gb_name": "长岭县",
+  "gb_city_code": "2207",
+  "gb_area_code": "220722",
+  "province_id": "22",
+  "parent_city_id": "songyuan"
+ },
+ "chiping": {
+  "name": "茌平",
+  "gb_name": "茌平区",
+  "gb_city_code": "3715",
+  "gb_area_code": "371503",
+  "province_id": "37",
+  "parent_city_id": "liaocheng"
+ },
+ "dafeng": {
+  "name": "大丰",
+  "gb_name": "大丰区",
+  "gb_city_code": "3209",
+  "gb_area_code": "320904",
+  "province_id": "32",
+  "parent_city_id": "yancheng"
+ },
+ "dingzhou": {
+  "name": "定州",
+  "gb_name": "定州市",
+  "gb_city_code": "1306",
+  "gb_area_code": "130682",
+  "province_id": "13",
+  "parent_city_id": "baoding"
+ },
+ "dongyang": {
+  "name": "东阳",
+  "gb_name": "东阳市",
+  "gb_city_code": "3307",
+  "gb_area_code": "330783",
+  "province_id": "33",
+  "parent_city_id": "jinhua"
+ },
+ "dongtai": {
+  "name": "东台",
+  "gb_name": "东台市",
+  "gb_city_code": "3209",
+  "gb_area_code": "320981",
+  "province_id": "32",
+  "parent_city_id": "yancheng"
+ },
+ "danyang": {
+  "name": "丹阳",
+  "gb_name": "丹阳市",
+  "gb_city_code": "3211",
+  "gb_area_code": "321181",
+  "province_id": "32",
+  "parent_city_id": "zhenjiang"
+ },
+ "deqingxian": {
+  "name": "德清",
+  "gb_name": "德清县",
+  "gb_city_code": "3305",
+  "gb_area_code": "330521",
+  "province_id": "33",
+  "parent_city_id": "huzhou"
+ },
+ "donghaixian": {
+  "name": "东海",
+  "gb_name": "东海县",
+  "gb_city_code": "3207",
+  "gb_area_code": "320722",
+  "province_id": "32",
+  "parent_city_id": "lianyungang"
+ },
+ "dongfang": {
+  "name": "东方",
+  "gb_name": "东方市",
+  "gb_city_code": "4690",
+  "gb_area_code": "469007",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "da": {
+  "name": "定安",
+  "gb_name": "定安县",
+  "gb_city_code": "4690",
+  "gb_area_code": "469021",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "danxian": {
+  "name": "单县",
+  "gb_name": "单县",
+  "gb_city_code": "3717",
+  "gb_area_code": "371722",
+  "province_id": "37",
+  "parent_city_id": "heze"
+ },
+ "dengzhou": {
+  "name": "邓州",
+  "gb_name": "邓州市",
+  "gb_city_code": "4113",
+  "gb_area_code": "411381",
+  "province_id": "41",
+  "parent_city_id": "nanyang"
+ },
+ "ycdangyang": {
+  "name": "当阳",
+  "gb_name": "当阳市",
+  "gb_city_code": "4205",
+  "gb_area_code": "420582",
+  "province_id": "42",
+  "parent_city_id": "yichang"
+ },
+ "dengta": {
+  "name": "灯塔",
+  "gb_name": "灯塔市",
+  "gb_city_code": "2110",
+  "gb_area_code": "211081",
+  "province_id": "21",
+  "parent_city_id": "liaoyang"
+ },
+ "dunhuang": {
+  "name": "敦煌",
+  "gb_name": "敦煌市",
+  "gb_city_code": "6209",
+  "gb_area_code": "620982",
+  "province_id": "62",
+  "parent_city_id": "jiuquan"
+ },
+ "dazhu": {
+  "name": "大竹",
+  "gb_name": "大竹县",
+  "gb_city_code": "5117",
+  "gb_area_code": "511724",
+  "province_id": "51",
+  "parent_city_id": "dazhou"
+ },
+ "dingbianxian": {
+  "name": "定边",
+  "gb_name": "定边县",
+  "gb_city_code": "6108",
+  "gb_area_code": "610825",
+  "province_id": "61",
+  "parent_city_id": "yulin"
+ },
+ "dongmingxian": {
+  "name": "东明",
+  "gb_name": "东明县",
+  "gb_city_code": "3717",
+  "gb_area_code": "371728",
+  "province_id": "37",
+  "parent_city_id": "heze"
+ },
+ "dongpingxian": {
+  "name": "东平",
+  "gb_name": "东平县",
+  "gb_city_code": "3709",
+  "gb_area_code": "370923",
+  "province_id": "37",
+  "parent_city_id": "taian"
+ },
+ "dawuxian": {
+  "name": "大悟",
+  "gb_name": "大悟县",
+  "gb_city_code": "4209",
+  "gb_area_code": "420922",
+  "province_id": "42",
+  "parent_city_id": "xiaogan"
+ },
+ "dongzhixian": {
+  "name": "东至",
+  "gb_name": "东至县",
+  "gb_city_code": "3417",
+  "gb_area_code": "341721",
+  "province_id": "34",
+  "parent_city_id": "chizhou"
+ },
+ "feichengshi": {
+  "name": "肥城",
+  "gb_name": "肥城市",
+  "gb_city_code": "3709",
+  "gb_area_code": "370983",
+  "province_id": "37",
+  "parent_city_id": "taian"
+ },
+ "funing": {
+  "name": "阜宁",
+  "gb_name": "阜宁县",
+  "gb_city_code": "3209",
+  "gb_area_code": "320923",
+  "province_id": "32",
+  "parent_city_id": "yancheng"
+ },
+ "fuqing": {
+  "name": "福清",
+  "gb_name": "福清市",
+  "gb_city_code": "3501",
+  "gb_area_code": "350181",
+  "province_id": "35",
+  "parent_city_id": "fz"
+ },
+ "fuan": {
+  "name": "福安",
+  "gb_name": "福安市",
+  "gb_city_code": "3509",
+  "gb_area_code": "350981",
+  "province_id": "35",
+  "parent_city_id": "ningde"
+ },
+ "ddfengcheng": {
+  "name": "凤城",
+  "gb_name": "凤城市",
+  "gb_city_code": "2106",
+  "gb_area_code": "210682",
+  "province_id": "21",
+  "parent_city_id": "dandong"
+ },
+ "fengxian": {
+  "name": "丰县",
+  "gb_name": "丰县",
+  "gb_city_code": "3203",
+  "gb_area_code": "320321",
+  "province_id": "32",
+  "parent_city_id": "xuzhou"
+ },
+ "fengchengshi": {
+  "name": "丰城",
+  "gb_name": "丰城市",
+  "gb_city_code": "3609",
+  "gb_area_code": "360981",
+  "province_id": "36",
+  "parent_city_id": "yichun"
+ },
+ "fuding": {
+  "name": "福鼎",
+  "gb_name": "福鼎市",
+  "gb_city_code": "3509",
+  "gb_area_code": "350982",
+  "province_id": "35",
+  "parent_city_id": "ningde"
+ },
+ "fuliang": {
+  "name": "浮梁",
+  "gb_name": "浮梁县",
+  "gb_city_code": "3602",
+  "gb_area_code": "360222",
+  "province_id": "36",
+  "parent_city_id": "jingdezhen"
+ },
+ "fuguxian": {
+  "name": "府谷",
+  "gb_name": "府谷县",
+  "gb_city_code": "6108",
+  "gb_area_code": "610822",
+  "province_id": "61",
+  "parent_city_id": "yulin"
+ },
+ "fanxian": {
+  "name": "范县",
+  "gb_name": "范县",
+  "gb_city_code": "4109",
+  "gb_area_code": "410926",
+  "province_id": "41",
+  "parent_city_id": "puyang"
+ },
+ "fenyixian": {
+  "name": "分宜",
+  "gb_name": "分宜县",
+  "gb_city_code": "3605",
+  "gb_area_code": "360521",
+  "province_id": "36",
+  "parent_city_id": "xinyu"
+ },
+ "fuyushi": {
+  "name": "扶余",
+  "gb_name": "扶余市",
+  "gb_city_code": "2207",
+  "gb_area_code": "220781",
+  "province_id": "22",
+  "parent_city_id": "songyuan"
+ },
+ "guantao": {
+  "name": "馆陶",
+  "gb_name": "馆陶县",
+  "gb_city_code": "1304",
+  "gb_area_code": "130433",
+  "province_id": "13",
+  "parent_city_id": "handan"
+ },
+ "gaizexian": {
+  "name": "改则",
+  "gb_name": "改则县",
+  "gb_city_code": "5425",
+  "gb_area_code": "542526",
+  "province_id": "54",
+  "parent_city_id": "ali"
+ },
+ "guangraoxian": {
+  "name": "广饶",
+  "gb_name": "广饶县",
+  "gb_city_code": "3705",
+  "gb_area_code": "370523",
+  "province_id": "37",
+  "parent_city_id": "dongying"
+ },
+ "gongzhulingshi": {
+  "name": "公主岭",
+  "gb_name": "公主岭市",
+  "gb_city_code": "2201",
+  "gb_area_code": "220184",
+  "province_id": "22",
+  "parent_city_id": "cc"
+ },
+ "guanghan": {
+  "name": "广汉",
+  "gb_name": "广汉市",
+  "gb_city_code": "5106",
+  "gb_area_code": "510681",
+  "province_id": "51",
+  "parent_city_id": "deyang"
+ },
+ "guanyunxian": {
+  "name": "灌云",
+  "gb_name": "灌云县",
+  "gb_city_code": "3207",
+  "gb_area_code": "320723",
+  "province_id": "32",
+  "parent_city_id": "lianyungang"
+ },
+ "guannanxian": {
+  "name": "灌南",
+  "gb_name": "灌南县",
+  "gb_city_code": "3207",
+  "gb_area_code": "320724",
+  "province_id": "32",
+  "parent_city_id": "lianyungang"
+ },
+ "gaomishi": {
+  "name": "高密",
+  "gb_name": "高密市",
+  "gb_city_code": "3707",
+  "gb_area_code": "370785",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "guan": {
+  "name": "固安",
+  "gb_name": "固安县",
+  "gb_city_code": "1310",
+  "gb_area_code": "131022",
+  "province_id": "13",
+  "parent_city_id": "langfang"
+ },
+ "szguangshui": {
+  "name": "广水",
+  "gb_name": "广水市",
+  "gb_city_code": "4213",
+  "gb_area_code": "421381",
+  "province_id": "42",
+  "parent_city_id": "suizhou"
+ },
+ "geermu": {
+  "name": "格尔木",
+  "gb_name": "格尔木市",
+  "gb_city_code": "6328",
+  "gb_area_code": "632801",
+  "province_id": "63",
+  "parent_city_id": "hexi"
+ },
+ "guiping": {
+  "name": "桂平",
+  "gb_name": "桂平市",
+  "gb_city_code": "4508",
+  "gb_area_code": "450881",
+  "province_id": "45",
+  "parent_city_id": "guigang"
+ },
+ "gaoanshi": {
+  "name": "高安",
+  "gb_name": "高安市",
+  "gb_city_code": "3609",
+  "gb_area_code": "360983",
+  "province_id": "36",
+  "parent_city_id": "yichun"
+ },
+ "gucheng": {
+  "name": "谷城",
+  "gb_name": "谷城县",
+  "gb_city_code": "4206",
+  "gb_area_code": "420625",
+  "province_id": "42",
+  "parent_city_id": "xiangyang"
+ },
+ "gaotangxian": {
+  "name": "高唐",
+  "gb_name": "高唐县",
+  "gb_city_code": "3715",
+  "gb_area_code": "371526",
+  "province_id": "37",
+  "parent_city_id": "liaocheng"
+ },
+ "guanxian": {
+  "name": "冠县",
+  "gb_name": "冠县",
+  "gb_city_code": "3715",
+  "gb_area_code": "371525",
+  "province_id": "37",
+  "parent_city_id": "liaocheng"
+ },
+ "gushixian": {
+  "name": "固始",
+  "gb_name": "固始县",
+  "gb_city_code": "4115",
+  "gb_area_code": "411525",
+  "province_id": "41",
+  "parent_city_id": "xinyang"
+ },
+ "guiyangxian": {
+  "name": "桂阳",
+  "gb_name": "桂阳县",
+  "gb_city_code": "4310",
+  "gb_area_code": "431021",
+  "province_id": "43",
+  "parent_city_id": "chenzhou"
+ },
+ "gaopingshi": {
+  "name": "高平",
+  "gb_name": "高平市",
+  "gb_city_code": "1405",
+  "gb_area_code": "140581",
+  "province_id": "14",
+  "parent_city_id": "jincheng"
+ },
+ "hexian": {
+  "name": "和县",
+  "gb_name": "和县",
+  "gb_city_code": "3405",
+  "gb_area_code": "340523",
+  "province_id": "34",
+  "parent_city_id": "maanshan"
+ },
+ "hailaer": {
+  "name": "海拉尔",
+  "gb_name": "海拉尔区",
+  "gb_city_code": "1507",
+  "gb_area_code": "150702",
+  "province_id": "15",
+  "parent_city_id": "hulunbeier"
+ },
+ "huoqiu": {
+  "name": "霍邱",
+  "gb_name": "霍邱县",
+  "gb_city_code": "3415",
+  "gb_area_code": "341522",
+  "province_id": "34",
+  "parent_city_id": "luan"
+ },
+ "haimen": {
+  "name": "海门",
+  "gb_name": "海门区",
+  "gb_city_code": "3206",
+  "gb_area_code": "320614",
+  "province_id": "32",
+  "parent_city_id": "nantong"
+ },
+ "haianxian": {
+  "name": "海安",
+  "gb_name": "海安市",
+  "gb_city_code": "3206",
+  "gb_area_code": "320685",
+  "province_id": "32",
+  "parent_city_id": "nantong"
+ },
+ "haining": {
+  "name": "海宁",
+  "gb_name": "海宁市",
+  "gb_city_code": "3304",
+  "gb_area_code": "330481",
+  "province_id": "33",
+  "parent_city_id": "jx"
+ },
+ "huidongxian": {
+  "name": "惠东",
+  "gb_name": "惠东县",
+  "gb_city_code": "4413",
+  "gb_area_code": "441323",
+  "province_id": "44",
+  "parent_city_id": "dayawana"
+ },
+ "hanchuanshi": {
+  "name": "汉川",
+  "gb_name": "汉川市",
+  "gb_city_code": "4209",
+  "gb_area_code": "420984",
+  "province_id": "42",
+  "parent_city_id": "xiaogan"
+ },
+ "haifengxian": {
+  "name": "海丰",
+  "gb_name": "海丰县",
+  "gb_city_code": "4415",
+  "gb_area_code": "441521",
+  "province_id": "44",
+  "parent_city_id": "shanwei"
+ },
+ "huantaixian": {
+  "name": "桓台",
+  "gb_name": "桓台县",
+  "gb_city_code": "3703",
+  "gb_area_code": "370321",
+  "province_id": "37",
+  "parent_city_id": "zibo"
+ },
+ "hychangning": {
+  "name": "常宁",
+  "gb_name": "常宁市",
+  "gb_city_code": "4304",
+  "gb_area_code": "430482",
+  "province_id": "43",
+  "parent_city_id": "hengyang"
+ },
+ "jlhuadian": {
+  "name": "桦甸",
+  "gb_name": "桦甸市",
+  "gb_city_code": "2202",
+  "gb_area_code": "220282",
+  "province_id": "22",
+  "parent_city_id": "jilin"
+ },
+ "haiyan": {
+  "name": "海盐",
+  "gb_name": "海盐县",
+  "gb_city_code": "3304",
+  "gb_area_code": "330424",
+  "province_id": "33",
+  "parent_city_id": "jx"
+ },
+ "hnyongcheng": {
+  "name": "永城",
+  "gb_name": "永城市",
+  "gb_city_code": "4114",
+  "gb_area_code": "411481",
+  "province_id": "41",
+  "parent_city_id": "shangqiu"
+ },
+ "huanghua": {
+  "name": "黄骅",
+  "gb_name": "黄骅市",
+  "gb_city_code": "1309",
+  "gb_area_code": "130983",
+  "province_id": "13",
+  "parent_city_id": "cangzhou"
+ },
+ "hejian": {
+  "name": "河间",
+  "gb_name": "河间市",
+  "gb_city_code": "1309",
+  "gb_area_code": "130984",
+  "province_id": "13",
+  "parent_city_id": "cangzhou"
+ },
+ "hancheng": {
+  "name": "韩城",
+  "gb_name": "韩城市",
+  "gb_city_code": "6105",
+  "gb_area_code": "610581",
+  "province_id": "61",
+  "parent_city_id": "weinan"
+ },
+ "huaxian": {
+  "name": "滑县",
+  "gb_name": "滑县",
+  "gb_city_code": "4105",
+  "gb_area_code": "410526",
+  "province_id": "41",
+  "parent_city_id": "anyang"
+ },
+ "hengdongxian": {
+  "name": "衡东",
+  "gb_name": "衡东县",
+  "gb_city_code": "4304",
+  "gb_area_code": "430424",
+  "province_id": "43",
+  "parent_city_id": "hengyang"
+ },
+ "huarongxian": {
+  "name": "华容",
+  "gb_name": "华容县",
+  "gb_city_code": "4306",
+  "gb_area_code": "430623",
+  "province_id": "43",
+  "parent_city_id": "yueyang"
+ },
+ "huaibinxian": {
+  "name": "淮滨",
+  "gb_name": "淮滨县",
+  "gb_city_code": "4115",
+  "gb_area_code": "411527",
+  "province_id": "41",
+  "parent_city_id": "xinyang"
+ },
+ "huyanghe": {
+  "name": "胡杨河",
+  "gb_name": "胡杨河市",
+  "gb_city_code": "6590",
+  "gb_area_code": "659010",
+  "province_id": "65",
+  "parent_city_id": null
+ },
+ "jiyuan": {
+  "name": "济源",
+  "gb_name": "济源市",
+  "gb_city_code": "4190",
+  "gb_area_code": "419001",
+  "province_id": "41",
+  "parent_city_id": null
+ },
+ "jinjiangshi": {
+  "name": "晋江",
+  "gb_name": "晋江市",
+  "gb_city_code": "3505",
+  "gb_area_code": "350582",
+  "province_id": "35",
+  "parent_city_id": "quanzhou"
+ },
+ "jianhuxian": {
+  "name": "建湖",
+  "gb_name": "建湖县",
+  "gb_city_code": "3209",
+  "gb_area_code": "320925",
+  "province_id": "32",
+  "parent_city_id": "yancheng"
+ },
+ "jingjiang": {
+  "name": "靖江",
+  "gb_name": "靖江市",
+  "gb_city_code": "3212",
+  "gb_area_code": "321282",
+  "province_id": "32",
+  "parent_city_id": "taizhou"
+ },
+ "jiashanxian": {
+  "name": "嘉善",
+  "gb_name": "嘉善县",
+  "gb_city_code": "3304",
+  "gb_area_code": "330421",
+  "province_id": "33",
+  "parent_city_id": "jx"
+ },
+ "jintan": {
+  "name": "金坛",
+  "gb_name": "金坛区",
+  "gb_city_code": "3204",
+  "gb_area_code": "320413",
+  "province_id": "32",
+  "parent_city_id": "cz"
+ },
+ "jiangyan": {
+  "name": "姜堰",
+  "gb_name": "姜堰区",
+  "gb_city_code": "3212",
+  "gb_area_code": "321204",
+  "province_id": "32",
+  "parent_city_id": "taizhou"
+ },
+ "jianyangshi": {
+  "name": "简阳",
+  "gb_name": "简阳市",
+  "gb_city_code": "5101",
+  "gb_area_code": "510185",
+  "province_id": "51",
+  "parent_city_id": "chengdu"
+ },
+ "juxian": {
+  "name": "莒县",
+  "gb_name": "莒县",
+  "gb_city_code": "3711",
+  "gb_area_code": "371122",
+  "province_id": "37",
+  "parent_city_id": "rizhao"
+ },
+ "jiangyin": {
+  "name": "江阴",
+  "gb_name": "江阴市",
+  "gb_city_code": "3202",
+  "gb_area_code": "320281",
+  "province_id": "32",
+  "parent_city_id": "wuxi"
+ },
+ "jurong": {
+  "name": "句容",
+  "gb_name": "句容市",
+  "gb_city_code": "3211",
+  "gb_area_code": "321183",
+  "province_id": "32",
+  "parent_city_id": "zhenjiang"
+ },
+ "jmjingshan": {
+  "name": "京山",
+  "gb_name": "京山市",
+  "gb_city_code": "4208",
+  "gb_area_code": "420882",
+  "province_id": "42",
+  "parent_city_id": "jingmen"
+ },
+ "jinxian": {
+  "name": "进贤",
+  "gb_name": "进贤县",
+  "gb_city_code": "3601",
+  "gb_area_code": "360124",
+  "province_id": "36",
+  "parent_city_id": "nc"
+ },
+ "jinhu": {
+  "name": "金湖",
+  "gb_name": "金湖县",
+  "gb_city_code": "3208",
+  "gb_area_code": "320831",
+  "province_id": "32",
+  "parent_city_id": "huaian"
+ },
+ "jmzhongxiang": {
+  "name": "钟祥",
+  "gb_name": "钟祥市",
+  "gb_city_code": "4208",
+  "gb_area_code": "420881",
+  "province_id": "42",
+  "parent_city_id": "jingmen"
+ },
+ "jzmengzhou": {
+  "name": "孟州",
+  "gb_name": "孟州市",
+  "gb_city_code": "4108",
+  "gb_area_code": "410883",
+  "province_id": "41",
+  "parent_city_id": "jiaozuo"
+ },
+ "jishou": {
+  "name": "吉首",
+  "gb_name": "吉首市",
+  "gb_city_code": "4331",
+  "gb_area_code": "433101",
+  "province_id": "43",
+  "parent_city_id": "xiangxi"
+ },
+ "jingbianxian": {
+  "name": "靖边",
+  "gb_name": "靖边县",
+  "gb_city_code": "6108",
+  "gb_area_code": "610824",
+  "province_id": "61",
+  "parent_city_id": "yulin"
+ },
+ "juyexian": {
+  "name": "巨野",
+  "gb_name": "巨野县",
+  "gb_city_code": "3717",
+  "gb_area_code": "371724",
+  "province_id": "37",
+  "parent_city_id": "heze"
+ },
+ "juanchengxian": {
+  "name": "鄄城",
+  "gb_name": "鄄城县",
+  "gb_city_code": "3717",
+  "gb_area_code": "371726",
+  "province_id": "37",
+  "parent_city_id": "heze"
+ },
+ "jiayuxian": {
+  "name": "嘉鱼",
+  "gb_name": "嘉鱼县",
+  "gb_city_code": "4212",
+  "gb_area_code": "421221",
+  "province_id": "42",
+  "parent_city_id": "xianning"
+ },
+ "ks": {
+  "name": "昆山",
+  "gb_name": "昆山市",
+  "gb_city_code": "3205",
+  "gb_area_code": "320583",
+  "province_id": "32",
+  "parent_city_id": "suzhou"
+ },
+ "kenli": {
+  "name": "垦利",
+  "gb_name": "垦利区",
+  "gb_city_code": "3705",
+  "gb_area_code": "370505",
+  "province_id": "37",
+  "parent_city_id": "dongying"
+ },
+ "kaiping": {
+  "name": "开平",
+  "gb_name": "开平市",
+  "gb_city_code": "4407",
+  "gb_area_code": "440783",
+  "province_id": "44",
+  "parent_city_id": "jiangmen"
+ },
+ "kflankao": {
+  "name": "兰考",
+  "gb_name": "兰考县",
+  "gb_city_code": "4102",
+  "gb_area_code": "410225",
+  "province_id": "41",
+  "parent_city_id": "kaifeng"
+ },
+ "tlkaiyuan": {
+  "name": "开原",
+  "gb_name": "开原市",
+  "gb_city_code": "2112",
+  "gb_area_code": "211282",
+  "province_id": "21",
+  "parent_city_id": "tieling"
+ },
+ "kekedala": {
+  "name": "可克达拉",
+  "gb_name": "可克达拉市",
+  "gb_city_code": "6590",
+  "gb_area_code": "659008",
+  "province_id": "65",
+  "parent_city_id": null
+ },
+ "laiwu": {
+  "name": "莱芜",
+  "gb_name": "莱芜区",
+  "gb_city_code": "3701",
+  "gb_area_code": "370116",
+  "province_id": "37",
+  "parent_city_id": "jinan"
+ },
+ "linyishi": {
+  "name": "临猗",
+  "gb_name": "临猗县",
+  "gb_city_code": "1408",
+  "gb_area_code": "140821",
+  "province_id": "14",
+  "parent_city_id": "yuncheng"
+ },
+ "longkou": {
+  "name": "龙口",
+  "gb_name": "龙口市",
+  "gb_city_code": "3706",
+  "gb_area_code": "370681",
+  "province_id": "37",
+  "parent_city_id": "yt"
+ },
+ "liyang": {
+  "name": "溧阳",
+  "gb_name": "溧阳市",
+  "gb_city_code": "3204",
+  "gb_area_code": "320481",
+  "province_id": "32",
+  "parent_city_id": "cz"
+ },
+ "lingshui": {
+  "name": "陵水",
+  "gb_name": "陵水黎族自治县",
+  "gb_city_code": "4690",
+  "gb_area_code": "469028",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "laizhoushi": {
+  "name": "莱州",
+  "gb_name": "莱州市",
+  "gb_city_code": "3706",
+  "gb_area_code": "370683",
+  "province_id": "37",
+  "parent_city_id": "yt"
+ },
+ "linhaishi": {
+  "name": "临海",
+  "gb_name": "临海市",
+  "gb_city_code": "3310",
+  "gb_area_code": "331082",
+  "province_id": "33",
+  "parent_city_id": "taiz"
+ },
+ "lingbaoshi": {
+  "name": "灵宝",
+  "gb_name": "灵宝市",
+  "gb_city_code": "4112",
+  "gb_area_code": "411282",
+  "province_id": "41",
+  "parent_city_id": "sanmenxia"
+ },
+ "lepingshi": {
+  "name": "乐平",
+  "gb_name": "乐平市",
+  "gb_city_code": "3602",
+  "gb_area_code": "360281",
+  "province_id": "36",
+  "parent_city_id": "jingdezhen"
+ },
+ "lilingshi": {
+  "name": "醴陵",
+  "gb_name": "醴陵市",
+  "gb_city_code": "4302",
+  "gb_area_code": "430281",
+  "province_id": "43",
+  "parent_city_id": "zhuzhou"
+ },
+ "luannan": {
+  "name": "滦南",
+  "gb_name": "滦南县",
+  "gb_city_code": "1302",
+  "gb_area_code": "130224",
+  "province_id": "13",
+  "parent_city_id": "tangshan"
+ },
+ "longmen": {
+  "name": "龙门",
+  "gb_name": "龙门县",
+  "gb_city_code": "4413",
+  "gb_area_code": "441324",
+  "province_id": "44",
+  "parent_city_id": "dayawana"
+ },
+ "linju": {
+  "name": "临朐",
+  "gb_name": "临朐县",
+  "gb_city_code": "3707",
+  "gb_area_code": "370724",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "linqing": {
+  "name": "临清",
+  "gb_name": "临清市",
+  "gb_city_code": "3715",
+  "gb_area_code": "371581",
+  "province_id": "37",
+  "parent_city_id": "liaocheng"
+ },
+ "xylaohekou": {
+  "name": "老河口",
+  "gb_name": "老河口市",
+  "gb_city_code": "4206",
+  "gb_area_code": "420682",
+  "province_id": "42",
+  "parent_city_id": "xiangyang"
+ },
+ "laiyang": {
+  "name": "莱阳",
+  "gb_name": "莱阳市",
+  "gb_city_code": "3706",
+  "gb_area_code": "370682",
+  "province_id": "37",
+  "parent_city_id": "yt"
+ },
+ "aylinzhou": {
+  "name": "林州",
+  "gb_name": "林州市",
+  "gb_city_code": "4105",
+  "gb_area_code": "410581",
+  "province_id": "41",
+  "parent_city_id": "anyang"
+ },
+ "lengshuijiang": {
+  "name": "冷水江",
+  "gb_name": "冷水江市",
+  "gb_city_code": "4313",
+  "gb_area_code": "431381",
+  "province_id": "43",
+  "parent_city_id": "loudi"
+ },
+ "lianyuan": {
+  "name": "涟源",
+  "gb_name": "涟源市",
+  "gb_city_code": "4313",
+  "gb_area_code": "431382",
+  "province_id": "43",
+  "parent_city_id": "loudi"
+ },
+ "lufengshi": {
+  "name": "陆丰",
+  "gb_name": "陆丰市",
+  "gb_city_code": "4415",
+  "gb_area_code": "441581",
+  "province_id": "44",
+  "parent_city_id": "shanwei"
+ },
+ "leling": {
+  "name": "乐陵",
+  "gb_name": "乐陵市",
+  "gb_city_code": "3714",
+  "gb_area_code": "371481",
+  "province_id": "37",
+  "parent_city_id": "dezhou"
+ },
+ "lixian": {
+  "name": "澧县",
+  "gb_name": "澧县",
+  "gb_city_code": "4307",
+  "gb_area_code": "430723",
+  "province_id": "43",
+  "parent_city_id": "changde"
+ },
+ "liangshanxian": {
+  "name": "梁山",
+  "gb_name": "梁山县",
+  "gb_city_code": "3708",
+  "gb_area_code": "370832",
+  "province_id": "37",
+  "parent_city_id": "jining"
+ },
+ "linyixian": {
+  "name": "临邑",
+  "gb_name": "临邑县",
+  "gb_city_code": "3714",
+  "gb_area_code": "371424",
+  "province_id": "37",
+  "parent_city_id": "dezhou"
+ },
+ "luyixian": {
+  "name": "鹿邑",
+  "gb_name": "鹿邑县",
+  "gb_city_code": "4116",
+  "gb_area_code": "411628",
+  "province_id": "41",
+  "parent_city_id": "zhoukou"
+ },
+ "lishuxian": {
+  "name": "梨树县",
+  "gb_name": "梨树县",
+  "gb_city_code": "2203",
+  "gb_area_code": "220322",
+  "province_id": "22",
+  "parent_city_id": "siping"
+ },
+ "lijingxian": {
+  "name": "利津",
+  "gb_name": "利津县",
+  "gb_city_code": "3705",
+  "gb_area_code": "370522",
+  "province_id": "37",
+  "parent_city_id": "dongying"
+ },
+ "liulinxian": {
+  "name": "柳林",
+  "gb_name": "柳林县",
+  "gb_city_code": "1411",
+  "gb_area_code": "141125",
+  "province_id": "14",
+  "parent_city_id": "lvliang"
+ },
+ "minggang": {
+  "name": "明港",
+  "gb_name": "信阳市平桥区",
+  "gb_city_code": "4115",
+  "gb_area_code": "411503",
+  "province_id": "41",
+  "parent_city_id": "xinyang"
+ },
+ "mengjin": {
+  "name": "孟津",
+  "gb_name": "孟津区",
+  "gb_city_code": "4103",
+  "gb_area_code": "410308",
+  "province_id": "41",
+  "parent_city_id": "luoyang"
+ },
+ "meihekou": {
+  "name": "梅河口",
+  "gb_name": "梅河口市",
+  "gb_city_code": "2205",
+  "gb_area_code": "220581",
+  "province_id": "22",
+  "parent_city_id": "tonghua"
+ },
+ "mileshi": {
+  "name": "弥勒",
+  "gb_name": "弥勒市",
+  "gb_city_code": "5325",
+  "gb_area_code": "532504",
+  "province_id": "53",
+  "parent_city_id": "honghe"
+ },
+ "mianchixian": {
+  "name": "渑池",
+  "gb_name": "渑池县",
+  "gb_city_code": "4112",
+  "gb_area_code": "411221",
+  "province_id": "41",
+  "parent_city_id": "sanmenxia"
+ },
+ "nananshi": {
+  "name": "南安",
+  "gb_name": "南安市",
+  "gb_city_code": "3505",
+  "gb_area_code": "350583",
+  "province_id": "35",
+  "parent_city_id": "quanzhou"
+ },
+ "ningguo": {
+  "name": "宁国",
+  "gb_name": "宁国市",
+  "gb_city_code": "3418",
+  "gb_area_code": "341881",
+  "province_id": "34",
+  "parent_city_id": "xuancheng"
+ },
+ "nanzhangxian": {
+  "name": "南漳",
+  "gb_name": "南漳县",
+  "gb_city_code": "4206",
+  "gb_area_code": "420624",
+  "province_id": "42",
+  "parent_city_id": "xiangyang"
+ },
+ "ningjinxian": {
+  "name": "宁津",
+  "gb_name": "宁津县",
+  "gb_city_code": "3714",
+  "gb_area_code": "371422",
+  "province_id": "37",
+  "parent_city_id": "dezhou"
+ },
+ "ningyangxian": {
+  "name": "宁阳",
+  "gb_name": "宁阳县",
+  "gb_city_code": "3709",
+  "gb_area_code": "370921",
+  "province_id": "37",
+  "parent_city_id": "taian"
+ },
+ "nanchengxian": {
+  "name": "南城",
+  "gb_name": "南城县",
+  "gb_city_code": "3610",
+  "gb_area_code": "361021",
+  "province_id": "36",
+  "parent_city_id": "fuzhoushi"
+ },
+ "nanxian": {
+  "name": "南县",
+  "gb_name": "南县",
+  "gb_city_code": "4309",
+  "gb_area_code": "430921",
+  "province_id": "43",
+  "parent_city_id": "yiyang"
+ },
+ "pizhou": {
+  "name": "邳州",
+  "gb_name": "邳州市",
+  "gb_city_code": "3203",
+  "gb_area_code": "320382",
+  "province_id": "32",
+  "parent_city_id": "xuzhou"
+ },
+ "xzpeixian": {
+  "name": "沛县",
+  "gb_name": "沛县",
+  "gb_city_code": "3203",
+  "gb_area_code": "320322",
+  "province_id": "32",
+  "parent_city_id": "xuzhou"
+ },
+ "penglaishi": {
+  "name": "蓬莱",
+  "gb_name": "蓬莱区",
+  "gb_city_code": "3706",
+  "gb_area_code": "370614",
+  "province_id": "37",
+  "parent_city_id": "yt"
+ },
+ "pingtan": {
+  "name": "平潭",
+  "gb_name": "平潭县",
+  "gb_city_code": "3501",
+  "gb_area_code": "350128",
+  "province_id": "35",
+  "parent_city_id": "fz"
+ },
+ "pinghu": {
+  "name": "平湖",
+  "gb_name": "平湖市",
+  "gb_city_code": "3304",
+  "gb_area_code": "330482",
+  "province_id": "33",
+  "parent_city_id": "jx"
+ },
+ "pingyang": {
+  "name": "平阳",
+  "gb_name": "平阳县",
+  "gb_city_code": "3303",
+  "gb_area_code": "330326",
+  "province_id": "33",
+  "parent_city_id": "wenzhou"
+ },
+ "pingyi": {
+  "name": "平邑",
+  "gb_name": "平邑县",
+  "gb_city_code": "3713",
+  "gb_area_code": "371326",
+  "province_id": "37",
+  "parent_city_id": "linyi"
+ },
+ "panshishi": {
+  "name": "磐石",
+  "gb_name": "磐石市",
+  "gb_city_code": "2202",
+  "gb_area_code": "220284",
+  "province_id": "22",
+  "parent_city_id": "jilin"
+ },
+ "qianjiang": {
+  "name": "潜江",
+  "gb_name": "潜江市",
+  "gb_city_code": "4290",
+  "gb_area_code": "429005",
+  "province_id": "42",
+  "parent_city_id": null
+ },
+ "qingxu": {
+  "name": "清徐",
+  "gb_name": "清徐县",
+  "gb_city_code": "1401",
+  "gb_area_code": "140121",
+  "province_id": "14",
+  "parent_city_id": "ty"
+ },
+ "qidong": {
+  "name": "启东",
+  "gb_name": "启东市",
+  "gb_city_code": "3206",
+  "gb_area_code": "320681",
+  "province_id": "32",
+  "parent_city_id": "nantong"
+ },
+ "qionghai": {
+  "name": "琼海",
+  "gb_name": "琼海市",
+  "gb_city_code": "4690",
+  "gb_area_code": "469002",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "qiananshi": {
+  "name": "迁安市",
+  "gb_name": "迁安市",
+  "gb_city_code": "1302",
+  "gb_area_code": "130283",
+  "province_id": "13",
+  "parent_city_id": "tangshan"
+ },
+ "qingzhoushi": {
+  "name": "青州",
+  "gb_name": "青州市",
+  "gb_city_code": "3707",
+  "gb_area_code": "370781",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "qixianqu": {
+  "name": "杞县",
+  "gb_name": "杞县",
+  "gb_city_code": "4102",
+  "gb_area_code": "410221",
+  "province_id": "41",
+  "parent_city_id": "kaifeng"
+ },
+ "qingzhen": {
+  "name": "清镇",
+  "gb_name": "清镇市",
+  "gb_city_code": "5201",
+  "gb_area_code": "520181",
+  "province_id": "52",
+  "parent_city_id": "gy"
+ },
+ "qianxi": {
+  "name": "迁西",
+  "gb_name": "迁西县",
+  "gb_city_code": "1302",
+  "gb_area_code": "130227",
+  "province_id": "13",
+  "parent_city_id": "tangshan"
+ },
+ "qixia": {
+  "name": "栖霞",
+  "gb_name": "栖霞市",
+  "gb_city_code": "3706",
+  "gb_area_code": "370686",
+  "province_id": "37",
+  "parent_city_id": "yt"
+ },
+ "qinyangshi": {
+  "name": "沁阳",
+  "gb_name": "沁阳市",
+  "gb_city_code": "4108",
+  "gb_area_code": "410882",
+  "province_id": "41",
+  "parent_city_id": "jiaozuo"
+ },
+ "qzjiangshan": {
+  "name": "江山",
+  "gb_name": "江山市",
+  "gb_city_code": "3308",
+  "gb_area_code": "330881",
+  "province_id": "33",
+  "parent_city_id": "quzhou"
+ },
+ "qihexian": {
+  "name": "齐河",
+  "gb_name": "齐河县",
+  "gb_city_code": "3714",
+  "gb_area_code": "371425",
+  "province_id": "37",
+  "parent_city_id": "dezhou"
+ },
+ "qidongxian": {
+  "name": "祁东",
+  "gb_name": "祁东县",
+  "gb_city_code": "4304",
+  "gb_area_code": "430426",
+  "province_id": "43",
+  "parent_city_id": "hengyang"
+ },
+ "qixian": {
+  "name": "淇县",
+  "gb_name": "淇县",
+  "gb_city_code": "4106",
+  "gb_area_code": "410622",
+  "province_id": "41",
+  "parent_city_id": "hebi"
+ },
+ "qiyangxian": {
+  "name": "祁阳",
+  "gb_name": "祁阳市",
+  "gb_city_code": "4311",
+  "gb_area_code": "431181",
+  "province_id": "43",
+  "parent_city_id": "yongzhou"
+ },
+ "quxian": {
+  "name": "渠县",
+  "gb_name": "渠县",
+  "gb_city_code": "5117",
+  "gb_area_code": "511725",
+  "province_id": "51",
+  "parent_city_id": "dazhou"
+ },
+ "ruian": {
+  "name": "瑞安",
+  "gb_name": "瑞安市",
+  "gb_city_code": "3303",
+  "gb_area_code": "330381",
+  "province_id": "33",
+  "parent_city_id": "wenzhou"
+ },
+ "rugao": {
+  "name": "如皋",
+  "gb_name": "如皋市",
+  "gb_city_code": "3206",
+  "gb_area_code": "320682",
+  "province_id": "32",
+  "parent_city_id": "nantong"
+ },
+ "rudongxian": {
+  "name": "如东",
+  "gb_name": "如东县",
+  "gb_city_code": "3206",
+  "gb_area_code": "320623",
+  "province_id": "32",
+  "parent_city_id": "nantong"
+ },
+ "rituxian": {
+  "name": "日土",
+  "gb_name": "日土县",
+  "gb_city_code": "5425",
+  "gb_area_code": "542524",
+  "province_id": "54",
+  "parent_city_id": "ali"
+ },
+ "rongchengshi": {
+  "name": "荣成",
+  "gb_name": "荣成市",
+  "gb_city_code": "3710",
+  "gb_area_code": "371082",
+  "province_id": "37",
+  "parent_city_id": "weihai"
+ },
+ "ruzhoushi": {
+  "name": "汝州",
+  "gb_name": "汝州市",
+  "gb_city_code": "4104",
+  "gb_area_code": "410482",
+  "province_id": "41",
+  "parent_city_id": "pingdingsha"
+ },
+ "renshouxian": {
+  "name": "仁寿",
+  "gb_name": "仁寿县",
+  "gb_city_code": "5114",
+  "gb_area_code": "511421",
+  "province_id": "51",
+  "parent_city_id": "meishan"
+ },
+ "renqiushi": {
+  "name": "任丘",
+  "gb_name": "任丘市",
+  "gb_city_code": "1309",
+  "gb_area_code": "130982",
+  "province_id": "13",
+  "parent_city_id": "cangzhou"
+ },
+ "rushanshi": {
+  "name": "乳山",
+  "gb_name": "乳山市",
+  "gb_city_code": "3710",
+  "gb_area_code": "371083",
+  "province_id": "37",
+  "parent_city_id": "weihai"
+ },
+ "renhuai": {
+  "name": "仁怀",
+  "gb_name": "仁怀市",
+  "gb_city_code": "5203",
+  "gb_area_code": "520382",
+  "province_id": "52",
+  "parent_city_id": "zunyi"
+ },
+ "shihezi": {
+  "name": "石河子",
+  "gb_name": "石河子市",
+  "gb_city_code": "6590",
+  "gb_area_code": "659001",
+  "province_id": "65",
+  "parent_city_id": null
+ },
+ "shunde": {
+  "name": "顺德",
+  "gb_name": "顺德区",
+  "gb_city_code": "4406",
+  "gb_area_code": "440606",
+  "province_id": "44",
+  "parent_city_id": "foshan"
+ },
+ "shuyang": {
+  "name": "沭阳",
+  "gb_name": "沭阳县",
+  "gb_city_code": "3213",
+  "gb_area_code": "321322",
+  "province_id": "32",
+  "parent_city_id": "suqian"
+ },
+ "shennongjia": {
+  "name": "神农架",
+  "gb_name": "神农架林区",
+  "gb_city_code": "4290",
+  "gb_area_code": "429021",
+  "province_id": "42",
+  "parent_city_id": null
+ },
+ "shishi": {
+  "name": "石狮",
+  "gb_name": "石狮市",
+  "gb_city_code": "3505",
+  "gb_area_code": "350581",
+  "province_id": "35",
+  "parent_city_id": "quanzhou"
+ },
+ "shouguang": {
+  "name": "寿光",
+  "gb_name": "寿光市",
+  "gb_city_code": "3707",
+  "gb_area_code": "370783",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "shenmuxian": {
+  "name": "神木",
+  "gb_name": "神木市",
+  "gb_city_code": "6108",
+  "gb_area_code": "610881",
+  "province_id": "61",
+  "parent_city_id": "yulin"
+ },
+ "siyangxian": {
+  "name": "泗阳",
+  "gb_name": "泗阳县",
+  "gb_city_code": "3213",
+  "gb_area_code": "321323",
+  "province_id": "32",
+  "parent_city_id": "suqian"
+ },
+ "sihongxian": {
+  "name": "泗洪",
+  "gb_name": "泗洪县",
+  "gb_city_code": "3213",
+  "gb_area_code": "321324",
+  "province_id": "32",
+  "parent_city_id": "suqian"
+ },
+ "sanheshi": {
+  "name": "三河",
+  "gb_name": "三河市",
+  "gb_city_code": "1310",
+  "gb_area_code": "131082",
+  "province_id": "13",
+  "parent_city_id": "langfang"
+ },
+ "suiningx": {
+  "name": "睢宁",
+  "gb_name": "睢宁县",
+  "gb_city_code": "3203",
+  "gb_area_code": "320324",
+  "province_id": "32",
+  "parent_city_id": "xuzhou"
+ },
+ "shengzhou": {
+  "name": "嵊州",
+  "gb_name": "嵊州市",
+  "gb_city_code": "3306",
+  "gb_area_code": "330683",
+  "province_id": "33",
+  "parent_city_id": "shaoxing"
+ },
+ "xtshahe": {
+  "name": "沙河",
+  "gb_name": "沙河市",
+  "gb_city_code": "1305",
+  "gb_area_code": "130582",
+  "province_id": "13",
+  "parent_city_id": "xingtai"
+ },
+ "songzi": {
+  "name": "松滋",
+  "gb_name": "松滋市",
+  "gb_city_code": "4210",
+  "gb_area_code": "421087",
+  "province_id": "42",
+  "parent_city_id": "jingzhou"
+ },
+ "shangshui": {
+  "name": "商水",
+  "gb_name": "商水县",
+  "gb_city_code": "4116",
+  "gb_area_code": "411623",
+  "province_id": "41",
+  "parent_city_id": "zhoukou"
+ },
+ "sheyangxian": {
+  "name": "射阳",
+  "gb_name": "射阳县",
+  "gb_city_code": "3209",
+  "gb_area_code": "320924",
+  "province_id": "32",
+  "parent_city_id": "yancheng"
+ },
+ "shexian": {
+  "name": "涉县",
+  "gb_name": "涉县",
+  "gb_city_code": "1304",
+  "gb_area_code": "130426",
+  "province_id": "13",
+  "parent_city_id": "handan"
+ },
+ "shenqiuxian": {
+  "name": "沈丘",
+  "gb_name": "沈丘县",
+  "gb_city_code": "4116",
+  "gb_area_code": "411624",
+  "province_id": "41",
+  "parent_city_id": "zhoukou"
+ },
+ "shagnhangxian": {
+  "name": "上杭",
+  "gb_name": "上杭县",
+  "gb_city_code": "3508",
+  "gb_area_code": "350823",
+  "province_id": "35",
+  "parent_city_id": "longyan"
+ },
+ "suixian": {
+  "name": "睢县",
+  "gb_name": "睢县",
+  "gb_city_code": "4114",
+  "gb_area_code": "411422",
+  "province_id": "41",
+  "parent_city_id": "shangqiu"
+ },
+ "shayangxian": {
+  "name": "沙洋",
+  "gb_name": "沙洋县",
+  "gb_city_code": "4208",
+  "gb_area_code": "420822",
+  "province_id": "42",
+  "parent_city_id": "jingmen"
+ },
+ "shaodongxian": {
+  "name": "邵东",
+  "gb_name": "邵东市",
+  "gb_city_code": "4305",
+  "gb_area_code": "430582",
+  "province_id": "43",
+  "parent_city_id": "shaoyang"
+ },
+ "shehongxian": {
+  "name": "射洪",
+  "gb_name": "射洪市",
+  "gb_city_code": "5109",
+  "gb_area_code": "510981",
+  "province_id": "51",
+  "parent_city_id": "suining"
+ },
+ "shuangfengxian": {
+  "name": "双峰",
+  "gb_name": "双峰县",
+  "gb_city_code": "4313",
+  "gb_area_code": "431321",
+  "province_id": "43",
+  "parent_city_id": "loudi"
+ },
+ "suixia": {
+  "name": "随县",
+  "gb_name": "随县",
+  "gb_city_code": "4213",
+  "gb_area_code": "421321",
+  "province_id": "42",
+  "parent_city_id": "suizhou"
+ },
+ "shaoyangxian": {
+  "name": "邵阳县",
+  "gb_name": "邵阳县",
+  "gb_city_code": "4305",
+  "gb_area_code": "430523",
+  "province_id": "43",
+  "parent_city_id": "shaoyang"
+ },
+ "taishan": {
+  "name": "台山",
+  "gb_name": "台山市",
+  "gb_city_code": "4407",
+  "gb_area_code": "440781",
+  "province_id": "44",
+  "parent_city_id": "jiangmen"
+ },
+ "tianmen": {
+  "name": "天门",
+  "gb_name": "天门市",
+  "gb_city_code": "4290",
+  "gb_area_code": "429006",
+  "province_id": "42",
+  "parent_city_id": null
+ },
+ "tumushuke": {
+  "name": "图木舒克",
+  "gb_name": "图木舒克市",
+  "gb_city_code": "6590",
+  "gb_area_code": "659003",
+  "province_id": "65",
+  "parent_city_id": null
+ },
+ "tongcheng": {
+  "name": "桐城",
+  "gb_name": "桐城市",
+  "gb_city_code": "3408",
+  "gb_area_code": "340881",
+  "province_id": "34",
+  "parent_city_id": "anqing"
+ },
+ "taicang": {
+  "name": "太仓",
+  "gb_name": "太仓市",
+  "gb_city_code": "3205",
+  "gb_area_code": "320585",
+  "province_id": "32",
+  "parent_city_id": "suzhou"
+ },
+ "tongxiang": {
+  "name": "桐乡",
+  "gb_name": "桐乡市",
+  "gb_city_code": "3304",
+  "gb_area_code": "330483",
+  "province_id": "33",
+  "parent_city_id": "jx"
+ },
+ "taixing": {
+  "name": "泰兴",
+  "gb_name": "泰兴市",
+  "gb_city_code": "3212",
+  "gb_area_code": "321283",
+  "province_id": "32",
+  "parent_city_id": "taizhou"
+ },
+ "tunchang": {
+  "name": "屯昌",
+  "gb_name": "屯昌县",
+  "gb_city_code": "4690",
+  "gb_area_code": "469022",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "tianchang": {
+  "name": "天长",
+  "gb_name": "天长市",
+  "gb_city_code": "3411",
+  "gb_area_code": "341181",
+  "province_id": "34",
+  "parent_city_id": "chuzhou"
+ },
+ "tengzhoushi": {
+  "name": "滕州",
+  "gb_name": "滕州市",
+  "gb_city_code": "3704",
+  "gb_area_code": "370481",
+  "province_id": "37",
+  "parent_city_id": "zaozhuang"
+ },
+ "taikangxian": {
+  "name": "太康",
+  "gb_name": "太康县",
+  "gb_city_code": "4116",
+  "gb_area_code": "411627",
+  "province_id": "41",
+  "parent_city_id": "zhoukou"
+ },
+ "tanchengxian": {
+  "name": "郯城",
+  "gb_name": "郯城县",
+  "gb_city_code": "3713",
+  "gb_area_code": "371322",
+  "province_id": "37",
+  "parent_city_id": "linyi"
+ },
+ "tongxuxian": {
+  "name": "通许",
+  "gb_name": "通许县",
+  "gb_city_code": "4102",
+  "gb_area_code": "410222",
+  "province_id": "41",
+  "parent_city_id": "kaifeng"
+ },
+ "wafangdian": {
+  "name": "瓦房店",
+  "gb_name": "瓦房店市",
+  "gb_city_code": "2102",
+  "gb_area_code": "210281",
+  "province_id": "21",
+  "parent_city_id": "dalian"
+ },
+ "wujiaqu": {
+  "name": "五家渠",
+  "gb_name": "五家渠市",
+  "gb_city_code": "6590",
+  "gb_area_code": "659004",
+  "province_id": "65",
+  "parent_city_id": null
+ },
+ "wuyishan": {
+  "name": "武夷山",
+  "gb_name": "武夷山市",
+  "gb_city_code": "3507",
+  "gb_area_code": "350782",
+  "province_id": "35",
+  "parent_city_id": "nanping"
+ },
+ "wuzhishan": {
+  "name": "五指山",
+  "gb_name": "五指山市",
+  "gb_city_code": "4690",
+  "gb_area_code": "469001",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "wnelingshi": {
+  "name": "温岭",
+  "gb_name": "温岭市",
+  "gb_city_code": "3310",
+  "gb_area_code": "331081",
+  "province_id": "33",
+  "parent_city_id": "taiz"
+ },
+ "wenchang": {
+  "name": "文昌",
+  "gb_name": "文昌市",
+  "gb_city_code": "4690",
+  "gb_area_code": "469005",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "wanning": {
+  "name": "万宁",
+  "gb_name": "万宁市",
+  "gb_city_code": "4690",
+  "gb_area_code": "469006",
+  "province_id": "46",
+  "parent_city_id": null
+ },
+ "wuanshi": {
+  "name": "武安",
+  "gb_name": "武安市",
+  "gb_city_code": "1304",
+  "gb_area_code": "130481",
+  "province_id": "13",
+  "parent_city_id": "handan"
+ },
+ "wuxue": {
+  "name": "武穴",
+  "gb_name": "武穴市",
+  "gb_city_code": "4211",
+  "gb_area_code": "421182",
+  "province_id": "42",
+  "parent_city_id": "huanggang"
+ },
+ "wudi": {
+  "name": "无棣",
+  "gb_name": "无棣县",
+  "gb_city_code": "3716",
+  "gb_area_code": "371623",
+  "province_id": "37",
+  "parent_city_id": "binzhou"
+ },
+ "weishanxian": {
+  "name": "微山",
+  "gb_name": "微山县",
+  "gb_city_code": "3708",
+  "gb_area_code": "370826",
+  "province_id": "37",
+  "parent_city_id": "jining"
+ },
+ "wenshangxian": {
+  "name": "汶上",
+  "gb_name": "汶上县",
+  "gb_city_code": "3708",
+  "gb_area_code": "370830",
+  "province_id": "37",
+  "parent_city_id": "jining"
+ },
+ "wuyi": {
+  "name": "武义县",
+  "gb_name": "武义县",
+  "gb_city_code": "3307",
+  "gb_area_code": "330723",
+  "province_id": "33",
+  "parent_city_id": "jinhua"
+ },
+ "weishixian": {
+  "name": "尉氏",
+  "gb_name": "尉氏县",
+  "gb_city_code": "4102",
+  "gb_area_code": "410223",
+  "province_id": "41",
+  "parent_city_id": "kaifeng"
+ },
+ "wuweixian": {
+  "name": "无为",
+  "gb_name": "无为市",
+  "gb_city_code": "3402",
+  "gb_area_code": "340281",
+  "province_id": "34",
+  "parent_city_id": "wuhu"
+ },
+ "wenxian": {
+  "name": "温县",
+  "gb_name": "温县",
+  "gb_city_code": "4108",
+  "gb_area_code": "410825",
+  "province_id": "41",
+  "parent_city_id": "jiaozuo"
+ },
+ "xiantao": {
+  "name": "仙桃",
+  "gb_name": "仙桃市",
+  "gb_city_code": "4290",
+  "gb_area_code": "429004",
+  "province_id": "42",
+  "parent_city_id": null
+ },
+ "xinyishi": {
+  "name": "新沂",
+  "gb_name": "新沂市",
+  "gb_city_code": "3203",
+  "gb_area_code": "320381",
+  "province_id": "32",
+  "parent_city_id": "xuzhou"
+ },
+ "xinghuashi": {
+  "name": "兴化",
+  "gb_name": "兴化市",
+  "gb_city_code": "3212",
+  "gb_area_code": "321281",
+  "province_id": "32",
+  "parent_city_id": "taizhou"
+ },
+ "xiangshanxian": {
+  "name": "象山",
+  "gb_name": "象山县",
+  "gb_city_code": "3302",
+  "gb_area_code": "330225",
+  "province_id": "33",
+  "parent_city_id": "nb"
+ },
+ "xintaishi": {
+  "name": "新泰",
+  "gb_name": "新泰市",
+  "gb_city_code": "3709",
+  "gb_area_code": "370982",
+  "province_id": "37",
+  "parent_city_id": "taian"
+ },
+ "xiangchengshi": {
+  "name": "项城",
+  "gb_name": "项城市",
+  "gb_city_code": "4116",
+  "gb_area_code": "411681",
+  "province_id": "41",
+  "parent_city_id": "zhoukou"
+ },
+ "xinan": {
+  "name": "新安",
+  "gb_name": "新安县",
+  "gb_city_code": "4103",
+  "gb_area_code": "410323",
+  "province_id": "41",
+  "parent_city_id": "luoyang"
+ },
+ "xianghe": {
+  "name": "香河",
+  "gb_name": "香河县",
+  "gb_city_code": "1310",
+  "gb_area_code": "131024",
+  "province_id": "13",
+  "parent_city_id": "langfang"
+ },
+ "xuanwei": {
+  "name": "宣威",
+  "gb_name": "宣威市",
+  "gb_city_code": "5303",
+  "gb_area_code": "530381",
+  "province_id": "53",
+  "parent_city_id": "qujing"
+ },
+ "sxxiaoyi": {
+  "name": "孝义",
+  "gb_name": "孝义市",
+  "gb_city_code": "1411",
+  "gb_area_code": "141181",
+  "province_id": "14",
+  "parent_city_id": "lvliang"
+ },
+ "xiangyin": {
+  "name": "湘阴",
+  "gb_name": "湘阴县",
+  "gb_city_code": "4306",
+  "gb_area_code": "430624",
+  "province_id": "43",
+  "parent_city_id": "yueyang"
+ },
+ "xinchang": {
+  "name": "新昌",
+  "gb_name": "新昌县",
+  "gb_city_code": "3306",
+  "gb_area_code": "330624",
+  "province_id": "33",
+  "parent_city_id": "shaoxing"
+ },
+ "xuyuxian": {
+  "name": "盱眙",
+  "gb_name": "盱眙县",
+  "gb_city_code": "3208",
+  "gb_area_code": "320830",
+  "province_id": "32",
+  "parent_city_id": "huaian"
+ },
+ "xinxian": {
+  "name": "莘县",
+  "gb_name": "莘县",
+  "gb_city_code": "3715",
+  "gb_area_code": "371522",
+  "province_id": "37",
+  "parent_city_id": "liaocheng"
+ },
+ "xiangshuixian": {
+  "name": "响水",
+  "gb_name": "响水县",
+  "gb_city_code": "3209",
+  "gb_area_code": "320921",
+  "province_id": "32",
+  "parent_city_id": "yancheng"
+ },
+ "xinyexian": {
+  "name": "新野",
+  "gb_name": "新野县",
+  "gb_city_code": "4113",
+  "gb_area_code": "411329",
+  "province_id": "41",
+  "parent_city_id": "nanyang"
+ },
+ "xunxian": {
+  "name": "浚县",
+  "gb_name": "浚县",
+  "gb_city_code": "4106",
+  "gb_area_code": "410621",
+  "province_id": "41",
+  "parent_city_id": "hebi"
+ },
+ "xiangyuanxian": {
+  "name": "襄垣",
+  "gb_name": "襄垣县",
+  "gb_city_code": "1404",
+  "gb_area_code": "140423",
+  "province_id": "14",
+  "parent_city_id": "changzhi"
+ },
+ "xiaochangxian": {
+  "name": "孝昌",
+  "gb_name": "孝昌县",
+  "gb_city_code": "4209",
+  "gb_area_code": "420921",
+  "province_id": "42",
+  "parent_city_id": "xiaogan"
+ },
+ "xuanhanxian": {
+  "name": "宣汉",
+  "gb_name": "宣汉县",
+  "gb_city_code": "5117",
+  "gb_area_code": "511722",
+  "province_id": "51",
+  "parent_city_id": "dazhou"
+ },
+ "yiwu": {
+  "name": "义乌",
+  "gb_name": "义乌市",
+  "gb_city_code": "3307",
+  "gb_area_code": "330782",
+  "province_id": "33",
+  "parent_city_id": "jinhua"
+ },
+ "yangchun": {
+  "name": "阳春",
+  "gb_name": "阳春市",
+  "gb_city_code": "4417",
+  "gb_area_code": "441781",
+  "province_id": "44",
+  "parent_city_id": "yangjiang"
+ },
+ "yanling": {
+  "name": "鄢陵",
+  "gb_name": "鄢陵县",
+  "gb_city_code": "4110",
+  "gb_area_code": "411024",
+  "province_id": "41",
+  "parent_city_id": "xuchang"
+ },
+ "yueqing": {
+  "name": "乐清",
+  "gb_name": "乐清市",
+  "gb_city_code": "3303",
+  "gb_area_code": "330382",
+  "province_id": "33",
+  "parent_city_id": "wenzhou"
+ },
+ "yuzhou": {
+  "name": "禹州",
+  "gb_name": "禹州市",
+  "gb_city_code": "4110",
+  "gb_area_code": "411081",
+  "province_id": "41",
+  "parent_city_id": "xuchang"
+ },
+ "yongxin": {
+  "name": "永新",
+  "gb_name": "永新县",
+  "gb_city_code": "3608",
+  "gb_area_code": "360830",
+  "province_id": "36",
+  "parent_city_id": "jian"
+ },
+ "yangzhong": {
+  "name": "扬中",
+  "gb_name": "扬中市",
+  "gb_city_code": "3211",
+  "gb_area_code": "321182",
+  "province_id": "32",
+  "parent_city_id": "zhenjiang"
+ },
+ "yidou": {
+  "name": "宜都",
+  "gb_name": "宜都市",
+  "gb_city_code": "4205",
+  "gb_area_code": "420581",
+  "province_id": "42",
+  "parent_city_id": "yichang"
+ },
+ "yuyao": {
+  "name": "余姚",
+  "gb_name": "余姚市",
+  "gb_city_code": "3302",
+  "gb_area_code": "330281",
+  "province_id": "33",
+  "parent_city_id": "nb"
+ },
+ "yanjiao": {
+  "name": "燕郊",
+  "gb_name": "三河市",
+  "gb_city_code": "1310",
+  "gb_area_code": "131082",
+  "province_id": "13",
+  "parent_city_id": "langfang"
+ },
+ "yongkangshi": {
+  "name": "永康",
+  "gb_name": "永康市",
+  "gb_city_code": "3307",
+  "gb_area_code": "330784",
+  "province_id": "33",
+  "parent_city_id": "jinhua"
+ },
+ "yuhuanxian": {
+  "name": "玉环",
+  "gb_name": "玉环市",
+  "gb_city_code": "3310",
+  "gb_area_code": "331083",
+  "province_id": "33",
+  "parent_city_id": "taiz"
+ },
+ "youxian": {
+  "name": "攸县",
+  "gb_name": "攸县",
+  "gb_city_code": "4302",
+  "gb_area_code": "430223",
+  "province_id": "43",
+  "parent_city_id": "zhuzhou"
+ },
+ "yutian": {
+  "name": "玉田",
+  "gb_name": "玉田县",
+  "gb_city_code": "1302",
+  "gb_area_code": "130229",
+  "province_id": "13",
+  "parent_city_id": "tangshan"
+ },
+ "yongchun": {
+  "name": "永春",
+  "gb_name": "永春县",
+  "gb_city_code": "3505",
+  "gb_area_code": "350525",
+  "province_id": "35",
+  "parent_city_id": "quanzhou"
+ },
+ "lyyiyang": {
+  "name": "宜阳",
+  "gb_name": "宜阳县",
+  "gb_city_code": "4103",
+  "gb_area_code": "410327",
+  "province_id": "41",
+  "parent_city_id": "luoyang"
+ },
+ "yixing": {
+  "name": "宜兴",
+  "gb_name": "宜兴市",
+  "gb_city_code": "3202",
+  "gb_area_code": "320282",
+  "province_id": "32",
+  "parent_city_id": "wuxi"
+ },
+ "xyyicheng": {
+  "name": "宜城",
+  "gb_name": "宜城市",
+  "gb_city_code": "4206",
+  "gb_area_code": "420684",
+  "province_id": "42",
+  "parent_city_id": "xiangyang"
+ },
+ "yichuan": {
+  "name": "伊川",
+  "gb_name": "伊川县",
+  "gb_city_code": "4103",
+  "gb_area_code": "410329",
+  "province_id": "41",
+  "parent_city_id": "luoyang"
+ },
+ "yyruanjiang": {
+  "name": "沅江",
+  "gb_name": "沅江市",
+  "gb_city_code": "4309",
+  "gb_area_code": "430981",
+  "province_id": "43",
+  "parent_city_id": "yiyang"
+ },
+ "dzyucheng": {
+  "name": "禹城",
+  "gb_name": "禹城市",
+  "gb_city_code": "3714",
+  "gb_area_code": "371482",
+  "province_id": "37",
+  "parent_city_id": "dezhou"
+ },
+ "yangguxian": {
+  "name": "阳谷",
+  "gb_name": "阳谷县",
+  "gb_city_code": "3715",
+  "gb_area_code": "371521",
+  "province_id": "37",
+  "parent_city_id": "liaocheng"
+ },
+ "yinanxian": {
+  "name": "沂南",
+  "gb_name": "沂南县",
+  "gb_city_code": "3713",
+  "gb_area_code": "371321",
+  "province_id": "37",
+  "parent_city_id": "linyi"
+ },
+ "yiyuanxian": {
+  "name": "沂源",
+  "gb_name": "沂源县",
+  "gb_city_code": "3703",
+  "gb_area_code": "370323",
+  "province_id": "37",
+  "parent_city_id": "zibo"
+ },
+ "yunchengxian": {
+  "name": "郓城",
+  "gb_name": "郓城县",
+  "gb_city_code": "3717",
+  "gb_area_code": "371725",
+  "province_id": "37",
+  "parent_city_id": "heze"
+ },
+ "yongxingxian": {
+  "name": "永兴",
+  "gb_name": "永兴县",
+  "gb_city_code": "4310",
+  "gb_area_code": "431023",
+  "province_id": "43",
+  "parent_city_id": "chenzhou"
+ },
+ "yunmengxian": {
+  "name": "云梦",
+  "gb_name": "云梦县",
+  "gb_city_code": "4209",
+  "gb_area_code": "420923",
+  "province_id": "42",
+  "parent_city_id": "xiaogan"
+ },
+ "yujiangc": {
+  "name": "余江",
+  "gb_name": "余江区",
+  "gb_city_code": "3606",
+  "gb_area_code": "360603",
+  "province_id": "36",
+  "parent_city_id": "yingtan"
+ },
+ "zhangqiu": {
+  "name": "章丘",
+  "gb_name": "章丘区",
+  "gb_city_code": "3701",
+  "gb_area_code": "370114",
+  "province_id": "37",
+  "parent_city_id": "jinan"
+ },
+ "zhucheng": {
+  "name": "诸城",
+  "gb_name": "诸城市",
+  "gb_city_code": "3707",
+  "gb_area_code": "370782",
+  "province_id": "37",
+  "parent_city_id": "weifang"
+ },
+ "zhuanghe": {
+  "name": "庄河",
+  "gb_name": "庄河市",
+  "gb_city_code": "2102",
+  "gb_area_code": "210283",
+  "province_id": "21",
+  "parent_city_id": "dalian"
+ },
+ "zhengding": {
+  "name": "正定",
+  "gb_name": "正定县",
+  "gb_city_code": "1301",
+  "gb_area_code": "130123",
+  "province_id": "13",
+  "parent_city_id": "sjz"
+ },
+ "zhangbei": {
+  "name": "张北",
+  "gb_name": "张北县",
+  "gb_city_code": "1307",
+  "gb_area_code": "130722",
+  "province_id": "13",
+  "parent_city_id": "zhangjiakou"
+ },
+ "zhaoxian": {
+  "name": "赵县",
+  "gb_name": "赵县",
+  "gb_city_code": "1301",
+  "gb_area_code": "130133",
+  "province_id": "13",
+  "parent_city_id": "sjz"
+ },
+ "zhuji": {
+  "name": "诸暨",
+  "gb_name": "诸暨市",
+  "gb_city_code": "3306",
+  "gb_area_code": "330681",
+  "province_id": "33",
+  "parent_city_id": "shaoxing"
+ },
+ "zoupingxian": {
+  "name": "邹平",
+  "gb_name": "邹平市",
+  "gb_city_code": "3716",
+  "gb_area_code": "371681",
+  "province_id": "37",
+  "parent_city_id": "binzhou"
+ },
+ "zouchengshi": {
+  "name": "邹城",
+  "gb_name": "邹城市",
+  "gb_city_code": "3708",
+  "gb_area_code": "370883",
+  "province_id": "37",
+  "parent_city_id": "jining"
+ },
+ "zhuozhoushi": {
+  "name": "涿州",
+  "gb_name": "涿州市",
+  "gb_city_code": "1306",
+  "gb_area_code": "130681",
+  "province_id": "13",
+  "parent_city_id": "baoding"
+ },
+ "zhaoyuanshi": {
+  "name": "招远",
+  "gb_name": "招远市",
+  "gb_city_code": "3706",
+  "gb_area_code": "370685",
+  "province_id": "37",
+  "parent_city_id": "yt"
+ },
+ "zaoyangshi": {
+  "name": "枣阳",
+  "gb_name": "枣阳市",
+  "gb_city_code": "4206",
+  "gb_area_code": "420683",
+  "province_id": "42",
+  "parent_city_id": "xiangyang"
+ },
+ "zunhua": {
+  "name": "遵化市",
+  "gb_name": "遵化市",
+  "gb_city_code": "1302",
+  "gb_area_code": "130281",
+  "province_id": "13",
+  "parent_city_id": "tangshan"
+ },
+ "zhijiang": {
+  "name": "枝江",
+  "gb_name": "枝江市",
+  "gb_city_code": "4205",
+  "gb_area_code": "420583",
+  "province_id": "42",
+  "parent_city_id": "yichang"
+ },
+ "zhaozhou": {
+  "name": "肇州",
+  "gb_name": "肇州县",
+  "gb_city_code": "2306",
+  "gb_area_code": "230621",
+  "province_id": "23",
+  "parent_city_id": "daqing"
+ },
+ "shzhaodong": {
+  "name": "肇东",
+  "gb_name": "肇东市",
+  "gb_city_code": "2312",
+  "gb_area_code": "231282",
+  "province_id": "23",
+  "parent_city_id": "suihua"
+ },
+ "zhangjiagang": {
+  "name": "张家港",
+  "gb_name": "张家港市",
+  "gb_city_code": "3205",
+  "gb_area_code": "320582",
+  "province_id": "32",
+  "parent_city_id": "suzhou"
+ },
+ "zixing": {
+  "name": "资兴",
+  "gb_name": "资兴市",
+  "gb_city_code": "4310",
+  "gb_area_code": "431081",
+  "province_id": "43",
+  "parent_city_id": "chenzhou"
+ },
+ "zhangshu": {
+  "name": "樟树",
+  "gb_name": "樟树市",
+  "gb_city_code": "3609",
+  "gb_area_code": "360982",
+  "province_id": "36",
+  "parent_city_id": "yichun"
+ },
+ "zhangpu": {
+  "name": "漳浦",
+  "gb_name": "漳浦县",
+  "gb_city_code": "3506",
+  "gb_area_code": "350623",
+  "province_id": "35",
+  "parent_city_id": "zhangzhou"
+ },
+ "zezhouxian": {
+  "name": "泽州",
+  "gb_name": "泽州县",
+  "gb_city_code": "1405",
+  "gb_area_code": "140525",
+  "province_id": "14",
+  "parent_city_id": "jincheng"
+ },
+ "kli": {
+  "name": "凯里",
+  "gb_name": "凯里市",
+  "gb_city_code": "5226",
+  "gb_area_code": "522601",
+  "province_id": "52",
+  "parent_city_id": "qiandongnan"
+ }
+}
