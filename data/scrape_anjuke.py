@@ -874,9 +874,10 @@ async def scrape_all_shangquan(page, region_id: str, city_slug: str, district_na
     skipped = 0
     for dist_name, dist_info in districts.items():
         # Match by slug (e.g. "xicheng"), by display name (e.g. "西城"),
-        # or by JSON key (e.g. "西城"), or by the info's name field
+        # or by JSON key (e.g. "西城"), or by the info's name/slug field
         dist_info_name = dist_info.get("name", "")
-        if district_name and dist_name != district_name and dist_name != district_display_name and dist_info_name != district_name and dist_info_name != district_display_name:
+        dist_info_slug = dist_info.get("slug", "")
+        if district_name and dist_name != district_name and dist_name != district_display_name and dist_info_name != district_name and dist_info_name != district_display_name and dist_info_slug != district_name:
             continue
         for sq in dist_info.get("shangquan", []):
             sq_url = sq["url"]
@@ -912,6 +913,8 @@ async def scrape_all_shangquan(page, region_id: str, city_slug: str, district_na
     total_scraped = 0
     total_saved = 0
     consecutive_empty = 0
+    total_empty = 0      # 商圈数: 完全没爬到小区的
+    captcha_count = 0    # 商圈数: 撞验证码的
     HEADLESS_CAPTCHA_EXIT = 3  # After N consecutive empty results in headless, save & exit
 
     for idx, (dist_name, sq_name, sq_url, shangquan_id) in enumerate(tasks):
@@ -965,6 +968,7 @@ async def scrape_all_shangquan(page, region_id: str, city_slug: str, district_na
 
         else:
             print(f"  No communities found")
+            total_empty += 1
             consecutive_empty += 1
 
             # Headless mode: captcha blocks are fatal — exit early with progress saved
@@ -1007,7 +1011,13 @@ async def scrape_all_shangquan(page, region_id: str, city_slug: str, district_na
             print(f"  Waiting {delay_s:.0f}s...")
             await page.wait_for_timeout(int(delay_s * 1000))
 
+    # ── 区域健康摘要 (供 check_crawl.py / 人工判断静默失败) ──
+    empty_pct = total_empty / len(tasks) * 100 if tasks else 0
+    health = "✅" if empty_pct < 20 else ("⚠️" if empty_pct < 50 else "❌")
     print(f"\nBatch complete: scraped {total_scraped}, saved {total_saved}")
+    print(f"  {health} 健康摘要: 商圈 {len(tasks)} | 空商圈 {total_empty} ({empty_pct:.0f}%) | 小区 {total_scraped}")
+    if empty_pct >= 20:
+        print(f"  💡 空商圈比例偏高 — 可能区匹配失败(datong类)或验证码墙, 建议 python3 check_crawl.py --region {region_id}")
     return (total_scraped, total_saved)
 
 
@@ -1557,6 +1567,14 @@ def _parse_reviews(text: str) -> list[dict] | None:
     return reviews if reviews else None
 
 
+def _resolve_city_prov(region_id: str, conn) -> tuple:
+    """从 region_id 推出 (city_id, province_id). 杨凌是咸阳的区, 特殊映射."""
+    prefix = region_id.split("_")[0] if "_" in region_id else region_id
+    city_id = "xianyang" if prefix == "yangling" else prefix
+    row = conn.execute("SELECT province_id FROM cities WHERE city_id=?", (city_id,)).fetchone()
+    return (city_id, row["province_id"]) if row else (city_id, None)
+
+
 def save_to_db(communities: list[dict], region_id: str, listings_only: bool = False) -> int:
     create_tables()
     conn = get_db()
@@ -1583,6 +1601,7 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
                             (c.get("shangquan_id"), now_str(), cid))
                         updated += 1
                 else:
+                    _city_id, _prov_id = _resolve_city_prov(region_id, conn)
                     conn.execute(
                         """INSERT OR IGNORE INTO communities
                            (community_id, name, address, year_built, developer,
@@ -1593,8 +1612,9 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
                             on_sale_count, on_rent_count, price_trend_json,
                             surrounding_json, community_review, detail_scraped_at,
                             data_source, data_updated, region_id, shangquan_id,
-                            property_basic_json, community_interpretation_json, huxingtu_json)
-                           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                            property_basic_json, community_interpretation_json, huxingtu_json,
+                            city_id, province_id)
+                           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                         (cid, c.get("name"), c.get("address"), c.get("year_built"),
                          c.get("developer"), c.get("property_mgmt"), c.get("property_fee"),
                          c.get("floor_area_ratio"), c.get("green_ratio"), c.get("parking_ratio"),
@@ -1604,7 +1624,8 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
                          c.get("on_sale_count"), c.get("on_rent_count"), c.get("price_trend_json"),
                          c.get("surrounding_json"), c.get("community_review"), c.get("detail_scraped_at"),
                          "anjuke", now_str(), region_id, c.get("shangquan_id"),
-                         c.get("property_basic_json"), c.get("community_interpretation_json"), c.get("huxingtu_json")),
+                         c.get("property_basic_json"), c.get("community_interpretation_json"), c.get("huxingtu_json"),
+                         _city_id, _prov_id),
                     )
                     saved += 1
             else:
@@ -1933,8 +1954,9 @@ async def main():
             await page.add_init_script(STEALTH_JS)
 
         if batch_shangquan:
-            # Extract district slug from region_id (e.g. beijing_xicheng → xicheng)
-            district_slug = region_id.split("_", 1)[1] if "_" in region_id else region_id
+            # Extract district slug from region_id (e.g. beijing_xicheng → xicheng).
+            # 整市 region (无下划线, 如 shenzhen/shanghai/guangzhou) → 不按区过滤, 处理全部区
+            district_slug = region_id.split("_", 1)[1] if "_" in region_id else ""
             district_display_name = region.get("name", "")  # Chinese display name
             await scrape_all_shangquan(page, region_id, city_slug, district_slug, max_communities, show_browser=show_browser, district_display_name=district_display_name, listings_only=listings_only)
             await _close()

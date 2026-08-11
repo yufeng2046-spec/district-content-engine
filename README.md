@@ -633,7 +633,10 @@ DISPLAY=:99 PYTHONPATH=. nohup python3 data/scrape_anjuke.py \
 | `build_province_city.py` | ✅ | 建省/市表 |
 | `backfill_province_city.py` | ✅ | 回填省市列 + 补 districts |
 | `fix_district_id.py` | ✅ | district_id 统一 slug（Bug 2 修复） |
-| `validate_shangquan.py` | ✅ | **完整性校验，爬完必跑** |
+| `validate.py` | ✅ | **数据契约校验器（四维×两级），爬完必跑** |
+| `check_crawl.py` | ✅ | **部分失败检测（预期vs实际，抓datong类静默失败）** |
+| `validate_shangquan.py` | ✅ | 兼容旧入口（调用 validate.py 精简版） |
+| `adversarial_test.py` | ✅ | 对抗性检查（注入bug验证校验器能抓） |
 | `fetch_city_list.py` | ✅ | 抓安居客权威省市列表（需人工过码一次） |
 | `scrape_huxingtu.py` | ✅ | 独立户型爬取（huxingtu_json），断点续跑 |
 | `migrate_option1.py` | ✅ | 选项1迁移：cities 定稿地级市，县级子域存 anjuke_county_map.json |
@@ -658,7 +661,9 @@ DISPLAY=:99 PYTHONPATH=. nohup python3 data/scrape_anjuke.py \
 ### 快速验证命令
 ```bash
 # ═══ 数据完整性（爬完必跑）═══
-python3 validate_shangquan.py
+python3 validate.py                    # 四维契约校验 (结构/GB/爬取契约/业务)
+python3 check_crawl.py                 # 部分失败检测 (预期 vs 实际, 抓静默漏爬)
+python3 adversarial_test.py            # 对抗性自检 (注入bug验证校验器)
 
 # ═══ 基础指标 ═══
 PYTHONPATH=. python3 -c "
