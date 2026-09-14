@@ -1,12 +1,13 @@
 """
-Fetch Yangling real estate articles from Sogou WeChat Search via Playwright.
+Fetch real estate articles from Sogou WeChat Search via Playwright.
 Extracts: article title, account name, publish date, full text.
 Used for city/district-level context and opinion data in research briefs.
 
 Usage:
-    PYTHONPATH=. python3 data/fetch_wechat.py              # search all keywords
-    PYTHONPATH=. python3 data/fetch_wechat.py --max 3      # search first 3 keywords
-    PYTHONPATH=. python3 data/fetch_wechat.py --refresh    # force re-fetch (ignore cache)
+    PYTHONPATH=. python3 data/fetch_wechat.py                          # default region
+    PYTHONPATH=. python3 data/fetch_wechat.py --region datong_pingcheng
+    PYTHONPATH=. python3 data/fetch_wechat.py --region datong_pingcheng --max 3
+    PYTHONPATH=. python3 data/fetch_wechat.py --region datong_pingcheng --refresh
 """
 
 import asyncio
@@ -21,60 +22,55 @@ from typing import Optional
 from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import USER_AGENT, REGION_NAME, REGION_ID
+from config import USER_AGENT, get_region, DEFAULT_REGION, REGIONS
+from db.connection import get_db
+from db.schema import create_tables
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-OUTPUT_FILE = BASE_DIR / "data" / "wechat_content.json"
 
-# Keywords for city/district-level context.
-# Use both 杨凌 and 杨陵区 (both spellings are common locally).
-# Quoted phrases and specific terms reduce noise from broad Sogou matching.
-WECHAT_KEYWORDS = [
-    # 房产类（原有）
-    "杨凌 买房",
-    "杨凌 楼盘 新房",
-    "杨凌 房价 走势",
-    "杨凌 房产 市场",
-    "杨凌 城市规划",
-    "杨凌 区域 发展",
-    # 经济产业
-    "杨凌 经济 产业",
-    "杨凌 农业 科技 示范",
-    "杨凌 企业 产业 园区",
-    # 城市定位 / 核心IP
-    "杨凌 农高会",
-    "杨凌 上合 农业 组织",
-    "杨凌 自贸 保税",
-    # 高校人才
-    "西北农林科技大学 杨凌",
-    "杨凌 人才 落户 政策",
-    # 交通基建
-    "杨凌 高铁 交通 规划",
-    # 医疗商业
-    "杨凌 医院 医疗",
-    "杨凌 万达 商业 配套",
-    # 生活宜居
-    "杨凌 生活 环境 宜居",
-    "杨凌 人口 发展",
-]
-
-STEALTH_JS = """
-Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-window.chrome = { runtime: {}, loadTimes: function() {}, csi: function() {}, app: {} };
-Object.defineProperty(navigator, 'plugins', { get: () => [1,2,3,4,5] });
-Object.defineProperty(navigator, 'languages', { get: () => ['zh-CN', 'zh', 'en'] });
-"""
+from data.scrapers.stealth import STEALTH_JS
 
 
-def load_cache() -> dict:
+def load_cache(output_file: Path) -> dict:
     """Load existing cache keyed by article URL."""
-    if OUTPUT_FILE.exists():
-        return json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+    if output_file.exists():
+        return json.loads(output_file.read_text(encoding="utf-8"))
     return {}
 
 
-def save_cache(cache: dict) -> None:
-    OUTPUT_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+def save_cache(cache: dict, output_file: Path) -> None:
+    output_file.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def save_wechat_to_db(cache: dict, region_id: str) -> int:
+    """Write WeChat articles to wechat_articles table."""
+    create_tables()
+    conn = get_db()
+    saved = 0
+    for url, article in cache.items():
+        try:
+            conn.execute(
+                """INSERT OR IGNORE INTO wechat_articles
+                   (url, region_id, title, account, publish_time, text, query, fetched_at)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                (
+                    url,
+                    region_id,
+                    article.get("title", ""),
+                    article.get("account", ""),
+                    article.get("publish_time", ""),
+                    article.get("text", ""),
+                    article.get("query", ""),
+                    article.get("fetched_at", datetime.now().strftime("%Y-%m-%d %H:%M:%S")),
+                ),
+            )
+            saved += 1
+        except Exception as e:
+            print(f"    DB save error for {url[:60]}: {e}")
+    conn.commit()
+    conn.close()
+    print(f"  DB: {saved}/{len(cache)} records saved to wechat_articles")
+    return saved
 
 
 def parse_timestamps(html: str) -> list[str]:
@@ -83,7 +79,7 @@ def parse_timestamps(html: str) -> list[str]:
     return [datetime.fromtimestamp(int(s)).strftime("%Y-%m-%d") for s in stamps]
 
 
-async def search_wechat(page, query: str) -> list:
+async def search_wechat(page, query: str, region_terms: list[str], exclude_terms: list[str]) -> list:
     """Search Sogou WeChat for a keyword and return results with titles, links, summaries."""
     encoded = query.replace(" ", "+")
     url = f"https://weixin.sogou.com/weixin?type=2&query={encoded}&ie=utf8"
@@ -114,8 +110,6 @@ async def search_wechat(page, query: str) -> list:
     """)
 
     # Filter: only keep articles relevant to the target region
-    region_terms = ["杨凌", "杨陵", "咸阳", "西农", "示范"]
-    exclude_terms = ["招聘", "相亲", "求职", "入学", "招生", "报名", "幼儿园"]
     relevant = []
     for i, r in enumerate(results):
         combined = r["title"] + r.get("summary", "")
@@ -181,16 +175,27 @@ async def extract_article_text(page, result_index: int) -> Optional[dict]:
 async def main():
     refresh = "--refresh" in sys.argv
     max_kw = None
+    region_id = DEFAULT_REGION
     for i, arg in enumerate(sys.argv):
         if arg == "--max" and i + 1 < len(sys.argv):
             max_kw = int(sys.argv[i + 1])
+        elif arg == "--region" and i + 1 < len(sys.argv):
+            region_id = sys.argv[i + 1]
 
-    keywords = WECHAT_KEYWORDS[:max_kw] if max_kw else WECHAT_KEYWORDS
-    cache = {} if refresh else load_cache()
+    region = get_region(region_id)
+    keywords = region["wechat_keywords"][:max_kw] if max_kw else region["wechat_keywords"]
+    region_terms = region.get("wechat_region_terms", [region["name"], region["city"]])
+    exclude_terms = ["招聘", "相亲", "求职", "入学", "招生", "报名", "幼儿园"]
+
+    output_file = BASE_DIR / "data" / f"wechat_{region_id}.json"
+    cache = {} if refresh else load_cache(output_file)
     new_articles = 0
 
-    print(f"WeChat article search — {len(keywords)} keywords")
-    print(f"Cache: {len(cache)} existing articles\n")
+    print(f"WeChat article search — {region['name']} ({region['city']})")
+    print(f"  Keywords: {len(keywords)}")
+    print(f"  Region terms: {region_terms}")
+    print(f"  Output: {output_file}")
+    print(f"  Cache: {len(cache)} existing articles\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
@@ -212,7 +217,7 @@ async def main():
         for kw_idx, query in enumerate(keywords):
             print(f"[{kw_idx + 1}/{len(keywords)}] {query}")
 
-            results = await search_wechat(page, query)
+            results = await search_wechat(page, query, region_terms, exclude_terms)
             print(f"  Found {len(results)} results")
 
             for i, r in enumerate(results):
@@ -246,12 +251,16 @@ async def main():
                 print(f"    [{i}] {article['title'][:50]}... — {len(full['text'])} chars ✓")
 
             # Save incrementally after each keyword
-            save_cache(cache)
+            save_cache(cache, output_file)
 
         await browser.close()
 
     print(f"\nDone. {new_articles} new articles, {len(cache)} total in cache")
-    print(f"Saved to {OUTPUT_FILE}")
+    print(f"Saved to {output_file}")
+
+    # Also save to DB
+    if cache:
+        save_wechat_to_db(cache, region_id=region_id)
 
 
 if __name__ == "__main__":

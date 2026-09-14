@@ -1,62 +1,102 @@
 """Research phase: assemble structured research brief from DB data + local knowledge."""
 
+from __future__ import annotations
+
 import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from db.connection import get_db
-from config import REGION_ID, REGION_NAME, CITY_NAME, PROVINCE
+from config import get_region, DEFAULT_REGION
 
-DOUYIN_CACHE = None
+def _query_region_id(region_name: str | None = None) -> str | None:
+    """Map a Chinese region name back to its region_id for DB filtering."""
+    if not region_name:
+        return None
+    from config import REGIONS
+    for rid, rcfg in REGIONS.items():
+        if rcfg["name"] == region_name:
+            return rid
+    # Try direct match
+    if region_name in REGIONS:
+        return region_name
+    return None
 
 
-def _load_douyin() -> dict:
-    """Load cached Douyin content (lazy, cached in memory)."""
-    global DOUYIN_CACHE
-    if DOUYIN_CACHE is None:
-        path = Path(__file__).resolve().parent.parent / "data" / "douyin_content.json"
-        if path.exists():
-            try:
-                DOUYIN_CACHE = json.loads(path.read_text())
-            except (json.JSONDecodeError, KeyError):
-                DOUYIN_CACHE = {"results": [], "summary": {}}
+def _douyin_for_community(community_name: str, region_id: str | None = None) -> list[str]:
+    """Get Douyin snippets that mention a specific community, filtered by region."""
+    conn = get_db()
+    try:
+        if region_id:
+            rows = conn.execute(
+                "SELECT desc FROM douyin_local_content WHERE region_id = ? ORDER BY digg_count DESC",
+                (region_id,),
+            ).fetchall()
         else:
-            DOUYIN_CACHE = {"results": [], "summary": {}}
-    return DOUYIN_CACHE
+            rows = conn.execute(
+                "SELECT desc FROM douyin_local_content ORDER BY digg_count DESC"
+            ).fetchall()
+        snippets = []
+        for row in rows:
+            desc = row["desc"]
+            if community_name in desc:
+                snippet = desc[:120].strip()
+                if len(desc) > 120:
+                    snippet += "..."
+                snippets.append(snippet)
+        return snippets[:3]
+    finally:
+        conn.close()
 
 
-def _douyin_for_community(community_name: str) -> list[str]:
-    """Get Douyin snippets that mention a specific community."""
-    data = _load_douyin()
-    snippets = []
-    for item in data.get("results", []):
-        desc = item.get("desc", "")
-        if community_name in desc:
-            # Extract a clean snippet
-            snippet = desc[:120].strip()
-            if len(desc) > 120:
-                snippet += "..."
-            snippets.append(snippet)
-    return snippets[:3]  # Max 3 snippets
+def _douyin_summary(region_name: str | None = None, region_id: str | None = None) -> str:
+    """Build a summary of Douyin local voices, filtered by region."""
+    conn = get_db()
+    region_label = region_name or "本地"
 
+    try:
+        rid = region_id or _query_region_id(region_name)
+        if rid:
+            total = conn.execute(
+                "SELECT COUNT(*) as n FROM douyin_local_content WHERE region_id = ?", (rid,)
+            ).fetchone()["n"]
+            complaints = [
+                row["desc"][:100]
+                for row in conn.execute(
+                    "SELECT desc FROM douyin_local_content WHERE region_id = ? AND type = 'complaint' ORDER BY digg_count DESC LIMIT 5",
+                    (rid,),
+                ).fetchall()
+            ]
+            price_talks = [
+                row["desc"][:100]
+                for row in conn.execute(
+                    "SELECT desc FROM douyin_local_content WHERE region_id = ? AND type = 'price_talk' ORDER BY digg_count DESC LIMIT 5",
+                    (rid,),
+                ).fetchall()
+            ]
+        else:
+            total = conn.execute("SELECT COUNT(*) as n FROM douyin_local_content").fetchone()["n"]
+            complaints = [
+                row["desc"][:100]
+                for row in conn.execute(
+                    "SELECT desc FROM douyin_local_content WHERE type = 'complaint' ORDER BY digg_count DESC LIMIT 5"
+                ).fetchall()
+            ]
+            price_talks = [
+                row["desc"][:100]
+                for row in conn.execute(
+                    "SELECT desc FROM douyin_local_content WHERE type = 'price_talk' ORDER BY digg_count DESC LIMIT 5"
+                ).fetchall()
+            ]
+    finally:
+        conn.close()
 
-def _douyin_summary() -> str:
-    """Build a summary of Douyin local voices for the region brief."""
-    data = _load_douyin()
-    results = data.get("results", [])
-    if not results:
-        return "（暂无抖音本地数据，请运行 python3 data/fetch_douyin.py）"
+    if total == 0:
+        return f"（暂无抖音{region_label}数据，请运行 python3 data/fetch_douyin.py --region {rid or 'default'}）"
 
-    # Collect complaint snippets
-    complaints = [r["desc"][:100] for r in results if r.get("type") == "complaint"][:5]
-
-    # Collect price talk
-    price_talks = [r["desc"][:100] for r in results if r.get("type") == "price_talk"][:5]
-
-    # Top community mentions from cross-referenced DB
     summary_lines = [
-        f"共采集{len(results)}条杨凌本地房产相关内容。",
+        f"共采集{total}条{region_label}房产相关内容。",
     ]
     if complaints:
         summary_lines.append(f"\n本地吐槽/避坑 ({len(complaints)}条):")
@@ -67,11 +107,10 @@ def _douyin_summary() -> str:
         for p in price_talks:
             summary_lines.append(f"  - {p}")
 
-    summary_lines.append(f"\n热门本地中介账号：李优秀｜杨凌锦恒房产、杨凌悦安巢二手房翟翟、杨凌瑞雪探房")
     return "\n".join(summary_lines)
 
 
-def assemble_community_brief(community_id: str) -> str:
+def assemble_community_brief(community_id: str, region_id: str | None = None) -> str:
     """Build research brief for Track A (community tour)."""
     conn = get_db()
 
@@ -89,6 +128,13 @@ def assemble_community_brief(community_id: str) -> str:
         (community_id,),
     ).fetchall()
     conn.close()
+
+    # Resolve region context
+    resolved_region_id = region_id or comm.get("region_id") or DEFAULT_REGION
+    r = get_region(resolved_region_id)
+    region_name = r["name"]
+    city_name = r["city"]
+    province = r["province"]
 
     # Group POIs
     poi_map: dict[str, list] = {}
@@ -173,16 +219,14 @@ def assemble_community_brief(community_id: str) -> str:
         fmt_poi("公园", "公园"),
         "",
         "## 区域背景",
-        f"- {REGION_NAME}，{PROVINCE}省{CITY_NAME}市",
-        f"- 国家级杨凌农业高新技术产业示范区",
-        f"- 核心人群：西北农林科技大学教职工、示范区公务员、农业企业人员",
-        f"- 交通特点：无地铁，依赖公交+驾车，陇海铁路杨陵站、G30连霍高速杨凌出口",
+        f"- {region_name}，{province}{'省' if province != city_name else '市'}{city_name if province != city_name else ''}",
+        f"- 详细区域背景请参考城市底色文档：output/{r['id']}_brief.md",
         "",
         "## 本地声音（抖音）",
     ]
 
     # Douyin snippets for this community
-    douyin_snippets = _douyin_for_community(comm["name"])
+    douyin_snippets = _douyin_for_community(comm["name"], region_id=resolved_region_id)
     if douyin_snippets:
         for ds in douyin_snippets:
             lines.append(f"- {ds}")
@@ -198,13 +242,20 @@ def assemble_community_brief(community_id: str) -> str:
     return "\n".join(lines)
 
 
-def assemble_region_brief() -> str:
+def assemble_region_brief(region_id: str | None = None) -> str:
     """Build research brief for Track B (region commentary)."""
+    r = get_region(region_id)
+    region_name = r["name"]
+    city_name = r["city"]
+    province = r["province"]
+    resolved_id = r["id"]
+
     conn = get_db()
 
-    # Only use communities with real Anjuke data
+    # Only use communities with real Anjuke data, filtered by region
     communities = conn.execute(
-        "SELECT name, avg_price, listing_count FROM communities WHERE avg_price IS NOT NULL OR listing_count IS NOT NULL"
+        "SELECT name, avg_price, listing_count FROM communities WHERE (avg_price IS NOT NULL OR listing_count IS NOT NULL) AND region_id = ?",
+        (resolved_id,)
     ).fetchall()
 
     # Aggregate stats
@@ -213,8 +264,8 @@ def assemble_region_brief() -> str:
     avg_price_str = f"约{sum(prices)/len(prices):.0f}元/平" if prices else "暂无数据（需安居客补充）"
     total_listings_str = str(sum(listings)) if listings else "暂无数据"
 
-    # Total communities (including Gaode-only ones for area context)
-    total_all = conn.execute("SELECT COUNT(*) as n FROM communities").fetchone()["n"]
+    # Total communities in this region
+    total_all = conn.execute("SELECT COUNT(*) as n FROM communities WHERE region_id = ?", (resolved_id,)).fetchone()["n"]
     conn.close()
 
     comm_list = "\n".join(
@@ -223,14 +274,11 @@ def assemble_region_brief() -> str:
     )
 
     lines = [
-        f"# 研究简报：{REGION_NAME}区域分析",
+        f"# 研究简报：{region_name}区域分析",
         "",
         "## 区域概况",
-        f"- 归属：{PROVINCE}省{CITY_NAME}市{REGION_NAME}",
-        f"- 特殊身份：国家级杨凌农业高新技术产业示范区",
-        f"- 核心产业：农业科技、生物育种、高等教育",
-        f"- 核心雇主：西北农林科技大学、杨凌示范区管委会、农业科技企业",
-        f"- 交通：无地铁，依赖公交+驾车，陇海铁路杨陵站，G30连霍高速",
+        f"- 归属：{province}{'省' if province != city_name else '市'}{city_name if province != city_name else ''}{region_name}",
+        f"- 区域背景请参考城市底色文档：output/{resolved_id}_brief.md",
         "",
         "## 市场数据",
         f"- 区域均价：{avg_price_str}（{len(communities)}个有数据小区样本，共{total_all}个小区）",
@@ -240,28 +288,13 @@ def assemble_region_brief() -> str:
         comm_list or "（暂无有价格的房源数据，请先运行安居客爬虫）",
         "",
         "## 购房人群画像",
-        "- 西农大教职工（青年教师首套、教授改善）",
-        "- 示范区公务员/事业单位（稳定收入，偏好单位附近）",
-        "- 农业企业员工（预算有限，看重性价比）",
-        "- 外地来杨凌务工/经商（低总价门槛）",
-        "- 学生家长（陪读需求，租房为主）",
+        "（请参考该区域的城市底色事实库获取当地购房人群画像）",
         "",
-        "## 区域优势",
-        "- 农科城独特定位，政策稳定性强",
-        "- 西农大带来稳定人口和消费力",
-        "- 总价门槛低（相比咸阳市区和西安）",
-        "- 自贸片区政策利好",
-        "- 生态环境好，宜居",
-        "",
-        "## 区域短板",
-        "- 距西安主城区较远（约80公里，驾车1.5小时）",
-        "- 城市配套弱（无大型商业综合体、无地铁）",
-        "- 优质学区集中在西农大附属学校",
-        "- 产业单一，人口增长有限",
-        "- 房价增值空间有限",
+        "## 区域特点",
+        "（请参考城市底色事实库和商圈brief文档获取区域优势与短板）",
         "",
         "## 本地声音（抖音）",
-        _douyin_summary(),
+        _douyin_summary(region_name, region_id=resolved_id),
         "",
         "---",
         f"数据来源：安居客+高德+抖音，{len(communities)}个有价格小区，共{total_all}个小区",

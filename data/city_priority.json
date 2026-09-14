@@ -1,0 +1,70 @@
+{
+  "description": "全国城市爬取优先级 — 按房产交易额(GTV)分级，参考2025中国城市商业魅力排行榜+贝壳研究院数据",
+  "updated": "2026-07-27",
+  "tiers": {
+    "T1_一线": {
+      "priority": 1,
+      "description": "全国房产交易额前4，必须完整覆盖",
+      "cities": [
+        {"slug": "shanghai", "name": "上海", "anjuke_domain": "shanghai.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "beijing", "name": "北京", "anjuke_domain": "beijing.anjuke.com", "status": "🔄 即将完成"},
+        {"slug": "shenzhen", "name": "深圳", "anjuke_domain": "shenzhen.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "guangzhou", "name": "广州", "anjuke_domain": "guangzhou.anjuke.com", "status": "⬜ 待爬"}
+      ]
+    },
+    "T2_新一线": {
+      "priority": 2,
+      "description": "房产交易活跃，GTV 3000-6000亿",
+      "cities": [
+        {"slug": "chengdu", "name": "成都", "anjuke_domain": "chengdu.anjuke.com", "status": "✅ 已完成(CubeMini)"},
+        {"slug": "hangzhou", "name": "杭州", "anjuke_domain": "hangzhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "chongqing", "name": "重庆", "anjuke_domain": "chongqing.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "wuhan", "name": "武汉", "anjuke_domain": "wuhan.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "suzhou", "name": "苏州", "anjuke_domain": "suzhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "xa", "name": "西安", "anjuke_domain": "xa.anjuke.com", "status": "🔄 部分完成(8/21区)"},
+        {"slug": "nanjing", "name": "南京", "anjuke_domain": "nanjing.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "changsha", "name": "长沙", "anjuke_domain": "changsha.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "tianjin", "name": "天津", "anjuke_domain": "tianjin.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "zhengzhou", "name": "郑州", "anjuke_domain": "zhengzhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "dongguan", "name": "东莞", "anjuke_domain": "dongguan.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "qingdao", "name": "青岛", "anjuke_domain": "qingdao.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "hefei", "name": "合肥", "anjuke_domain": "hefei.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "foshan", "name": "佛山", "anjuke_domain": "foshan.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "ningbo", "name": "宁波", "anjuke_domain": "ningbo.anjuke.com", "status": "⬜ 待爬"}
+      ]
+    },
+    "T3_二线": {
+      "priority": 3,
+      "description": "区域中心城市，GTV 1000-3000亿",
+      "cities": [
+        {"slug": "kunming", "name": "昆明", "anjuke_domain": "kunming.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "fuzhou", "name": "福州", "anjuke_domain": "fuzhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "wuxi", "name": "无锡", "anjuke_domain": "wuxi.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "xiamen", "name": "厦门", "anjuke_domain": "xiamen.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "jinan", "name": "济南", "anjuke_domain": "jinan.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "dalian", "name": "大连", "anjuke_domain": "dalian.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "wenzhou", "name": "温州", "anjuke_domain": "wenzhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "nanning", "name": "南宁", "anjuke_domain": "nanning.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "guiyang", "name": "贵阳", "anjuke_domain": "guiyang.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "taiyuan", "name": "太原", "anjuke_domain": "taiyuan.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "nanchang", "name": "南昌", "anjuke_domain": "nanchang.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "haikou", "name": "海口", "anjuke_domain": "haikou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "shenyang", "name": "沈阳", "anjuke_domain": "shenyang.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "zhuhai", "name": "珠海", "anjuke_domain": "zhuhai.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "zhongshan", "name": "中山", "anjuke_domain": "zhongshan.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "huizhou", "name": "惠州", "anjuke_domain": "huizhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "changzhou", "name": "常州", "anjuke_domain": "changzhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "nantong", "name": "南通", "anjuke_domain": "nantong.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "yangzhou", "name": "扬州", "anjuke_domain": "yangzhou.anjuke.com", "status": "⬜ 待爬"},
+        {"slug": "jiaxing", "name": "嘉兴", "anjuke_domain": "jiaxing.anjuke.com", "status": "⬜ 待爬"}
+      ]
+    }
+  },
+  "stats": {
+    "total_cities": 39,
+    "completed": 1,
+    "in_progress": 2,
+    "pending": 36
+  },
+  "next_up": ["shanghai_pudong", "shenzhen", "guangzhou", "hangzhou", "chongqing"]
+}

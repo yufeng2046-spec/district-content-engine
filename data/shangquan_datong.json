@@ -1,0 +1,211 @@
+{
+  "city": "datong",
+  "base_url": "https://datong.anjuke.com/community/",
+  "districts": {
+    "平城": {
+      "url": "https://datong.anjuke.com/community/pingcheng/",
+      "slug": "pingcheng",
+      "shangquan": [
+        {
+          "name": "大庆路",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-daqingludt/"
+        },
+        {
+          "name": "大润发",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-darunfadt/"
+        },
+        {
+          "name": "大西街",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-daxijiedt/"
+        },
+        {
+          "name": "东信",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-dongxindt/"
+        },
+        {
+          "name": "仿古街",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-fgjdtpcq/"
+        },
+        {
+          "name": "方特",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-fangteaaa/"
+        },
+        {
+          "name": "火车站",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-huochezhandt/"
+        },
+        {
+          "name": "金牛",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-jinniudt/"
+        },
+        {
+          "name": "柳港园",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-liugangyuandt/"
+        },
+        {
+          "name": "南三环",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-nansanhuandt/"
+        },
+        {
+          "name": "三医院",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-sanyiyuan/"
+        },
+        {
+          "name": "生态园北区",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-shengtaiyuandt/"
+        },
+        {
+          "name": "生态园南区",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-shengtaiyuannanquaaa/"
+        },
+        {
+          "name": "万达",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-wandadt/"
+        },
+        {
+          "name": "文瀛湖",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-wenyinghuaaa/"
+        },
+        {
+          "name": "沃尔玛",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-woermadt/"
+        },
+        {
+          "name": "五岔路口",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-wuchalukoudt/"
+        },
+        {
+          "name": "五医院",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-wuyiyuandt/"
+        },
+        {
+          "name": "西环路",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-xihuanludt/"
+        },
+        {
+          "name": "迎宾街",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-yingbinjiedt/"
+        },
+        {
+          "name": "站东",
+          "url": "https://datong.anjuke.com/community/pingcheng-q-zhandongdt/"
+        }
+      ]
+    },
+    "云冈": {
+      "url": "https://datong.anjuke.com/community/yunganga/",
+      "slug": "yunganga",
+      "shangquan": [
+        {
+          "name": "恒安新区",
+          "url": "https://datong.anjuke.com/community/yunganga-q-henganxinqudt/"
+        },
+        {
+          "name": "矿务局",
+          "url": "https://datong.anjuke.com/community/yunganga-q-kuangwujudt/"
+        },
+        {
+          "name": "鹏程广场",
+          "url": "https://datong.anjuke.com/community/yunganga-q-pengchengguangchangaaa/"
+        },
+        {
+          "name": "泉武街",
+          "url": "https://datong.anjuke.com/community/yunganga-q-qwjdtygq/"
+        },
+        {
+          "name": "泉武商厦",
+          "url": "https://datong.anjuke.com/community/yunganga-q-qwsxdtnj/"
+        },
+        {
+          "name": "吾悦广场",
+          "url": "https://datong.anjuke.com/community/yunganga-q-wuyueguangchangaaa/"
+        }
+      ]
+    },
+    "云州": {
+      "url": "https://datong.anjuke.com/community/yunzhoud/",
+      "slug": "yunzhoud",
+      "shangquan": [
+        {
+          "name": "昊阳南路",
+          "url": "https://datong.anjuke.com/community/yunzhoud-q-ynldtdt/"
+        },
+        {
+          "name": "同泉路",
+          "url": "https://datong.anjuke.com/community/yunzhoud-q-tqldtyzq/"
+        }
+      ]
+    },
+    "阳高": {
+      "url": "https://datong.anjuke.com/community/yanggao/",
+      "slug": "yanggao",
+      "shangquan": [
+        {
+          "name": "云林路",
+          "url": "https://datong.anjuke.com/community/yanggao-q-ylldtygx/"
+        }
+      ]
+    },
+    "浑源": {
+      "url": "https://datong.anjuke.com/community/hunyuan/",
+      "slug": "hunyuan",
+      "shangquan": [
+        {
+          "name": "永安街",
+          "url": "https://datong.anjuke.com/community/hunyuan-q-yajdthyx/"
+        }
+      ]
+    },
+    "新荣": {
+      "url": "https://datong.anjuke.com/community/xinrong/",
+      "slug": "xinrong",
+      "shangquan": [
+        {
+          "name": "新世纪商厦",
+          "url": "https://datong.anjuke.com/community/xinrong-q-xsjsxdtxrq/"
+        }
+      ]
+    },
+    "灵丘": {
+      "url": "https://datong.anjuke.com/community/lingqiu/",
+      "slug": "lingqiu",
+      "shangquan": [
+        {
+          "name": "新华街",
+          "url": "https://datong.anjuke.com/community/lingqiu-q-xhjdtlqx/"
+        }
+      ]
+    },
+    "天镇": {
+      "url": "https://datong.anjuke.com/community/tianzhen/",
+      "slug": "tianzhen",
+      "shangquan": [
+        {
+          "name": "西大街",
+          "url": "https://datong.anjuke.com/community/tianzhen-q-xdjdttzx/"
+        }
+      ]
+    },
+    "左云": {
+      "url": "https://datong.anjuke.com/community/zuoyun/",
+      "slug": "zuoyun",
+      "shangquan": [
+        {
+          "name": "云新大街",
+          "url": "https://datong.anjuke.com/community/zuoyun-q-yxdjdtzyx/"
+        }
+      ]
+    },
+    "广灵": {
+      "url": "https://datong.anjuke.com/community/guangling/",
+      "slug": "guangling",
+      "shangquan": [
+        {
+          "name": "延陵路",
+          "url": "https://datong.anjuke.com/community/guangling-q-ylldtglx/"
+        }
+      ]
+    }
+  },
+  "city_name": "大同"
+}

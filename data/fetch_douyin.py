@@ -1,11 +1,11 @@
 """
-Fetch Yangling-related real estate content from Douyin search API.
+Fetch local real estate content from Douyin search API.
 Extracts local voices: what locals are saying, complaints, price sentiment, community mentions.
 
 Usage:
-    PYTHONPATH=. python3 data/fetch_douyin.py              # search all 8 keywords
-    PYTHONPATH=. python3 data/fetch_douyin.py --max 3      # search first 3 keywords
-    PYTHONPATH=. python3 data/fetch_douyin.py --refresh    # force re-fetch (ignore cache)
+    PYTHONPATH=. python3 data/fetch_douyin.py --region yangling  # search region keywords
+    PYTHONPATH=. python3 data/fetch_douyin.py --region beijing_haidian --max 3
+    PYTHONPATH=. python3 data/fetch_douyin.py --region yangling --refresh
 """
 
 import asyncio
@@ -19,7 +19,9 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import DOUYIN_KEYWORDS, USER_AGENT, REGION_NAME
+from config import get_region, USER_AGENT, DEFAULT_REGION
+from db.connection import get_db
+from db.schema import create_tables
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = BASE_DIR / "data" / "douyin_content.json"
@@ -102,9 +104,9 @@ def classify_content(desc: str) -> str:
 def extract_mentions(desc: str) -> list[str]:
     """Extract community names mentioned in description."""
     patterns = [
-        r'(?:杨凌|杨陵)?([一-鿿]{2,4}(?:小区|苑|园|城|庭|居|府|庄|寓|邸|郡|堡))',
-        r'(?:杨凌|杨陵)?([一-鿿]{2,3}(?:花园|华庭|家园|新城|新村|国际|广场|山庄|雅苑|名都|华府|景苑|嘉苑|名邸))',
-        r'(?:杨凌|杨陵)?([一-鿿]{2,6}(?:和府|华庭|华城|景城|星城|学府|公馆|墅|湾|筑|境))',
+        r'([一-鿿]{2,4}(?:小区|苑|园|城|庭|居|府|庄|寓|邸|郡|堡))',
+        r'([一-鿿]{2,3}(?:花园|华庭|家园|新城|新村|国际|广场|山庄|雅苑|名都|华府|景苑|嘉苑|名邸))',
+        r'([一-鿿]{2,6}(?:和府|华庭|华城|景城|星城|学府|公馆|墅|湾|筑|境))',
         r'([一-鿿]{3,4}(?:名城|新都|花城|世纪城|锦城|尚都|豪庭|雅居|香郡|水岸|湖畔|绿洲|春居))',
     ]
     mentions = set()
@@ -191,7 +193,7 @@ async def fetch_keywords(keywords: list[str], headless: bool = True) -> list[dic
     return all_results
 
 
-def save_results(results: list[dict]) -> dict:
+def save_results(results: list[dict], region_name: str, keywords_count: int) -> dict:
     """Save to JSON and return summary stats."""
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
@@ -204,11 +206,11 @@ def save_results(results: list[dict]) -> dict:
 
     summary = {
         "total_results": len(results),
-        "keywords_searched": len(DOUYIN_KEYWORDS),
+        "keywords_searched": keywords_count,
         "type_breakdown": type_counts,
         "communities_mentioned": sorted(all_communities),
         "fetched_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "region": REGION_NAME,
+        "region": region_name,
     }
 
     output = {
@@ -219,6 +221,40 @@ def save_results(results: list[dict]) -> dict:
     OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(results)} results to {OUTPUT_FILE}")
     return summary
+
+
+def save_to_db(results: list[dict], region_id: str) -> int:
+    """Write Douyin results to douyin_local_content table."""
+    create_tables()
+    conn = get_db()
+    saved = 0
+    for item in results:
+        communities = item.get("communities_mentioned", [])
+        community_name = ", ".join(communities) if isinstance(communities, list) else str(communities)
+        try:
+            conn.execute(
+                """INSERT OR IGNORE INTO douyin_local_content
+                   (region_id, community_name, desc, author, type, digg_count, comment_count, keyword, fetched_at)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                (
+                    region_id,
+                    community_name,
+                    item.get("desc", ""),
+                    item.get("author", ""),
+                    item.get("type", "general"),
+                    int(item.get("digg_count", 0)),
+                    int(item.get("comment_count", 0)),
+                    item.get("keyword", ""),
+                    item.get("fetched_at", datetime.now().strftime("%Y-%m-%d %H:%M:%S")),
+                ),
+            )
+            saved += 1
+        except Exception as e:
+            print(f"  DB save error: {e}")
+    conn.commit()
+    conn.close()
+    print(f"  DB: {saved}/{len(results)} records saved to douyin_local_content")
+    return saved
 
 
 def load_cached():
@@ -233,13 +269,16 @@ def load_cached():
 
 def main():
     args = sys.argv[1:]
-    max_keywords = len(DOUYIN_KEYWORDS)
+    region_id = DEFAULT_REGION
+    max_keywords = 0  # 0 = all keywords from config
     force_refresh = False
     show_browser = False
 
     i = 0
     while i < len(args):
-        if args[i] == "--max" and i + 1 < len(args):
+        if args[i] == "--region" and i + 1 < len(args):
+            region_id = args[i + 1]; i += 2
+        elif args[i] == "--max" and i + 1 < len(args):
             max_keywords = int(args[i + 1]); i += 2
         elif args[i] == "--refresh":
             force_refresh = True; i += 1
@@ -247,6 +286,12 @@ def main():
             show_browser = True; i += 1
         else:
             i += 1
+
+    region = get_region(region_id)
+    region_name = region["name"]
+    keywords = region["douyin_keywords"]
+    if max_keywords > 0:
+        keywords = keywords[:max_keywords]
 
     if not force_refresh:
         cached = load_cached()
@@ -258,8 +303,7 @@ def main():
             print(f"  Use --refresh to re-fetch.")
             return
 
-    keywords = DOUYIN_KEYWORDS[:max_keywords]
-    print(f"Douyin Local Content Fetcher — {REGION_NAME}")
+    print(f"Douyin Local Content Fetcher — {region_name}")
     print(f"  Keywords: {len(keywords)}")
     print(f"  Output: {OUTPUT_FILE}")
     print()
@@ -269,7 +313,8 @@ def main():
         print("\nNo results fetched.")
         return
 
-    summary = save_results(results)
+    summary = save_results(results, region_name=region_name, keywords_count=len(region["douyin_keywords"]))
+    save_to_db(results, region_id=region_id)
     print(f"\nSummary:")
     print(f"  Total results: {summary['total_results']}")
     print(f"  Types: {summary['type_breakdown']}")

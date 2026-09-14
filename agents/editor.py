@@ -6,15 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from agents.llm import chat
-
-PROMPT_DIR = Path(__file__).resolve().parent.parent / "prompts"
-
-
-def load_prompt(name: str) -> str:
-    path = PROMPT_DIR / name
-    if path.exists():
-        return path.read_text(encoding="utf-8")
-    return ""
+from agents.prompts import load_prompt
 
 
 def edit(script: str, research_brief: str) -> str:

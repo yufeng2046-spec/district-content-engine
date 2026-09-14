@@ -1,0 +1,698 @@
+{
+  "city": "shenzhen",
+  "city_name": "深圳",
+  "districts": {
+    "baoan": {
+      "name": "宝安",
+      "shangquan": [
+        {
+          "name": "宝安",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-baoanlu/"
+        },
+        {
+          "name": "宝安机场",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-bajcs/"
+        },
+        {
+          "name": "宝安中心区",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-baoanzhongxinquba/"
+        },
+        {
+          "name": "宝安周边",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-baoanzhoubian/"
+        },
+        {
+          "name": "宝华",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-baohuasz/"
+        },
+        {
+          "name": "宝体",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-baotisz/"
+        },
+        {
+          "name": "碧海湾",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-bhwsz/"
+        },
+        {
+          "name": "碧头",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-btsz/"
+        },
+        {
+          "name": "翻身路",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-fanshenlu/"
+        },
+        {
+          "name": "福永",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-fuyong/"
+        },
+        {
+          "name": "港隆城",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-glcsz/"
+        },
+        {
+          "name": "固戍",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-gss/"
+        },
+        {
+          "name": "后瑞",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-houruisz/"
+        },
+        {
+          "name": "后亭",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-htsz/"
+        },
+        {
+          "name": "领航城",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-lhcs/"
+        },
+        {
+          "name": "流塘",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-ltszs/"
+        },
+        {
+          "name": "马安山",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-massz/"
+        },
+        {
+          "name": "坪洲",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-pzsz/"
+        },
+        {
+          "name": "桥头",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-qiaots/"
+        },
+        {
+          "name": "沙井",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-shajing/"
+        },
+        {
+          "name": "石岩",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-shiyansz/"
+        },
+        {
+          "name": "松岗",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-songgang/"
+        },
+        {
+          "name": "塘尾",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-twsz/"
+        },
+        {
+          "name": "桃源居",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-taoyuanju/"
+        },
+        {
+          "name": "新安",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-xinanlu/"
+        },
+        {
+          "name": "西乡",
+          "url": "https://shenzhen.anjuke.com/community/baoan-q-xixiangsz/"
+        }
+      ]
+    },
+    "nanshan": {
+      "name": "南山",
+      "shangquan": [
+        {
+          "name": "白石洲",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-baishizhou/"
+        },
+        {
+          "name": "大冲",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-dachong/"
+        },
+        {
+          "name": "大学城",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-nszxqsz/"
+        },
+        {
+          "name": "海岸城",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-nanshanzhoubian/"
+        },
+        {
+          "name": "海上世界",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-haishangshijie/"
+        },
+        {
+          "name": "后海",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-houhai/"
+        },
+        {
+          "name": "华侨城",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-huaqiaocheng/"
+        },
+        {
+          "name": "科技园",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-kejiyuan/"
+        },
+        {
+          "name": "科苑",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-shendabeimen/"
+        },
+        {
+          "name": "南山医院",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-nanshanyiyuan/"
+        },
+        {
+          "name": "南山中心区",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-szzhongxinqu/"
+        },
+        {
+          "name": "南头",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-nantou/"
+        },
+        {
+          "name": "南油",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-nanyou/"
+        },
+        {
+          "name": "前海",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-qianhai/"
+        },
+        {
+          "name": "蛇口",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-shekou/"
+        },
+        {
+          "name": "深圳湾",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-shenzw/"
+        },
+        {
+          "name": "桃园",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-nanxinlukou/"
+        },
+        {
+          "name": "桃源村",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-taoyuancun/"
+        },
+        {
+          "name": "西丽",
+          "url": "https://shenzhen.anjuke.com/community/nanshan-q-xililu/"
+        }
+      ]
+    },
+    "longhuaq": {
+      "name": "龙华",
+      "shangquan": [
+        {
+          "name": "大浪",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-szdl/"
+        },
+        {
+          "name": "观澜",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-guanlansz/"
+        },
+        {
+          "name": "金地梅陇镇",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-szjdmlz/"
+        },
+        {
+          "name": "锦绣江南",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-szjxjn/"
+        },
+        {
+          "name": "莱蒙水榭春天",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-szlmsxct/"
+        },
+        {
+          "name": "龙华",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-longhua/"
+        },
+        {
+          "name": "龙华区政府",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-lhqzfsz/"
+        },
+        {
+          "name": "龙华中心区",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-szlhzxq/"
+        },
+        {
+          "name": "龙华周边",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-szlhzb/"
+        },
+        {
+          "name": "梅林关口",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-meilinguankou/"
+        },
+        {
+          "name": "民治",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-minzhi/"
+        },
+        {
+          "name": "清湖",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-qhsz/"
+        },
+        {
+          "name": "深圳北站",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-szszbz/"
+        },
+        {
+          "name": "油松",
+          "url": "https://shenzhen.anjuke.com/community/longhuaq-q-yss/"
+        }
+      ]
+    },
+    "futian": {
+      "name": "福田",
+      "shangquan": [
+        {
+          "name": "八卦岭",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-bagualing/"
+        },
+        {
+          "name": "百花",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-baihuaft/"
+        },
+        {
+          "name": "保税区",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-baoshuiqu/"
+        },
+        {
+          "name": "笔架山",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-bijiashan/"
+        },
+        {
+          "name": "彩田村",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-caitiancun/"
+        },
+        {
+          "name": "车公庙",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-chegongmiao/"
+        },
+        {
+          "name": "赤尾",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-chiwei/"
+        },
+        {
+          "name": "福华新村",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-fuhuaxincun/"
+        },
+        {
+          "name": "福民新村",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-fuminxincun/"
+        },
+        {
+          "name": "福田口岸",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-futianzhoubian/"
+        },
+        {
+          "name": "福田区委",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-futianquwei/"
+        },
+        {
+          "name": "福田中心区",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-ftzxsz/"
+        },
+        {
+          "name": "岗厦",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-gangxia/"
+        },
+        {
+          "name": "购物公园",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-gouwugongyuan/"
+        },
+        {
+          "name": "皇岗",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-huanggang/"
+        },
+        {
+          "name": "华强北",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-huaqiang/"
+        },
+        {
+          "name": "华强南",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-huaqiangnan/"
+        },
+        {
+          "name": "景田北",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-jingtian/"
+        },
+        {
+          "name": "景田南",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-jtnsz/"
+        },
+        {
+          "name": "莲花北",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-lianhuabeicun/"
+        },
+        {
+          "name": "莲花村",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-lianhuasancun/"
+        },
+        {
+          "name": "荔枝公园",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-lizhigongyuan/"
+        },
+        {
+          "name": "农科中心",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-nkzxsz/"
+        },
+        {
+          "name": "上步",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-shangbu/"
+        },
+        {
+          "name": "上梅林",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-meilin/"
+        },
+        {
+          "name": "上沙",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-shangsha/"
+        },
+        {
+          "name": "沙尾",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-shawei/"
+        },
+        {
+          "name": "沙嘴",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-shazui/"
+        },
+        {
+          "name": "石厦",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-shixia/"
+        },
+        {
+          "name": "下梅林",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-xiameilin/"
+        },
+        {
+          "name": "香蜜湖",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-xiangmihu/"
+        },
+        {
+          "name": "下沙",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-xiasha/"
+        },
+        {
+          "name": "新洲",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-szxinzhou/"
+        },
+        {
+          "name": "益田村",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-yitiancun/"
+        },
+        {
+          "name": "园岭",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-yuanlingdb/"
+        },
+        {
+          "name": "竹子林",
+          "url": "https://shenzhen.anjuke.com/community/futian-q-zhuzilin/"
+        }
+      ]
+    },
+    "longgang": {
+      "name": "龙岗",
+      "shangquan": [
+        {
+          "name": "爱联",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-ailiansz/"
+        },
+        {
+          "name": "坂田",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-bantianq/"
+        },
+        {
+          "name": "宝龙",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-baolongabc/"
+        },
+        {
+          "name": "大运",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-dayunxc/"
+        },
+        {
+          "name": "横岗",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-henggang/"
+        },
+        {
+          "name": "龙城国际",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-lcgjs/"
+        },
+        {
+          "name": "龙岗中心城",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-longgangzhongxincheng/"
+        },
+        {
+          "name": "龙岗周边",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-longgangzhoubian/"
+        },
+        {
+          "name": "南联",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-nls/"
+        },
+        {
+          "name": "坪地",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-pingdi/"
+        },
+        {
+          "name": "平湖",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-szpinghu/"
+        },
+        {
+          "name": "同乐",
+          "url": "https://shenzhen.anjuke.com/community/longgang-q-tongleabc/"
+        }
+      ]
+    },
+    "luohu": {
+      "name": "罗湖",
+      "shangquan": [
+        {
+          "name": "布心",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-buxin/"
+        },
+        {
+          "name": "蔡屋围",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-caiwuwei/"
+        },
+        {
+          "name": "草埔",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-caopu/"
+        },
+        {
+          "name": "翠竹",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-cuizhu/"
+        },
+        {
+          "name": "东湖",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-donghudb/"
+        },
+        {
+          "name": "东门",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-dongmen/"
+        },
+        {
+          "name": "国贸",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-guomaodb/"
+        },
+        {
+          "name": "红岗花园",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-hongganghuayuan/"
+        },
+        {
+          "name": "洪湖",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-honghudb/"
+        },
+        {
+          "name": "黄贝岭",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-huangbeiling/"
+        },
+        {
+          "name": "湖贝",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-luohuquwei/"
+        },
+        {
+          "name": "火车站",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-huochezhandb/"
+        },
+        {
+          "name": "莲塘",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-liantang/"
+        },
+        {
+          "name": "泥岗",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-nigang/"
+        },
+        {
+          "name": "清水河",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-qingshuihedb/"
+        },
+        {
+          "name": "人民南",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-renminnan/"
+        },
+        {
+          "name": "水贝",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-shuibei/"
+        },
+        {
+          "name": "水库",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-shuiku/"
+        },
+        {
+          "name": "笋岗",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-sungang/"
+        },
+        {
+          "name": "田贝",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-tianbei/"
+        },
+        {
+          "name": "文锦渡",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-wenjindu/"
+        },
+        {
+          "name": "银湖",
+          "url": "https://shenzhen.anjuke.com/community/luohu-q-yinhu/"
+        }
+      ]
+    },
+    "bujisz": {
+      "name": "布吉",
+      "shangquan": [
+        {
+          "name": "百鸽笼",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-keyuan/"
+        },
+        {
+          "name": "布吉关",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-bujiguan/"
+        },
+        {
+          "name": "布吉街",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-bujijie/"
+        },
+        {
+          "name": "长龙",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-longzhuhuayuan/"
+        },
+        {
+          "name": "大芬",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-dafencun/"
+        },
+        {
+          "name": "丹竹头",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-szshawan/"
+        },
+        {
+          "name": "康桥",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-kangqiaohuayuan/"
+        },
+        {
+          "name": "丽湖",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-szssj/"
+        },
+        {
+          "name": "李朗",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-szyyc/"
+        },
+        {
+          "name": "慢城",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-mancheng/"
+        },
+        {
+          "name": "木棉湾",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-szmmw/"
+        },
+        {
+          "name": "南岭",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-sznl/"
+        },
+        {
+          "name": "上水径",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-szzhyc/"
+        },
+        {
+          "name": "沙湾",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-swsz/"
+        },
+        {
+          "name": "下水径",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-szxsj/"
+        },
+        {
+          "name": "信义",
+          "url": "https://shenzhen.anjuke.com/community/bujisz-q-longzhy/"
+        }
+      ]
+    },
+    "guangmingx": {
+      "name": "光明",
+      "shangquan": [
+        {
+          "name": "公明",
+          "url": "https://shenzhen.anjuke.com/community/guangmingx-q-gongmingsz/"
+        },
+        {
+          "name": "光明",
+          "url": "https://shenzhen.anjuke.com/community/guangmingx-q-guangmingsz/"
+        }
+      ]
+    },
+    "pingshanq": {
+      "name": "坪山",
+      "shangquan": [
+        {
+          "name": "坑梓",
+          "url": "https://shenzhen.anjuke.com/community/pingshanq-q-kexin/"
+        },
+        {
+          "name": "坪山",
+          "url": "https://shenzhen.anjuke.com/community/pingshanq-q-pingsh/"
+        }
+      ]
+    },
+    "yantian": {
+      "name": "盐田",
+      "shangquan": [
+        {
+          "name": "大梅沙",
+          "url": "https://shenzhen.anjuke.com/community/yantian-q-meisha/"
+        },
+        {
+          "name": "沙头角",
+          "url": "https://shenzhen.anjuke.com/community/yantian-q-shatoujiao/"
+        },
+        {
+          "name": "小梅沙",
+          "url": "https://shenzhen.anjuke.com/community/yantian-q-xiaomeisha/"
+        },
+        {
+          "name": "盐田",
+          "url": "https://shenzhen.anjuke.com/community/yantian-q-yantiandb/"
+        }
+      ]
+    },
+    "dapengxinqu": {
+      "name": "大鹏新区",
+      "shangquan": [
+        {
+          "name": "大鹏",
+          "url": "https://shenzhen.anjuke.com/community/dapengxinqu-q-dapeng/"
+        },
+        {
+          "name": "葵涌",
+          "url": "https://shenzhen.anjuke.com/community/dapengxinqu-q-kuiyong/"
+        },
+        {
+          "name": "南澳",
+          "url": "https://shenzhen.anjuke.com/community/dapengxinqu-q-nan/"
+        }
+      ]
+    },
+    "shenzhenzhoubian": {
+      "name": "深圳周边",
+      "shangquan": [
+        {
+          "name": "东莞",
+          "url": "https://shenzhen.anjuke.com/community/shenzhenzhoubian-q-dongguanszzb/"
+        },
+        {
+          "name": "惠州",
+          "url": "https://shenzhen.anjuke.com/community/shenzhenzhoubian-q-huizhouszzb/"
+        }
+      ]
+    }
+  }
+}

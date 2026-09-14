@@ -781,6 +781,8 @@ async def scrape_listing(page, base_url: str, max_communities: int = 0, show_bro
         base_url = base_url + "/"
 
     consecutive_empty = 0
+    consecutive_dup = 0       # 连续 0 新增页 — 防"周边桶"翻页死循环(东莞桶曾翻到 92 页)
+    DUP_STOP = 12             # 连续 12 页全重复视为数据已穷尽, 停止分页
     for pg in range(1, 200):  # cap at 200 pages (5000 communities)
         url = base_url if pg == 1 else f"{base_url}p{pg}/"
         print(f"\n  Page {pg}: {url}")
@@ -805,6 +807,14 @@ async def scrape_listing(page, base_url: str, max_communities: int = 0, show_bro
                 seen_ids.add(cid)
                 all_communities.append(c)
                 new_count += 1
+
+        if new_count == 0:
+            consecutive_dup += 1
+            if consecutive_dup >= DUP_STOP:
+                print(f"  Page {pg}: {DUP_STOP} consecutive all-duplicate pages, stopping pagination")
+                break
+        else:
+            consecutive_dup = 0
 
         print(f"  Page {pg}: {new_count} new communities (running total: {len(all_communities)})")
 
@@ -1021,6 +1031,56 @@ async def scrape_all_shangquan(page, region_id: str, city_slug: str, district_na
     return (total_scraped, total_saved)
 
 
+def _parse_property_basic(full_text: str) -> dict:
+    """从详情页 innerText 解析同页基本信息 → property_basic_json 内容。
+
+    基本信息是连续文本: "物业类型 住宅权属类别 商品房住宅竣工时间 2016年、2017年..."
+    每个字段值取到下一个已知标签为止 (标签前允许换行/空格)。
+    原为 scrape_detail 内联, 2026-09-08 重构为独立函数供 --fix-json 复用。
+    """
+    _nxt = r"(?=\s*(?:物业类型|权属类别|竣工时间|产权年限|总户数|总建面积|容积率|绿化率|建筑类型|所属商圈|统一供暖|供水供电|停车位|停车费|车位管理费|物业费|物业公司|小区地址|开发商|小区问答|小区解读|$))"
+    basic_info = {}
+    _basic_pats = [
+        ("property_type",     r"物业类型\s*(.{1,8}?)"),
+        ("ownership",         r"权属类别\s*(.{1,16}?)"),
+        ("rights_years",      r"产权年限\s*(\d+)年"),
+        ("building_area",     r"总建面积\s*([\d.]+)㎡"),
+        ("heating",           r"统一供暖\s*([^\n]{1,5}?)"),
+        ("water_electric",    r"供水供电\s*([^\n]{1,10}?)"),
+        ("parking_fee",       r"停车费\s*([^\n]{1,40}?)"),
+        ("parking_mgmt_fee",  r"车位管理费\s*([^\n]{1,20}?)"),
+    ]
+    for key, pat in _basic_pats:
+        m = re.search(pat + _nxt, full_text)
+        if m and m.group(1).strip():
+            basic_info[key] = m.group(1).strip().rstrip("。，")
+    # 竣工时间: 可能多个年份 (2016年、2017年、2021年)
+    ym = re.search(r"竣工时间\s*([\d、\s年]+?)" + _nxt, full_text)
+    if ym:
+        years = re.findall(r"(\d{4})", ym.group(1))
+        if years:
+            basic_info["years_built"] = [int(y) for y in years]
+    return basic_info
+
+
+def _parse_interpretation(full_text: str) -> dict:
+    """从详情页 innerText 解析小区解读(经纪人写的分段评述) → content dict。
+
+    每段: "标题\n\n<一个段落>" (段落到空行为止, 不依赖后续是否为已知标签)。
+    原为 scrape_detail 内联, 2026-09-08 重构为独立函数供 --fix-json 复用。
+    """
+    interpretation = {}
+    for sec, key in [("轨道交通", "transport"), ("小区户型", "layout"),
+                     ("小区设施", "facilities"), ("生活配套", "life_support"),
+                     ("小区不足", "shortcomings")]:
+        m = re.search(re.escape(sec) + r"\s*\n\s*\n([\s\S]+?)(?=\n\s*\n|$)", full_text)
+        if m:
+            txt = re.sub(r"\s+", " ", m.group(1)).strip()
+            if txt and len(txt) < 600:
+                interpretation[key] = txt
+    return interpretation
+
+
 async def scrape_detail(page, community: dict, show_browser: bool = False) -> dict:
     """Scrape community detail page — full enrichment with amenities, trends, reviews."""
     url = community.get("url", "")
@@ -1173,45 +1233,11 @@ async def scrape_detail(page, community: dict, show_browser: bool = False) -> di
         else:
             result[key] = val
 
-    # ── 3. 同页基本信息补充 → property_basic_json ──
-    # 基本信息是连续文本: "物业类型 住宅权属类别 商品房住宅竣工时间 2016年、2017年..."
-    # 每个字段值取到下一个已知标签为止 (标签前允许换行/空格)
-    _nxt = r"(?=\s*(?:物业类型|权属类别|竣工时间|产权年限|总户数|总建面积|容积率|绿化率|建筑类型|所属商圈|统一供暖|供水供电|停车位|停车费|车位管理费|物业费|物业公司|小区地址|开发商|小区问答|小区解读|$))"
-    basic_info = {}
-    _basic_pats = [
-        ("property_type",     r"物业类型\s*(.{1,8}?)"),
-        ("ownership",         r"权属类别\s*(.{1,16}?)"),
-        ("rights_years",      r"产权年限\s*(\d+)年"),
-        ("building_area",     r"总建面积\s*([\d.]+)㎡"),
-        ("heating",           r"统一供暖\s*([^\n]{1,5}?)"),
-        ("water_electric",    r"供水供电\s*([^\n]{1,10}?)"),
-        ("parking_fee",       r"停车费\s*([^\n]{1,40}?)"),
-        ("parking_mgmt_fee",  r"车位管理费\s*([^\n]{1,20}?)"),
-    ]
-    for key, pat in _basic_pats:
-        m = re.search(pat + _nxt, full_text)
-        if m and m.group(1).strip():
-            basic_info[key] = m.group(1).strip().rstrip("。，")
-    # 竣工时间: 可能多个年份 (2016年、2017年、2021年)
-    ym = re.search(r"竣工时间\s*([\d、\s年]+?)" + _nxt, full_text)
-    if ym:
-        years = re.findall(r"(\d{4})", ym.group(1))
-        if years:
-            basic_info["years_built"] = [int(y) for y in years]
+    # ── 3+4. 同页基本信息 + 小区解读(重构为独立函数, 供 --fix-json 复用) ──
+    basic_info = _parse_property_basic(full_text)
     if basic_info:
         result["property_basic_json"] = json.dumps(basic_info, ensure_ascii=False)
-
-    # ── 4. 小区解读 → community_interpretation_json (经纪人写的分段评述) ──
-    # 每段: "标题\n\n<一个段落>" (段落到空行为止, 不依赖后续是否为已知标签)
-    interpretation = {}
-    for sec, key in [("轨道交通", "transport"), ("小区户型", "layout"),
-                     ("小区设施", "facilities"), ("生活配套", "life_support"),
-                     ("小区不足", "shortcomings")]:
-        m = re.search(re.escape(sec) + r"\s*\n\s*\n([\s\S]+?)(?=\n\s*\n|$)", full_text)
-        if m:
-            txt = re.sub(r"\s+", " ", m.group(1)).strip()
-            if txt and len(txt) < 600:
-                interpretation[key] = txt
+    interpretation = _parse_interpretation(full_text)
     if interpretation:
         result["community_interpretation_json"] = json.dumps(interpretation, ensure_ascii=False)
 
@@ -1222,10 +1248,22 @@ async def scrape_detail(page, community: dict, show_browser: bool = False) -> di
         # Try direct name match in shangquans table
         try:
             conn = get_db()
-            row = conn.execute(
-                "SELECT shangquan_id FROM shangquans WHERE name = ? LIMIT 1",
-                (sq_name,)
-            ).fetchone()
+            # 必须按城市限定 — 否则"光明"(深圳光明区)会匹配到北京顺义"光明"商圈,
+            # 造成跨城 shangquan_id (validate S1 跨城检查曾抓到 13 条)
+            _city = community.get("city_slug", "")
+            if _city:
+                row = conn.execute(
+                    """SELECT shangquan_id FROM shangquans
+                       WHERE name = ?
+                         AND substr(shangquan_id, 1, instr(shangquan_id, '_') - 1) = ?
+                       LIMIT 1""",
+                    (sq_name, _city)
+                ).fetchone()
+            else:
+                row = conn.execute(
+                    "SELECT shangquan_id FROM shangquans WHERE name = ? LIMIT 1",
+                    (sq_name,)
+                ).fetchone()
             conn.close()
             if row:
                 result["shangquan_id"] = row["shangquan_id"]
@@ -1307,6 +1345,201 @@ async def scrape_detail(page, community: dict, show_browser: bool = False) -> di
     print(f"    Fields: {fields_got}/16{coord_str}  Sale:{result.get('on_sale_count','-')} Rent:{result.get('on_rent_count','-')}")
 
     return result
+
+
+def _valid_name(name: str) -> bool:
+    """Sanity-check an extracted community name: 2-20 CJK-ish chars, not a page header."""
+    name = (name or "").strip()
+    if not name:
+        return False
+    if len(name) < 2 or len(name) > 20:
+        return False
+    if not re.search(r"[一-鿿]", name):
+        return False
+    if name in ("小区详情", "房产", "安居客", "首页", "二手房"):
+        return False
+    return True
+
+
+async def _extract_name(page) -> str:
+    """Extract community name from a loaded anjuke detail page.
+
+    Priority: h1 → og:title/<title> → breadcrumb. Returns "" if nothing passes
+    _valid_name. Used by --fix-names to recover names whose listing-page parse
+    failed (B3) without re-scraping the full detail.
+    """
+    try:
+        # 1. h1 — cleanest on anjuke detail pages
+        name = (await page.evaluate(
+            "() => document.querySelector('h1')?.textContent?.trim() || ''") or "").strip()
+        if not _valid_name(name):
+            name = ""
+        if not name:
+            # 2. og:title / <title>: "{name}小区详情_{name}二手房..." → 取第一段
+            t = (await page.evaluate("""() => {
+                const og = document.querySelector('meta[property="og:title"]');
+                return (og && og.getAttribute('content')) || document.title || '';
+            }""") or "").strip()
+            t = re.split(r"[|_｜\-—]", t)[0]
+            t = re.sub(r"(小区详情|小区怎么样|房价走势|二手房|怎么样|房价|详情).*$", "", t).strip()
+            if _valid_name(t):
+                name = t
+        if not name:
+            # 3. breadcrumb last segment
+            crumb = (await page.evaluate("""() => {
+                const els = document.querySelectorAll('.breadcrumb a, .crumb a, .location a');
+                return els.length ? els[els.length - 1].textContent.trim() : '';
+            }""") or "").strip()
+            if _valid_name(crumb):
+                name = crumb
+        return re.sub(r"\s+", "", name or "")
+    except Exception:
+        return ""
+
+
+async def scrape_names(page, communities: list[dict], show_browser: bool = False) -> int:
+    """Fix empty community names by visiting detail pages and extracting the name.
+
+    Only updates the `name` column — never touches existing detail data (avoids
+    the INSERT OR REPLACE data-loss risk on a captcha timeout).
+    """
+    fixed = 0
+    for c in communities:
+        url = c.get("url", "")
+        if not url:
+            print(f"    ⏭  {c['community_id']}: 无数字 anjuke ID，跳过")
+            continue
+        print(f"    Loading: {c['community_id']}")
+        _rate_limit()
+        try:
+            await page.goto(url, wait_until="networkidle", timeout=30000)
+        except Exception:
+            try:
+                await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            except Exception as e:
+                print(f"    Nav error: {e}")
+                continue
+        await _humanize(page, intensity=random.choice(["short", "medium", "short"]))
+
+        if await _has_captcha(page):
+            if not show_browser:
+                print(f"    🔒 Captcha (headless) — skipping")
+                save_cookies(await page.context.cookies())
+                continue
+            cleared = await _wait_for_human_captcha(page, c["community_id"], url, "detail",
+                                                    show_browser=show_browser)
+            if cleared:
+                try:
+                    await page.goto(url, wait_until="networkidle", timeout=30000)
+                    await page.wait_for_timeout(1500)
+                except Exception:
+                    pass
+            else:
+                print(f"    Captcha timeout — saving state and pausing")
+                save_cookies(await page.context.cookies())
+                try:
+                    await page.context.storage_state(path=str(get_state_file()))
+                except Exception:
+                    pass
+                continue
+
+        name = await _extract_name(page)
+        if name:
+            conn = get_db()
+            conn.execute("UPDATE communities SET name=? WHERE community_id=?",
+                         (name, c["community_id"]))
+            conn.commit()
+            conn.close()
+            print(f"    ✓ 名称恢复: {c['community_id']} → {name}")
+            fixed += 1
+        else:
+            print(f"    ✗ 未能提取名称: {c['community_id']}")
+    return fixed
+
+
+async def scrape_json(page, communities: list[dict], show_browser: bool = False) -> int:
+    """历史存量补 property_basic_json / community_interpretation_json (--fix-json)。
+
+    08-11 前旧代码爬的社区缺这两个字段, 需重访详情页解析。**只 UPDATE 这两列**,
+    绝不 INSERT OR REPLACE 整行 → 验证码超时也不会抹既有数据(与 --fix-names 同理)。
+    轻量: 不跑周边/趋势/评价等富解析, 只取 full_text 解 2 字段, 提速 ~2x。
+    """
+    fixed = 0
+    for c in communities:
+        url = c.get("url", "")
+        if not url:
+            print(f"    ⏭  {c['community_id']}: 无数字 anjuke ID，跳过")
+            continue
+        print(f"    Loading: {c['community_id']}")
+        _rate_limit()
+        try:
+            await page.goto(url, wait_until="networkidle", timeout=30000)
+        except Exception:
+            try:
+                await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            except Exception as e:
+                print(f"    Nav error: {e}")
+                continue
+        await _humanize(page, intensity=random.choice(["short", "medium", "short"]))
+
+        if await _has_captcha(page):
+            if not show_browser:
+                print(f"    🔒 Captcha (headless) — skipping")
+                save_cookies(await page.context.cookies())
+                continue
+            cleared = await _wait_for_human_captcha(page, c["community_id"], url, "detail",
+                                                    show_browser=show_browser)
+            if cleared:
+                try:
+                    await page.goto(url, wait_until="networkidle", timeout=30000)
+                    await page.wait_for_timeout(1500)
+                except Exception:
+                    pass
+            else:
+                print(f"    Captcha timeout — saving state and pausing")
+                save_cookies(await page.context.cookies())
+                try:
+                    await page.context.storage_state(path=str(get_state_file()))
+                except Exception:
+                    pass
+                continue
+
+        try:
+            full_text = await page.evaluate("() => document.body?.innerText || ''")
+        except Exception:
+            continue
+        updates = {}
+        basic = _parse_property_basic(full_text)
+        if basic:
+            updates["property_basic_json"] = json.dumps(basic, ensure_ascii=False)
+        interp = _parse_interpretation(full_text)
+        if interp:
+            updates["community_interpretation_json"] = json.dumps(interp, ensure_ascii=False)
+
+        if updates:
+            sets = ", ".join(f"{k}=?" for k in updates)
+            conn = get_db()
+            conn.execute(
+                f"UPDATE communities SET {sets} WHERE community_id=?",
+                (*updates.values(), c["community_id"]),
+            )
+            conn.commit()
+            conn.close()
+            fixed += 1
+            print(f"    ✓ JSON 回填: {c['community_id']}"
+                  f" (basic={'✓' if 'property_basic_json' in updates else '✗'}"
+                  f" interp={'✓' if 'community_interpretation_json' in updates else '✗'})")
+        else:
+            print(f"    ✗ 两字段均未解析出: {c['community_id']}")
+            # 记录"页面本就无 property_basic/interpretation"(新房项目页/自建房无二手房信息表),
+            # 供 loader 排除 → 避免 remaining 永不为 0 导致链式脚本空转
+            try:
+                _ND = BASE_DIR / "data" / "json_no_data.txt"
+                with open(_ND, "a", encoding="utf-8") as _f:
+                    _f.write(c["community_id"] + "\n")
+            except Exception:
+                pass
+    return fixed
 
 
 async def _scrape_surrounding(page, full_text: str = "") -> dict:
@@ -1580,6 +1813,9 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
     conn = get_db()
     saved = 0
     updated = 0
+    # Deterministic per region — compute once. Used as fallback so INSERT OR REPLACE
+    # never wipes geo metadata (city_id/province_id) on re-crawl.
+    _city_id_default, _prov_id_default = _resolve_city_prov(region_id, conn)
     for c in communities:
         # Preserve original community_id if available, otherwise construct one
         cid = c.get("community_id", "")
@@ -1629,6 +1865,16 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
                     )
                     saved += 1
             else:
+                # INSERT OR REPLACE wipes columns not in the list → preserve geo +
+                # shangquan metadata from the existing row, falling back to the
+                # region-deterministic defaults. Scrape-provided values win.
+                _geo = conn.execute(
+                    "SELECT city_id, province_id, district_id, shangquan_id FROM communities WHERE community_id = ?", (cid,)
+                ).fetchone()
+                _city_id = (_geo["city_id"] if _geo and _geo["city_id"] else _city_id_default)
+                _prov_id = (_geo["province_id"] if _geo and _geo["province_id"] else _prov_id_default)
+                _district_id = _geo["district_id"] if _geo else None
+                _shangquan_id = c.get("shangquan_id") or (_geo["shangquan_id"] if _geo else None)
                 conn.execute(
                     """INSERT OR REPLACE INTO communities
                        (community_id, name, address, year_built, developer,
@@ -1639,8 +1885,9 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
                         on_sale_count, on_rent_count, price_trend_json,
                         surrounding_json, community_review, detail_scraped_at,
                         data_source, data_updated, region_id, shangquan_id,
-                        property_basic_json, community_interpretation_json, huxingtu_json)
-                       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                        property_basic_json, community_interpretation_json, huxingtu_json,
+                        city_id, province_id, district_id)
+                       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                     (cid, c.get("name"), c.get("address"), c.get("year_built"),
                      c.get("developer"), c.get("property_mgmt"), c.get("property_fee"),
                      c.get("floor_area_ratio"), c.get("green_ratio"), c.get("parking_ratio"),
@@ -1649,8 +1896,9 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
                      c.get("coordinate_lng"), c.get("coordinate_lat"),
                      c.get("on_sale_count"), c.get("on_rent_count"), c.get("price_trend_json"),
                      c.get("surrounding_json"), c.get("community_review"), c.get("detail_scraped_at"),
-                     "anjuke", now_str(), region_id, c.get("shangquan_id"),
-                     c.get("property_basic_json"), c.get("community_interpretation_json"), c.get("huxingtu_json")),
+                     "anjuke", now_str(), region_id, _shangquan_id,
+                     c.get("property_basic_json"), c.get("community_interpretation_json"), c.get("huxingtu_json"),
+                     _city_id, _prov_id, _district_id),
                 )
                 saved += 1
         except Exception as e:
@@ -1661,20 +1909,28 @@ def save_to_db(communities: list[dict], region_id: str, listings_only: bool = Fa
     return saved
 
 
-def load_communities_from_db(region_id: str, missing_only: bool = True) -> list[dict]:
-    """Load communities from DB for detail re-scraping."""
+def load_communities_from_db(region_id: str, missing_only: bool = True,
+                             offset: int = 0, limit: int | None = None) -> list[dict]:
+    """Load communities from DB for detail re-scraping.
+
+    offset/limit split a region into deterministic disjoint slices for
+    dual-machine parallel crawling. ORDER BY community_id is load-bearing:
+    community_id is ASCII, so BINARY collation yields byte-identical ordering
+    on every machine — required for the slices to line up.
+    """
     conn = get_db()
     if missing_only:
-        rows = conn.execute(
-            """SELECT community_id, name FROM communities
-               WHERE region_id = ? AND detail_scraped_at IS NULL""",
-            (region_id,)
-        ).fetchall()
+        sql = """SELECT community_id, name FROM communities
+                 WHERE region_id = ? AND detail_scraped_at IS NULL
+                 ORDER BY community_id"""
     else:
-        rows = conn.execute(
-            "SELECT community_id, name FROM communities WHERE region_id = ?",
-            (region_id,)
-        ).fetchall()
+        sql = """SELECT community_id, name FROM communities
+                 WHERE region_id = ? ORDER BY community_id"""
+    params = [region_id]
+    if limit is not None and limit > 0:
+        sql += " LIMIT ? OFFSET ?"
+        params += [limit, offset]
+    rows = conn.execute(sql, params).fetchall()
     conn.close()
 
     communities = []
@@ -1718,6 +1974,77 @@ def load_communities_from_db(region_id: str, missing_only: bool = True) -> list[
     return communities
 
 
+def load_communities_missing_names(region_id: str) -> list[dict]:
+    """Load communities with empty names (but already detailed) for --fix-names."""
+    conn = get_db()
+    rows = conn.execute(
+        """SELECT community_id FROM communities
+           WHERE region_id = ? AND (name IS NULL OR name = '')
+           ORDER BY community_id""",
+        (region_id,),
+    ).fetchall()
+    conn.close()
+
+    communities = []
+    for row in rows:
+        cid = row["community_id"]
+        parts = cid.split("_")
+        anjuke_id = parts[-1] if parts[-1].isdigit() else ""
+        city_slug = region_id.split("_")[0]
+        url = f"https://{city_slug}.anjuke.com/community/view/{anjuke_id}" if anjuke_id.isdigit() else ""
+        communities.append({
+            "name": "",
+            "url": url,
+            "city_slug": city_slug,
+            "community_id_anjuke": anjuke_id,
+            "community_id": cid,
+        })
+    return communities
+
+
+def load_communities_missing_json(region_id: str) -> list[dict]:
+    """Load communities with detail but missing property_basic (08-11 前旧代码爬的) → --fix-json。
+
+    重访详情页补 property_basic_json + community_interpretation_json。
+    """
+    conn = get_db()
+    rows = conn.execute(
+        """SELECT community_id FROM communities
+           WHERE region_id = ? AND detail_scraped_at IS NOT NULL
+             AND (property_basic_json IS NULL OR property_basic_json = '')
+           ORDER BY community_id""",
+        (region_id,),
+    ).fetchall()
+    conn.close()
+
+    # 排除已知"页面本无数据"的社区(新房项目页/自建房), 否则 remaining 永不归零
+    no_data = set()
+    try:
+        _ND = BASE_DIR / "data" / "json_no_data.txt"
+        if _ND.exists():
+            no_data = {ln.strip() for ln in _ND.read_text(encoding="utf-8").splitlines() if ln.strip()}
+    except Exception:
+        pass
+
+    communities = []
+    for row in rows:
+        cid = row["community_id"]
+        if cid in no_data:
+            continue
+        parts = cid.split("_")
+        anjuke_id = parts[-1] if parts[-1].isdigit() else ""
+        city_slug = region_id.split("_")[0]
+        url = f"https://{city_slug}.anjuke.com/community/view/{anjuke_id}" if anjuke_id.isdigit() else ""
+        communities.append({
+            "name": "",
+            "url": url,
+            "city_slug": city_slug,
+            "community_id_anjuke": anjuke_id,
+            "community_id": cid,
+        })
+    return communities
+
+
 async def main():
     global _ACTIVE_STATE_FILE
     create_tables()
@@ -1728,16 +2055,24 @@ async def main():
     manual_mode = False
     details_only = False
     listings_only = False
+    fix_names = False
+    fix_json = False
     use_system_chrome = False
     profile_dir = None        # --profile: persistent Chrome profile (CubeMini)
     region_id = DEFAULT_REGION
     shangquan = None
+    offset = 0
+    limit = None           # None = no LIMIT (all rows); --limit N > 0 slices
 
     args = sys.argv[1:]
     i = 0
     while i < len(args):
         if args[i] == "--max" and i + 1 < len(args):
             max_communities = int(args[i + 1]); i += 2
+        elif args[i] == "--offset" and i + 1 < len(args):
+            offset = int(args[i + 1]); i += 2
+        elif args[i] == "--limit" and i + 1 < len(args):
+            limit = int(args[i + 1]); i += 2
         elif args[i] == "--region" and i + 1 < len(args):
             region_id = args[i + 1]; i += 2
         elif args[i] == "--shangquan" and i + 1 < len(args):
@@ -1754,6 +2089,10 @@ async def main():
             details_only = True; i += 1
         elif args[i] == "--listings-only":
             listings_only = True; i += 1
+        elif args[i] == "--fix-names":
+            fix_names = True; i += 1
+        elif args[i] == "--fix-json":
+            fix_json = True; i += 1
         elif args[i] == "--chrome":
             use_system_chrome = True; i += 1
         elif args[i] == "--profile" and i + 1 < len(args):
@@ -1764,6 +2103,13 @@ async def main():
             _ACTIVE_STATE_FILE = Path(args[i + 1]); i += 2
         else:
             i += 1
+
+    # --offset/--limit validation (dual-machine slice support)
+    if offset < 0:
+        offset = 0
+    if limit is not None and limit <= 0:
+        print("Error: --limit must be a positive integer (omit --limit for all rows)")
+        return
 
     region = get_region(region_id)
     anjuke_url = region["anjuke_url"]
@@ -1824,7 +2170,8 @@ async def main():
             return
 
     if details_only:
-        communities = load_communities_from_db(region_id, missing_only=True)
+        communities = load_communities_from_db(region_id, missing_only=True,
+                                               offset=offset, limit=limit)
         print(f"Details-only mode — {len(communities)} communities missing detail data")
         if not communities:
             print("All communities have detail data. Nothing to do.")
@@ -1952,6 +2299,30 @@ async def main():
                 )
             page = await context.new_page()
             await page.add_init_script(STEALTH_JS)
+
+        if fix_names:
+            communities = load_communities_missing_names(region_id)
+            print(f"\nFix-names mode — {len(communities)} communities with empty names")
+            if not communities:
+                print("Nothing to do.")
+            else:
+                fixed = await scrape_names(page, communities, show_browser=show_browser)
+                print(f"  Fixed {fixed}/{len(communities)} names")
+            await _close()
+            return
+
+        if fix_json:
+            communities = load_communities_missing_json(region_id)
+            if max_communities > 0:
+                communities = communities[:max_communities]
+            print(f"\nFix-json mode — {len(communities)} communities missing property_basic/interpretation")
+            if not communities:
+                print("Nothing to do.")
+            else:
+                fixed = await scrape_json(page, communities, show_browser=show_browser)
+                print(f"  Fixed {fixed}/{len(communities)} json fields")
+            await _close()
+            return
 
         if batch_shangquan:
             # Extract district slug from region_id (e.g. beijing_xicheng → xicheng).

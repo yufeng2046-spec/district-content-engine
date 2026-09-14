@@ -6,21 +6,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from agents.llm import chat
-
-PROMPT_DIR = Path(__file__).resolve().parent.parent / "prompts"
-
-
-def load_prompt(name: str) -> str:
-    path = PROMPT_DIR / name
-    if path.exists():
-        return path.read_text(encoding="utf-8")
-    return ""
+from agents.prompts import load_prompt
 
 
-def write_track_a(research_brief: str) -> str:
+def write_track_a(research_brief: str, region_name: str = "本地") -> str:
     """Generate Track A script (community tour)."""
-    system = load_prompt("track_a.txt")
-    user = f"""根据以下研究简报，写一条杨凌小区探盘视频脚本（90-120秒）。
+    system = load_prompt("track_a.txt").format(region_name=region_name)
+    user = f"""根据以下研究简报，写一条{region_name}小区探盘视频脚本（90-120秒）。
 
 {research_brief}
 
@@ -28,10 +20,10 @@ def write_track_a(research_brief: str) -> str:
     return chat(system, user, temperature=0.9, max_tokens=4096)
 
 
-def write_track_b(research_brief: str) -> str:
+def write_track_b(research_brief: str, region_name: str = "本地") -> str:
     """Generate Track B script (region commentary)."""
-    system = load_prompt("track_b.txt")
-    user = f"""根据以下研究简报，写一条杨凌区域房产口播脚本（60-90秒）。
+    system = load_prompt("track_b.txt").format(region_name=region_name)
+    user = f"""根据以下研究简报，写一条{region_name}区域房产口播脚本（60-90秒）。
 
 {research_brief}
 

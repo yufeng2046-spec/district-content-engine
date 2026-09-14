@@ -1,0 +1,1249 @@
+{
+  "city": "chengdu",
+  "base_url": "https://chengdu.anjuke.com/community/",
+  "districts": {
+    "武侯": {
+      "url": "https://chengdu.anjuke.com/community/wuhou/",
+      "slug": "wuhou",
+      "shangquan": [
+        {
+          "name": "草金立交",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cjljwhq/"
+        },
+        {
+          "name": "川大",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cdcd/"
+        },
+        {
+          "name": "川音",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cdcy/"
+        },
+        {
+          "name": "簇桥",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cuqiao/"
+        },
+        {
+          "name": "大石西路",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cddsxl/"
+        },
+        {
+          "name": "芳草街",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-fangcaojie/"
+        },
+        {
+          "name": "高攀路",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-gaopanlu/"
+        },
+        {
+          "name": "高升桥",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-gaoshengqiao/"
+        },
+        {
+          "name": "广福桥",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-guangfuqiao/"
+        },
+        {
+          "name": "航空路",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-hangkonglu/"
+        },
+        {
+          "name": "好望角",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cdhwj/"
+        },
+        {
+          "name": "红牌楼",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-hongpailou/"
+        },
+        {
+          "name": "红瓦寺",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cdhws/"
+        },
+        {
+          "name": "火车南站",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-huochenanzhan/"
+        },
+        {
+          "name": "金花镇",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-jinhuazhen/"
+        },
+        {
+          "name": "机投镇",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-jitouzhen/"
+        },
+        {
+          "name": "科华路",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-kehualu/"
+        },
+        {
+          "name": "磨子桥",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-moziqiao/"
+        },
+        {
+          "name": "内双楠",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-shuangnan/"
+        },
+        {
+          "name": "清水河",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-qingshuihecd/"
+        },
+        {
+          "name": "十二中",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cdsez/"
+        },
+        {
+          "name": "跳伞塔",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-tiaosanta/"
+        },
+        {
+          "name": "桐梓林",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-tongxinlin/"
+        },
+        {
+          "name": "外双楠",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-jinyangjie/"
+        },
+        {
+          "name": "望江路",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-wangjianglu/"
+        },
+        {
+          "name": "五大花园",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-wudahuayuan/"
+        },
+        {
+          "name": "武侯祠大街",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-wuhousidajie/"
+        },
+        {
+          "name": "武侯周边",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-wuhouzhoubian/"
+        },
+        {
+          "name": "武阳大道",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cdwydd/"
+        },
+        {
+          "name": "小天竺街",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-xiaotianzujie/"
+        },
+        {
+          "name": "洗面桥",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-ximianqiao/"
+        },
+        {
+          "name": "新南门",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-xinnanmen/"
+        },
+        {
+          "name": "新双楠",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-cdxsn/"
+        },
+        {
+          "name": "衣冠庙",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-yiguanmiao/"
+        },
+        {
+          "name": "玉林",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-yulins/"
+        },
+        {
+          "name": "棕北",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-zongb/"
+        },
+        {
+          "name": "棕南",
+          "url": "https://chengdu.anjuke.com/community/wuhou-q-zhongn/"
+        }
+      ]
+    },
+    "高新区": {
+      "url": "https://chengdu.anjuke.com/community/gaoxin/",
+      "slug": "gaoxin",
+      "shangquan": [
+        {
+          "name": "城南宜家",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-chengnanyijiaaa/"
+        },
+        {
+          "name": "大源",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-dayuanc/"
+        },
+        {
+          "name": "芳草",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-fangcao/"
+        },
+        {
+          "name": "孵化园",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-fuhuayuan/"
+        },
+        {
+          "name": "广都",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-nanyanxian/"
+        },
+        {
+          "name": "金融城",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-cdjrc/"
+        },
+        {
+          "name": "理想中心",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-lixzx/"
+        },
+        {
+          "name": "美年广场",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-meingc/"
+        },
+        {
+          "name": "南苑",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-nany/"
+        },
+        {
+          "name": "神仙树",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-shenxianshu/"
+        },
+        {
+          "name": "世纪城",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-sjc/"
+        },
+        {
+          "name": "天府长城",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-tianfcc/"
+        },
+        {
+          "name": "天府软件园",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-tfrjygxq/"
+        },
+        {
+          "name": "肖家河",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-xiaojiahe/"
+        },
+        {
+          "name": "新北",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-xinbeiaa/"
+        },
+        {
+          "name": "新川",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-xcgxq/"
+        },
+        {
+          "name": "远大",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-yuandaabc/"
+        },
+        {
+          "name": "中和",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-zhonghezhen/"
+        },
+        {
+          "name": "紫荆",
+          "url": "https://chengdu.anjuke.com/community/gaoxin-q-zijing/"
+        }
+      ]
+    },
+    "成华": {
+      "url": "https://chengdu.anjuke.com/community/chenghua/",
+      "slug": "chenghua",
+      "shangquan": [
+        {
+          "name": "SM广场",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-smguangc/"
+        },
+        {
+          "name": "八里小区",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-balizhuangcd/"
+        },
+        {
+          "name": "财富又一城",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-caifuyouyicheng/"
+        },
+        {
+          "name": "成华周边",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-chenghuaqu/"
+        },
+        {
+          "name": "成渝立交",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-chengylj/"
+        },
+        {
+          "name": "崔家店",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-cuijiadian/"
+        },
+        {
+          "name": "东风路",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-cddongfenglu/"
+        },
+        {
+          "name": "动物园",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-cddwy/"
+        },
+        {
+          "name": "二仙桥",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-erxianqiao/"
+        },
+        {
+          "name": "府青路",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-fuqinglu/"
+        },
+        {
+          "name": "槐树店",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-huaisd/"
+        },
+        {
+          "name": "火车东站",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-cdhcdz/"
+        },
+        {
+          "name": "建设路",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-jianshelu/"
+        },
+        {
+          "name": "龙潭寺",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-longtansi/"
+        },
+        {
+          "name": "猛追湾",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-mengzhuiwan/"
+        },
+        {
+          "name": "青龙场",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-qinglongchang/"
+        },
+        {
+          "name": "杉板桥",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-cdsbq/"
+        },
+        {
+          "name": "圣灯路",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-shengdenglu/"
+        },
+        {
+          "name": "十里店",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-shilidian/"
+        },
+        {
+          "name": "双林路",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-shuangll/"
+        },
+        {
+          "name": "双桥子",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-shuangqiaozi/"
+        },
+        {
+          "name": "驷马桥",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-simaqiao/"
+        },
+        {
+          "name": "万年场",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-wannianchang/"
+        },
+        {
+          "name": "五桂桥",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-wuguiqiao/"
+        },
+        {
+          "name": "新鸿路",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-xinhonglu/"
+        },
+        {
+          "name": "新华公园",
+          "url": "https://chengdu.anjuke.com/community/chenghua-q-xinhuagongyuan/"
+        }
+      ]
+    },
+    "金牛": {
+      "url": "https://chengdu.anjuke.com/community/jinniu/",
+      "slug": "jinniu",
+      "shangquan": [
+        {
+          "name": "白果林",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-bglcd/"
+        },
+        {
+          "name": "茶店子",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-chadianzi/"
+        },
+        {
+          "name": "抚琴小区",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-fuqin/"
+        },
+        {
+          "name": "高家庄",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-gaojiazhuangbb/"
+        },
+        {
+          "name": "高笋塘",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-gaosuntangchengdu/"
+        },
+        {
+          "name": "国宾",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-guob/"
+        },
+        {
+          "name": "荷花池",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-hehuachi/"
+        },
+        {
+          "name": "黄忠",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-huangzhongcd/"
+        },
+        {
+          "name": "欢乐谷",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-cdhuanlegu/"
+        },
+        {
+          "name": "花牌坊",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-huapaifang/"
+        },
+        {
+          "name": "火车北站",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-huochebeizhan/"
+        },
+        {
+          "name": "交大路",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-jiaodalu/"
+        },
+        {
+          "name": "金牛万达",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-cdjnwd/"
+        },
+        {
+          "name": "九里堤",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-jiulidi/"
+        },
+        {
+          "name": "梁家巷",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-liangjiaxiang/"
+        },
+        {
+          "name": "李家沱",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-lijiatuo/"
+        },
+        {
+          "name": "马鞍路",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-caojiagang/"
+        },
+        {
+          "name": "人民北路",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-renminbeilu/"
+        },
+        {
+          "name": "沙河源",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-shaheyuan/"
+        },
+        {
+          "name": "沙湾",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-shawancd/"
+        },
+        {
+          "name": "蜀汉路",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-shuhanlu/"
+        },
+        {
+          "name": "天回镇",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-huitianzhen/"
+        },
+        {
+          "name": "五块石",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-wuks/"
+        },
+        {
+          "name": "营门口",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-yingmenkou/"
+        },
+        {
+          "name": "一品天下",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-yipintianxia/"
+        },
+        {
+          "name": "中医附院",
+          "url": "https://chengdu.anjuke.com/community/jinniu-q-zyfy/"
+        }
+      ]
+    },
+    "锦江": {
+      "url": "https://chengdu.anjuke.com/community/jinjiang/",
+      "slug": "jinjiang",
+      "shangquan": [
+        {
+          "name": "成仁路",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-chengrenlu/"
+        },
+        {
+          "name": "川师",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-chuanshi/"
+        },
+        {
+          "name": "春熙路",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-chunxilu/"
+        },
+        {
+          "name": "大慈寺",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-cddcs/"
+        },
+        {
+          "name": "大观",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-cddg/"
+        },
+        {
+          "name": "东大街",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-cddongdajie/"
+        },
+        {
+          "name": "东光小区",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-dongguangxq/"
+        },
+        {
+          "name": "东教场",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-cddjc/"
+        },
+        {
+          "name": "海椒市",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-haijiaoshi/"
+        },
+        {
+          "name": "合江亭",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-hejiangting/"
+        },
+        {
+          "name": "红星路",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-hongxinglu/"
+        },
+        {
+          "name": "静居寺",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-jingjusi/"
+        },
+        {
+          "name": "锦江周边",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-jinjiangqu/"
+        },
+        {
+          "name": "九眼桥",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-jiuyanqiao/"
+        },
+        {
+          "name": "莲桂路",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-lianguilu/"
+        },
+        {
+          "name": "琉璃厂",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-cdllc/"
+        },
+        {
+          "name": "龙舟路",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-longzhoulu/"
+        },
+        {
+          "name": "牛沙路",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-niushalu/"
+        },
+        {
+          "name": "牛市口",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-niushikou/"
+        },
+        {
+          "name": "牛王庙",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-niuwangmiao/"
+        },
+        {
+          "name": "攀成钢",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-panchenggang/"
+        },
+        {
+          "name": "三圣乡",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-sanshengxiang/"
+        },
+        {
+          "name": "沙河堡",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-cdshb/"
+        },
+        {
+          "name": "水碾河",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-shuizhanhe/"
+        },
+        {
+          "name": "万达",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-cdwanda/"
+        },
+        {
+          "name": "盐市口",
+          "url": "https://chengdu.anjuke.com/community/jinjiang-q-yanshikou/"
+        }
+      ]
+    },
+    "郫都": {
+      "url": "https://chengdu.anjuke.com/community/piduqu/",
+      "slug": "piduqu",
+      "shangquan": [
+        {
+          "name": "安德",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-ande/"
+        },
+        {
+          "name": "安靖",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-bxanjing/"
+        },
+        {
+          "name": "德源",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-deyuan/"
+        },
+        {
+          "name": "古城",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-bxgucheng/"
+        },
+        {
+          "name": "红光",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-bxhongguang/"
+        },
+        {
+          "name": "郫筒",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-bitong/"
+        },
+        {
+          "name": "三道堰",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-sandaoyan/"
+        },
+        {
+          "name": "蜀都万达",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-shuduwanda/"
+        },
+        {
+          "name": "唐昌",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-tangchang/"
+        },
+        {
+          "name": "唐元",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-tangyuan/"
+        },
+        {
+          "name": "团结",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-bxtuanjie/"
+        },
+        {
+          "name": "新民场",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-xinminchang/"
+        },
+        {
+          "name": "犀浦",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-xipu/"
+        },
+        {
+          "name": "友爱",
+          "url": "https://chengdu.anjuke.com/community/piduqu-q-bxyouai/"
+        }
+      ]
+    },
+    "龙泉驿": {
+      "url": "https://chengdu.anjuke.com/community/longquanyi/",
+      "slug": "longquanyi",
+      "shangquan": [
+        {
+          "name": "滨河片区",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-binhepianqu/"
+        },
+        {
+          "name": "大面",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-damianzhen/"
+        },
+        {
+          "name": "东安湖",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-donganhubb/"
+        },
+        {
+          "name": "航天片区",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-hangtianpianqu/"
+        },
+        {
+          "name": "恒大绿洲",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-cdhdlz/"
+        },
+        {
+          "name": "洪河",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-honghezhen/"
+        },
+        {
+          "name": "龙泉驿周边",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-longquanyizb/"
+        },
+        {
+          "name": "洛带",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-cdluodai/"
+        },
+        {
+          "name": "商业片区",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-shangyepianqu/"
+        },
+        {
+          "name": "十陵",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-shilingzhen/"
+        },
+        {
+          "name": "西河",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-xihecd/"
+        },
+        {
+          "name": "行政学院",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-xzxylqyq/"
+        },
+        {
+          "name": "阳光城",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-yangguangcheng/"
+        },
+        {
+          "name": "政务中心",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-zwzxcd/"
+        },
+        {
+          "name": "总站片区",
+          "url": "https://chengdu.anjuke.com/community/longquanyi-q-zongzhanpianqu/"
+        }
+      ]
+    },
+    "新都": {
+      "url": "https://chengdu.anjuke.com/community/xindu/",
+      "slug": "xindu",
+      "shangquan": [
+        {
+          "name": "斑竹园",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-banzhuyuan/"
+        },
+        {
+          "name": "宝光寺",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-baoguangsicd/"
+        },
+        {
+          "name": "大丰",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-dafengc/"
+        },
+        {
+          "name": "军屯",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-juntun/"
+        },
+        {
+          "name": "龙桥",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-longqiao/"
+        },
+        {
+          "name": "马家",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-majia/"
+        },
+        {
+          "name": "木兰",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-mulanc/"
+        },
+        {
+          "name": "清流",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-qingliu/"
+        },
+        {
+          "name": "三河",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-sanhec/"
+        },
+        {
+          "name": "石板滩",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-shibantan/"
+        },
+        {
+          "name": "石油大学",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-shiyoudaxuecd/"
+        },
+        {
+          "name": "泰兴",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-taixingc/"
+        },
+        {
+          "name": "新都老城区",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-xinducq/"
+        },
+        {
+          "name": "新都新城区",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-xinduxcq/"
+        },
+        {
+          "name": "新繁",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-xinfan/"
+        },
+        {
+          "name": "新民",
+          "url": "https://chengdu.anjuke.com/community/xindu-q-xinminc/"
+        }
+      ]
+    },
+    "青羊": {
+      "url": "https://chengdu.anjuke.com/community/qingyang/",
+      "slug": "qingyang",
+      "shangquan": [
+        {
+          "name": "八宝街",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-babaojie/"
+        },
+        {
+          "name": "贝森",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-beisen/"
+        },
+        {
+          "name": "草市街",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-caoshijie/"
+        },
+        {
+          "name": "草堂",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-caotang/"
+        },
+        {
+          "name": "长顺街",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-changshunjie/"
+        },
+        {
+          "name": "府南新区",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-funan/"
+        },
+        {
+          "name": "浣花小区",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-huanhuaxiaoqu/"
+        },
+        {
+          "name": "金沙",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-jinshacd/"
+        },
+        {
+          "name": "内光华",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-neiguanghua/"
+        },
+        {
+          "name": "宁夏街",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-ningxiajie/"
+        },
+        {
+          "name": "青羊周边",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-qingyangqita/"
+        },
+        {
+          "name": "人民公园",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-renmingongy/"
+        },
+        {
+          "name": "石人",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-cdshiren/"
+        },
+        {
+          "name": "顺城街",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-shunchengjie/"
+        },
+        {
+          "name": "太升路",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-taishenglu/"
+        },
+        {
+          "name": "天府广场",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-tianfuguangchang/"
+        },
+        {
+          "name": "同仁路",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-tongrenlu/"
+        },
+        {
+          "name": "外光华",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-guanghua/"
+        },
+        {
+          "name": "外金沙",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-cdwaijinsha/"
+        },
+        {
+          "name": "万家湾",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-wanjiaw/"
+        },
+        {
+          "name": "文殊坊",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-wenshufang/"
+        },
+        {
+          "name": "西南财大",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-tiemenkan/"
+        },
+        {
+          "name": "新城市广场",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-xinchengshigc/"
+        },
+        {
+          "name": "西月城街",
+          "url": "https://chengdu.anjuke.com/community/qingyang-q-xiyuechengjie/"
+        }
+      ]
+    },
+    "双流": {
+      "url": "https://chengdu.anjuke.com/community/shuangliu/",
+      "slug": "shuangliu",
+      "shangquan": [
+        {
+          "name": "白家",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-cdbj/"
+        },
+        {
+          "name": "东升镇",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-cdshuangliu/"
+        },
+        {
+          "name": "公兴",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-gongxingcd/"
+        },
+        {
+          "name": "航空港",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-hangkonggang/"
+        },
+        {
+          "name": "华府",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-chengduhuafu/"
+        },
+        {
+          "name": "黄龙溪",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-cdhlx/"
+        },
+        {
+          "name": "蛟龙港",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-cdjlg/"
+        },
+        {
+          "name": "牧马山",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-cdmms/"
+        },
+        {
+          "name": "彭镇",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-cdpz/"
+        },
+        {
+          "name": "双流周边",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-shuangliuzb/"
+        },
+        {
+          "name": "棠湖",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-tanghucd/"
+        },
+        {
+          "name": "文星",
+          "url": "https://chengdu.anjuke.com/community/shuangliu-q-cdwx/"
+        }
+      ]
+    },
+    "温江": {
+      "url": "https://chengdu.anjuke.com/community/wenjiang/",
+      "slug": "wenjiang",
+      "shangquan": [
+        {
+          "name": "大学城",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-daxuechengcd/"
+        },
+        {
+          "name": "公平镇",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-gongpingz/"
+        },
+        {
+          "name": "光华大道",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-guanghuadadao/"
+        },
+        {
+          "name": "金马镇",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-jinmazhen/"
+        },
+        {
+          "name": "南熏大道",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-nanxundadao/"
+        },
+        {
+          "name": "寿安",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-cdsa/"
+        },
+        {
+          "name": "踏水镇",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-tashuizhen/"
+        },
+        {
+          "name": "万春镇",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-wanchunzhen/"
+        },
+        {
+          "name": "温江城区",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-wenjiangcq/"
+        },
+        {
+          "name": "永宁镇",
+          "url": "https://chengdu.anjuke.com/community/wenjiang-q-yongningz/"
+        }
+      ]
+    },
+    "天府新区": {
+      "url": "https://chengdu.anjuke.com/community/tainfuxinqu/",
+      "slug": "tainfuxinqu",
+      "shangquan": [
+        {
+          "name": "海洋公园",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-haiyanggongyuanbb/"
+        },
+        {
+          "name": "华阳",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-huayang/"
+        },
+        {
+          "name": "锦江生态带",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-jingjiangshengtaidaibb/"
+        },
+        {
+          "name": "麓湖生态城",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-luhushengtaichengbb/"
+        },
+        {
+          "name": "麓山",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-cdls/"
+        },
+        {
+          "name": "南湖",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-cdnanhugongyuan/"
+        },
+        {
+          "name": "天府新区周边",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-tianfuxunquzhoubian/"
+        },
+        {
+          "name": "西博城",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-xibochengcd/"
+        },
+        {
+          "name": "兴隆湖",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-xinglonghucd/"
+        },
+        {
+          "name": "雅居乐",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-yajulebb/"
+        },
+        {
+          "name": "正兴",
+          "url": "https://chengdu.anjuke.com/community/tainfuxinqu-q-zhegxingcd/"
+        }
+      ]
+    },
+    "都江堰": {
+      "url": "https://chengdu.anjuke.com/community/dujiangyan/",
+      "slug": "dujiangyan",
+      "shangquan": [
+        {
+          "name": "都江堰城区",
+          "url": "https://chengdu.anjuke.com/community/dujiangyan-q-cddujyancq/"
+        },
+        {
+          "name": "都江堰周边",
+          "url": "https://chengdu.anjuke.com/community/dujiangyan-q-cddjyzb/"
+        },
+        {
+          "name": "虹口",
+          "url": "https://chengdu.anjuke.com/community/dujiangyan-q-cdhongkou/"
+        },
+        {
+          "name": "青城山",
+          "url": "https://chengdu.anjuke.com/community/dujiangyan-q-cdqingchengshan/"
+        },
+        {
+          "name": "玉堂",
+          "url": "https://chengdu.anjuke.com/community/dujiangyan-q-yutangcd/"
+        }
+      ]
+    },
+    "崇州": {
+      "url": "https://chengdu.anjuke.com/community/chongzhoushi/",
+      "slug": "chongzhoushi",
+      "shangquan": [
+        {
+          "name": "崇州城区",
+          "url": "https://chengdu.anjuke.com/community/chongzhoushi-q-chongzhouchengqu/"
+        },
+        {
+          "name": "羊马",
+          "url": "https://chengdu.anjuke.com/community/chongzhoushi-q-yangmaabc/"
+        }
+      ]
+    },
+    "青白江": {
+      "url": "https://chengdu.anjuke.com/community/qingbaijiangqu/",
+      "slug": "qingbaijiangqu",
+      "shangquan": [
+        {
+          "name": "凤凰新城",
+          "url": "https://chengdu.anjuke.com/community/qingbaijiangqu-q-fhxccd/"
+        },
+        {
+          "name": "青白江城区",
+          "url": "https://chengdu.anjuke.com/community/qingbaijiangqu-q-qingbaijiangchengqu/"
+        },
+        {
+          "name": "文体中心",
+          "url": "https://chengdu.anjuke.com/community/qingbaijiangqu-q-wtzxcd/"
+        }
+      ]
+    },
+    "金堂": {
+      "url": "https://chengdu.anjuke.com/community/jintangxian/",
+      "slug": "jintangxian",
+      "shangquan": [
+        {
+          "name": "淮口",
+          "url": "https://chengdu.anjuke.com/community/jintangxian-q-huaikoucd/"
+        },
+        {
+          "name": "金堂城区",
+          "url": "https://chengdu.anjuke.com/community/jintangxian-q-jintangchengqu/"
+        },
+        {
+          "name": "三星",
+          "url": "https://chengdu.anjuke.com/community/jintangxian-q-sanxingcd/"
+        }
+      ]
+    },
+    "彭州": {
+      "url": "https://chengdu.anjuke.com/community/pengzhoushi/",
+      "slug": "pengzhoushi",
+      "shangquan": [
+        {
+          "name": "濛阳新城",
+          "url": "https://chengdu.anjuke.com/community/pengzhoushi-q-cdmyxc/"
+        },
+        {
+          "name": "彭州城区",
+          "url": "https://chengdu.anjuke.com/community/pengzhoushi-q-pengzhou/"
+        }
+      ]
+    },
+    "邛崃市": {
+      "url": "https://chengdu.anjuke.com/community/qionglaishi/",
+      "slug": "qionglaishi",
+      "shangquan": [
+        {
+          "name": "邛崃城区",
+          "url": "https://chengdu.anjuke.com/community/qionglaishi-q-qionglaichengqu/"
+        }
+      ]
+    },
+    "高新西区": {
+      "url": "https://chengdu.anjuke.com/community/gaoxinxiqu/",
+      "slug": "gaoxinxiqu",
+      "shangquan": [
+        {
+          "name": "百草路",
+          "url": "https://chengdu.anjuke.com/community/gaoxinxiqu-q-baicaolu/"
+        },
+        {
+          "name": "何家桥",
+          "url": "https://chengdu.anjuke.com/community/gaoxinxiqu-q-hejiaqiao/"
+        },
+        {
+          "name": "金粮路",
+          "url": "https://chengdu.anjuke.com/community/gaoxinxiqu-q-jinlianglu/"
+        },
+        {
+          "name": "尚锦路",
+          "url": "https://chengdu.anjuke.com/community/gaoxinxiqu-q-shangjinluabc/"
+        },
+        {
+          "name": "土桥",
+          "url": "https://chengdu.anjuke.com/community/gaoxinxiqu-q-tuqiaocd/"
+        },
+        {
+          "name": "西源大道",
+          "url": "https://chengdu.anjuke.com/community/gaoxinxiqu-q-xiyuandadao/"
+        },
+        {
+          "name": "中海国际",
+          "url": "https://chengdu.anjuke.com/community/gaoxinxiqu-q-zhonghaiguoji/"
+        }
+      ]
+    },
+    "新津": {
+      "url": "https://chengdu.anjuke.com/community/xinjinxian/",
+      "slug": "xinjinxian",
+      "shangquan": [
+        {
+          "name": "花舞人间",
+          "url": "https://chengdu.anjuke.com/community/xinjinxian-q-hwrjcd/"
+        },
+        {
+          "name": "新津城区",
+          "url": "https://chengdu.anjuke.com/community/xinjinxian-q-xinjinchengqu/"
+        }
+      ]
+    },
+    "大邑": {
+      "url": "https://chengdu.anjuke.com/community/dayixian/",
+      "slug": "dayixian",
+      "shangquan": [
+        {
+          "name": "大邑城区",
+          "url": "https://chengdu.anjuke.com/community/dayixian-q-dayichengqu/"
+        }
+      ]
+    },
+    "蒲江": {
+      "url": "https://chengdu.anjuke.com/community/cdpujiangxian/",
+      "slug": "cdpujiangxian",
+      "shangquan": [
+        {
+          "name": "蒲江城区",
+          "url": "https://chengdu.anjuke.com/community/cdpujiangxian-q-pujiangchengqu/"
+        }
+      ]
+    },
+    "成都周边": {
+      "url": "https://chengdu.anjuke.com/community/chengduzhoubian/",
+      "slug": "chengduzhoubian",
+      "shangquan": [
+        {
+          "name": "彭山",
+          "url": "https://chengdu.anjuke.com/community/chengduzhoubian-q-pengshancd/"
+        },
+        {
+          "name": "其它",
+          "url": "https://chengdu.anjuke.com/community/chengduzhoubian-q-chengdushi/"
+        },
+        {
+          "name": "仁寿",
+          "url": "https://chengdu.anjuke.com/community/chengduzhoubian-q-renshoucd/"
+        }
+      ]
+    },
+    "简阳": {
+      "url": "https://chengdu.anjuke.com/community/cdjianyang/",
+      "slug": "cdjianyang",
+      "shangquan": [
+        {
+          "name": "城东新区",
+          "url": "https://chengdu.anjuke.com/community/cdjianyang-q-cdcdxq/"
+        },
+        {
+          "name": "简阳周边",
+          "url": "https://chengdu.anjuke.com/community/cdjianyang-q-cdjyzb/"
+        },
+        {
+          "name": "简州新城",
+          "url": "https://chengdu.anjuke.com/community/cdjianyang-q-cdjzxc/"
+        },
+        {
+          "name": "老城区",
+          "url": "https://chengdu.anjuke.com/community/cdjianyang-q-cdlcq/"
+        },
+        {
+          "name": "三岔湖",
+          "url": "https://chengdu.anjuke.com/community/cdjianyang-q-cdsch/"
+        },
+        {
+          "name": "天府国际机场",
+          "url": "https://chengdu.anjuke.com/community/cdjianyang-q-cdtfgjjc/"
+        }
+      ]
+    },
+    "东部新区": {
+      "url": "https://chengdu.anjuke.com/community/dongbuxinqu/",
+      "slug": "dongbuxinqu",
+      "shangquan": [
+        {
+          "name": "东部新城办",
+          "url": "https://chengdu.anjuke.com/community/dongbuxinqu-q-dongbuxinchengbanabc/"
+        }
+      ]
+    }
+  },
+  "city_name": "成都"
+}

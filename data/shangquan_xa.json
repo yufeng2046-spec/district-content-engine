@@ -1,0 +1,1177 @@
+{
+  "city": "xa",
+  "base_url": "https://xa.anjuke.com/community/",
+  "districts": {
+    "未央": {
+      "url": "https://xa.anjuke.com/community/weiyangq/",
+      "slug": "weiyangq",
+      "shangquan": [
+        {
+          "name": "阿房宫遗址",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-afgyizhi/"
+        },
+        {
+          "name": "北二环西段",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-behxdxa/"
+        },
+        {
+          "name": "大明宫",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-dmgxa/"
+        },
+        {
+          "name": "二府庄",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-erfuzhuang/"
+        },
+        {
+          "name": "方新村",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-fangxincun/"
+        },
+        {
+          "name": "经济技术开发区",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-jingjijskfq/"
+        },
+        {
+          "name": "明光南路",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-xagml/"
+        },
+        {
+          "name": "三桥",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-sanqiao/"
+        },
+        {
+          "name": "太华北路",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-thblxa/"
+        },
+        {
+          "name": "太元路",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-xatyl/"
+        },
+        {
+          "name": "文景南路",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-wenjinglu/"
+        },
+        {
+          "name": "辛家庙",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-xinjiamao/"
+        },
+        {
+          "name": "玄武东路",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-xalhc/"
+        },
+        {
+          "name": "皂河",
+          "url": "https://xa.anjuke.com/community/weiyangq-q-zaohe/"
+        }
+      ]
+    },
+    "雁塔": {
+      "url": "https://xa.anjuke.com/community/yantaqu/",
+      "slug": "yantaqu",
+      "shangquan": [
+        {
+          "name": "北山门",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-beishanmen/"
+        },
+        {
+          "name": "长安西路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-caxlxa/"
+        },
+        {
+          "name": "城南客运站",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-cnkyzxa/"
+        },
+        {
+          "name": "翠华路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-cuihualuxa/"
+        },
+        {
+          "name": "大雁塔",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-dayanta/"
+        },
+        {
+          "name": "等驾坡",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-dengjiapo/"
+        },
+        {
+          "name": "电视塔",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-dianshita/"
+        },
+        {
+          "name": "电子城",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-dianzicheng/"
+        },
+        {
+          "name": "电子一路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xadzyl/"
+        },
+        {
+          "name": "电子正街",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-dianzizhengjie/"
+        },
+        {
+          "name": "东仪路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-dylxa/"
+        },
+        {
+          "name": "国展中心",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-guozhanzhongxin/"
+        },
+        {
+          "name": "含光路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xahgl/"
+        },
+        {
+          "name": "后村西路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-hcxlxa/"
+        },
+        {
+          "name": "吉祥诚信商业街",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xajxcx/"
+        },
+        {
+          "name": "吉祥村",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-jixianglu/"
+        },
+        {
+          "name": "明德门",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-mingdemen/"
+        },
+        {
+          "name": "青龙寺",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xaqls/"
+        },
+        {
+          "name": "青松路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xaqsl/"
+        },
+        {
+          "name": "三森国际家俱城",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-sanyao/"
+        },
+        {
+          "name": "太白南路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-tbnlxa/"
+        },
+        {
+          "name": "小寨",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xiaozhailu/"
+        },
+        {
+          "name": "西斜七路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xaxxql/"
+        },
+        {
+          "name": "西影路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xiyinglu/"
+        },
+        {
+          "name": "雁环中路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-yhzlxa/"
+        },
+        {
+          "name": "雁塔西路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-xaytxl/"
+        },
+        {
+          "name": "永松路",
+          "url": "https://xa.anjuke.com/community/yantaqu-q-yongsonglu/"
+        }
+      ]
+    },
+    "高新区": {
+      "url": "https://xa.anjuke.com/community/gaoxinxa/",
+      "slug": "gaoxinxa",
+      "shangquan": [
+        {
+          "name": "创业园",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-cyyxa/"
+        },
+        {
+          "name": "大寨路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xadzl/"
+        },
+        {
+          "name": "都市之门",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-dushizhimen/"
+        },
+        {
+          "name": "二环南路西段",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xaehnl/"
+        },
+        {
+          "name": "高新管委会",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xagxgwh/"
+        },
+        {
+          "name": "高新六路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xagxll/"
+        },
+        {
+          "name": "高新路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-gaoxinlu/"
+        },
+        {
+          "name": "高新三小",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-gaoxinerlu/"
+        },
+        {
+          "name": "高新四路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-gaoxinsilu/"
+        },
+        {
+          "name": "高新一中",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xagxyz/"
+        },
+        {
+          "name": "光华路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-guanghualu/"
+        },
+        {
+          "name": "锦业路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-jylxa/"
+        },
+        {
+          "name": "科技六路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xakjll/"
+        },
+        {
+          "name": "科技路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-kjlxa/"
+        },
+        {
+          "name": "科技路西口",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-kejiluxikou/"
+        },
+        {
+          "name": "科技路中段",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-kjlzdxa/"
+        },
+        {
+          "name": "科技四路西段",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-kejisilu/"
+        },
+        {
+          "name": "科技西路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-kjxlxa/"
+        },
+        {
+          "name": "科技西路西段",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-kjxlxdxa/"
+        },
+        {
+          "name": "昆明路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xakml/"
+        },
+        {
+          "name": "绿地世纪城",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-lvdishijiecheng/"
+        },
+        {
+          "name": "木塔寺公园",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-mtsgyxa/"
+        },
+        {
+          "name": "软件园",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-rjyxa/"
+        },
+        {
+          "name": "陕西大会堂",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-shanxidahuitang/"
+        },
+        {
+          "name": "唐延路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-tylxa/"
+        },
+        {
+          "name": "旺座现代城",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-wangzuoxdc/"
+        },
+        {
+          "name": "西太路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xitailuabc/"
+        },
+        {
+          "name": "逸翠园",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-ycyxa/"
+        },
+        {
+          "name": "鱼化寨",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-yhzxa/"
+        },
+        {
+          "name": "丈八北路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-zhangbaxilu/"
+        },
+        {
+          "name": "丈八东路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-xazbdl/"
+        },
+        {
+          "name": "丈八西路",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-zbxlxa/"
+        },
+        {
+          "name": "紫薇田园都市",
+          "url": "https://xa.anjuke.com/community/gaoxinxa-q-ziweitianyuandushi/"
+        }
+      ]
+    },
+    "经开区": {
+      "url": "https://xa.anjuke.com/community/jingkaiqux/",
+      "slug": "jingkaiqux",
+      "shangquan": [
+        {
+          "name": "百花村",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-bhcxa/"
+        },
+        {
+          "name": "北客站",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-beikezhan/"
+        },
+        {
+          "name": "北苑",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-byxa/"
+        },
+        {
+          "name": "草滩",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-caotan/"
+        },
+        {
+          "name": "长安医院",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-cayyxa/"
+        },
+        {
+          "name": "常青路",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-cqlxa/"
+        },
+        {
+          "name": "城市运动公园",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-xacsydgy/"
+        },
+        {
+          "name": "凤城五路",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-xafcwl/"
+        },
+        {
+          "name": "汉城湖",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-hchxa/"
+        },
+        {
+          "name": "汉城商业街",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-hcsyjxa/"
+        },
+        {
+          "name": "经发学校北区",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-jfxxbqxa/"
+        },
+        {
+          "name": "经发学校南区",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-jfxxnqxa/"
+        },
+        {
+          "name": "市图书馆",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-xastsg/"
+        },
+        {
+          "name": "未央湖",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-weiyanglu/"
+        },
+        {
+          "name": "西安第三医院",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-xadsyyxa/"
+        },
+        {
+          "name": "西安中学",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-xazx/"
+        },
+        {
+          "name": "行政中心",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-xingzhenghzongxin/"
+        },
+        {
+          "name": "徐家湾",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-xujiawan/"
+        },
+        {
+          "name": "永城路",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-yclxa/"
+        },
+        {
+          "name": "张家堡",
+          "url": "https://xa.anjuke.com/community/jingkaiqux-q-zhangjiabao/"
+        }
+      ]
+    },
+    "莲湖": {
+      "url": "https://xa.anjuke.com/community/lianhuqu/",
+      "slug": "lianhuqu",
+      "shangquan": [
+        {
+          "name": "北大街",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-beidajiexa/"
+        },
+        {
+          "name": "北关",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-beiguanxa/"
+        },
+        {
+          "name": "北院门",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-beiyuanmen/"
+        },
+        {
+          "name": "城西客运站",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-chengxikeyunzhan/"
+        },
+        {
+          "name": "大白杨",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-xaxby/"
+        },
+        {
+          "name": "大庆路",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-xadql/"
+        },
+        {
+          "name": "大唐西市",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-datangxishixa/"
+        },
+        {
+          "name": "丰庆公园",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-fqgyxa/"
+        },
+        {
+          "name": "丰庆路",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-qingfenglu/"
+        },
+        {
+          "name": "汉城路",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-hanchenglu/"
+        },
+        {
+          "name": "红光路",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-hglxa/"
+        },
+        {
+          "name": "红庙坡",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-hongmiaopo/"
+        },
+        {
+          "name": "锦园小区",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-jinyuanxiaoqu/"
+        },
+        {
+          "name": "开远门",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-kaiyuanmen/"
+        },
+        {
+          "name": "劳动路",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-laodonglu/"
+        },
+        {
+          "name": "莲湖公园",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-lianhugognyuan/"
+        },
+        {
+          "name": "龙首村",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-longshoucun/"
+        },
+        {
+          "name": "南小巷",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-nxxxa/"
+        },
+        {
+          "name": "洒金桥",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-sjqxa/"
+        },
+        {
+          "name": "桃园路",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-taoyuanlu/"
+        },
+        {
+          "name": "甜水井",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-tianshuijing/"
+        },
+        {
+          "name": "土门",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-tumenxa/"
+        },
+        {
+          "name": "西大街",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-xidajie/"
+        },
+        {
+          "name": "西关正街",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-xiguanxa/"
+        },
+        {
+          "name": "西稍门",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-xishaomen/"
+        },
+        {
+          "name": "玉祥门",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-xayxm/"
+        },
+        {
+          "name": "枣园",
+          "url": "https://xa.anjuke.com/community/lianhuqu-q-zaoyuan/"
+        }
+      ]
+    },
+    "碑林": {
+      "url": "https://xa.anjuke.com/community/beilinqu/",
+      "slug": "beilinqu",
+      "shangquan": [
+        {
+          "name": "边家村",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-bianjiacun/"
+        },
+        {
+          "name": "长乐坊",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-changlefang/"
+        },
+        {
+          "name": "大差市",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-dachashi/"
+        },
+        {
+          "name": "大学南路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-daxuenanlu/"
+        },
+        {
+          "name": "东大街",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-dongdajie/"
+        },
+        {
+          "name": "东关南街",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-dongguannanjie/"
+        },
+        {
+          "name": "东关正街",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-dgzjxa/"
+        },
+        {
+          "name": "广济街",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-guangjijie/"
+        },
+        {
+          "name": "何家村",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-hejiacun/"
+        },
+        {
+          "name": "和平路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-xahepinglu/"
+        },
+        {
+          "name": "红缨路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-zhangjiacun/"
+        },
+        {
+          "name": "环城南路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-huanchengnanlu/"
+        },
+        {
+          "name": "互助路立交",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-huzhululijiao/"
+        },
+        {
+          "name": "李家村",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-lijiacun/"
+        },
+        {
+          "name": "南大街",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-nandajie/"
+        },
+        {
+          "name": "南门",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-nanmenxa/"
+        },
+        {
+          "name": "南稍门",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-nanshaomen/"
+        },
+        {
+          "name": "太白立交",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-tbljxa/"
+        },
+        {
+          "name": "太乙路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-taiyilu/"
+        },
+        {
+          "name": "体育场",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-tiyuchang/"
+        },
+        {
+          "name": "文艺路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-wenyiluxa/"
+        },
+        {
+          "name": "西安交通大学",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-xajtdx/"
+        },
+        {
+          "name": "小雁塔",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-xiaoyanta/"
+        },
+        {
+          "name": "西工大",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-xigognda/"
+        },
+        {
+          "name": "友谊东路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-xayydl/"
+        },
+        {
+          "name": "友谊西路",
+          "url": "https://xa.anjuke.com/community/beilinqu-q-xayyxl/"
+        }
+      ]
+    },
+    "长安": {
+      "url": "https://xa.anjuke.com/community/changanb/",
+      "slug": "changanb",
+      "shangquan": [
+        {
+          "name": "长安广场",
+          "url": "https://xa.anjuke.com/community/changanb-q-changanguangchang/"
+        },
+        {
+          "name": "大学城",
+          "url": "https://xa.anjuke.com/community/changanb-q-dongda/"
+        },
+        {
+          "name": "东长安街",
+          "url": "https://xa.anjuke.com/community/changanb-q-dongchanganjie/"
+        },
+        {
+          "name": "凤栖原",
+          "url": "https://xa.anjuke.com/community/changanb-q-fengxiyuan/"
+        },
+        {
+          "name": "富力城",
+          "url": "https://xa.anjuke.com/community/changanb-q-flcxa/"
+        },
+        {
+          "name": "郭杜",
+          "url": "https://xa.anjuke.com/community/changanb-q-guodu/"
+        },
+        {
+          "name": "航天城",
+          "url": "https://xa.anjuke.com/community/changanb-q-hangtiancheng/"
+        },
+        {
+          "name": "航天一小",
+          "url": "https://xa.anjuke.com/community/changanb-q-htyxxa/"
+        },
+        {
+          "name": "绿源十字",
+          "url": "https://xa.anjuke.com/community/changanb-q-lvyuanshizi/"
+        },
+        {
+          "name": "韦曲",
+          "url": "https://xa.anjuke.com/community/changanb-q-weiqu/"
+        },
+        {
+          "name": "西长安街",
+          "url": "https://xa.anjuke.com/community/changanb-q-xichanganjie/"
+        },
+        {
+          "name": "西沣路",
+          "url": "https://xa.anjuke.com/community/changanb-q-xflxa/"
+        },
+        {
+          "name": "西寨",
+          "url": "https://xa.anjuke.com/community/changanb-q-xzxa/"
+        },
+        {
+          "name": "子午大道",
+          "url": "https://xa.anjuke.com/community/changanb-q-ziwu/"
+        }
+      ]
+    },
+    "新城": {
+      "url": "https://xa.anjuke.com/community/xinchengqu/",
+      "slug": "xinchengqu",
+      "shangquan": [
+        {
+          "name": "八府庄",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-bafuzhuang/"
+        },
+        {
+          "name": "长乐中路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-changlezhonglu/"
+        },
+        {
+          "name": "朝阳门",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-chaoyangmenxa/"
+        },
+        {
+          "name": "东五路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-dongwulu/"
+        },
+        {
+          "name": "韩森寨",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-hansensai/"
+        },
+        {
+          "name": "含元路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-hanyuanlu/"
+        },
+        {
+          "name": "后宰门",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-houzaimenxa/"
+        },
+        {
+          "name": "华清路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-xahql/"
+        },
+        {
+          "name": "胡家庙",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-hujiamiao/"
+        },
+        {
+          "name": "建工路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-xajgl/"
+        },
+        {
+          "name": "金花路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-jinhualu/"
+        },
+        {
+          "name": "金花南路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-jhnlxa/"
+        },
+        {
+          "name": "康复路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-kangfulu/"
+        },
+        {
+          "name": "矿山路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-xaksl/"
+        },
+        {
+          "name": "民乐园",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-mlyxa/"
+        },
+        {
+          "name": "尚勤路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-shangqinlu/"
+        },
+        {
+          "name": "通化门",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-tonghuamen/"
+        },
+        {
+          "name": "万寿路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-wanshoulu/"
+        },
+        {
+          "name": "文昌门",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-wenchangmen/"
+        },
+        {
+          "name": "五路口",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-wulukou/"
+        },
+        {
+          "name": "中山门",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-zhongshanmen/"
+        },
+        {
+          "name": "自强东路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-ziqianglu/"
+        },
+        {
+          "name": "自强西路",
+          "url": "https://xa.anjuke.com/community/xinchengqu-q-zqxlxa/"
+        }
+      ]
+    },
+    "曲江新区": {
+      "url": "https://xa.anjuke.com/community/qujiangxinqu/",
+      "slug": "qujiangxinqu",
+      "shangquan": [
+        {
+          "name": "北池头",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xabct/"
+        },
+        {
+          "name": "创意谷",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-cygxa/"
+        },
+        {
+          "name": "翠华南路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xachnl/"
+        },
+        {
+          "name": "大唐芙蓉园",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xadtfry/"
+        },
+        {
+          "name": "芙蓉东路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xafrdl/"
+        },
+        {
+          "name": "芙蓉西路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xafrxl/"
+        },
+        {
+          "name": "公园南路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-gynlxa/"
+        },
+        {
+          "name": "海洋馆",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xahyg/"
+        },
+        {
+          "name": "寒窑路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-hanyaolu/"
+        },
+        {
+          "name": "交大曲江校区",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xayxl/"
+        },
+        {
+          "name": "金泘沱",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-jftxa/"
+        },
+        {
+          "name": "龙湖星悦荟",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-lhxyhxa/"
+        },
+        {
+          "name": "南湖",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xaqjc/"
+        },
+        {
+          "name": "曲江城市运动公园",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-qjcsydgyxa/"
+        },
+        {
+          "name": "曲江第一学校",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-qujiangdiyixuexiaoabc/"
+        },
+        {
+          "name": "曲江三小",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-qjsxx/"
+        },
+        {
+          "name": "曲江四小",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-qujiangsixiao/"
+        },
+        {
+          "name": "曲江一中",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-qjyzxa/"
+        },
+        {
+          "name": "陕师大",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-ssdxa/"
+        },
+        {
+          "name": "行政商务中心",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xaxzswzx/"
+        },
+        {
+          "name": "新开门",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xaxkm/"
+        },
+        {
+          "name": "雁南三路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xaynsl/"
+        },
+        {
+          "name": "雁南四路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xaynsil/"
+        },
+        {
+          "name": "雁南五路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xaynwl/"
+        },
+        {
+          "name": "雁塔南路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-ytnlxa/"
+        },
+        {
+          "name": "雁展路",
+          "url": "https://xa.anjuke.com/community/qujiangxinqu-q-xayzl/"
+        }
+      ]
+    },
+    "灞桥": {
+      "url": "https://xa.anjuke.com/community/baqiaoqu/",
+      "slug": "baqiaoqu",
+      "shangquan": [
+        {
+          "name": "安装四处",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-dongchengtaoyuan/"
+        },
+        {
+          "name": "半坡立交",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-xabplj/"
+        },
+        {
+          "name": "长乐坡",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-xaclp/"
+        },
+        {
+          "name": "浐河东路",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-xasadf/"
+        },
+        {
+          "name": "浐河西路",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-longhuxiangxing/"
+        },
+        {
+          "name": "纺织城",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-fangzhicheng/"
+        },
+        {
+          "name": "红旗",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-hongqixa/"
+        },
+        {
+          "name": "洪庆",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-hongqing/"
+        },
+        {
+          "name": "世博园",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-shiyuangongguan/"
+        },
+        {
+          "name": "水香路",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-chanbaxincheng/"
+        },
+        {
+          "name": "田家湾",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-xahdlz/"
+        },
+        {
+          "name": "席王",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-xiwang/"
+        },
+        {
+          "name": "御锦城",
+          "url": "https://xa.anjuke.com/community/baqiaoqu-q-yujincheng/"
+        }
+      ]
+    },
+    "高陵": {
+      "url": "https://xa.anjuke.com/community/gaoling/",
+      "slug": "gaoling",
+      "shangquan": [
+        {
+          "name": "高陵城区",
+          "url": "https://xa.anjuke.com/community/gaoling-q-gaolinxian/"
+        },
+        {
+          "name": "泾河工业园",
+          "url": "https://xa.anjuke.com/community/gaoling-q-jhgyyxa/"
+        },
+        {
+          "name": "泾渭新城",
+          "url": "https://xa.anjuke.com/community/gaoling-q-jwxcxa/"
+        },
+        {
+          "name": "原点新城",
+          "url": "https://xa.anjuke.com/community/gaoling-q-ydxcxa/"
+        }
+      ]
+    },
+    "浐灞": {
+      "url": "https://xa.anjuke.com/community/chanba/",
+      "slug": "chanba",
+      "shangquan": [
+        {
+          "name": "灞河西路",
+          "url": "https://xa.anjuke.com/community/chanba-q-xabhxl/"
+        },
+        {
+          "name": "灞桥周边",
+          "url": "https://xa.anjuke.com/community/chanba-q-baqiaozhoubian/"
+        },
+        {
+          "name": "浐灞半岛",
+          "url": "https://xa.anjuke.com/community/chanba-q-chanbabandao/"
+        },
+        {
+          "name": "浐灞二路",
+          "url": "https://xa.anjuke.com/community/chanba-q-elxa/"
+        },
+        {
+          "name": "城北大学城",
+          "url": "https://xa.anjuke.com/community/chanba-q-chengbeidaxuecheng/"
+        },
+        {
+          "name": "广泰门",
+          "url": "https://xa.anjuke.com/community/chanba-q-xahdmd/"
+        },
+        {
+          "name": "十里铺",
+          "url": "https://xa.anjuke.com/community/chanba-q-shilipu/"
+        },
+        {
+          "name": "桃花潭",
+          "url": "https://xa.anjuke.com/community/chanba-q-xathy/"
+        },
+        {
+          "name": "西安国际会展中心",
+          "url": "https://xa.anjuke.com/community/chanba-q-xianguojihzzx/"
+        }
+      ]
+    },
+    "临潼": {
+      "url": "https://xa.anjuke.com/community/lintongqu/",
+      "slug": "lintongqu",
+      "shangquan": [
+        {
+          "name": "代王",
+          "url": "https://xa.anjuke.com/community/lintongqu-q-daiwang/"
+        },
+        {
+          "name": "临潼周边",
+          "url": "https://xa.anjuke.com/community/lintongqu-q-lintongzhoubian/"
+        },
+        {
+          "name": "骊山",
+          "url": "https://xa.anjuke.com/community/lintongqu-q-lishanxa/"
+        },
+        {
+          "name": "秦陵",
+          "url": "https://xa.anjuke.com/community/lintongqu-q-qinling/"
+        },
+        {
+          "name": "斜口",
+          "url": "https://xa.anjuke.com/community/lintongqu-q-xiekou/"
+        },
+        {
+          "name": "新丰",
+          "url": "https://xa.anjuke.com/community/lintongqu-q-xinfengxa/"
+        },
+        {
+          "name": "行者",
+          "url": "https://xa.anjuke.com/community/lintongqu-q-xingzhe/"
+        }
+      ]
+    },
+    "西咸新区": {
+      "url": "https://xa.anjuke.com/community/xixianxinqu/",
+      "slug": "xixianxinqu",
+      "shangquan": [
+        {
+          "name": "沣东新城",
+          "url": "https://xa.anjuke.com/community/xixianxinqu-q-fdxcxa/"
+        },
+        {
+          "name": "沣西新城",
+          "url": "https://xa.anjuke.com/community/xixianxinqu-q-fxxcxa/"
+        }
+      ]
+    },
+    "鄠邑": {
+      "url": "https://xa.anjuke.com/community/huyiqu/",
+      "slug": "huyiqu",
+      "shangquan": [
+        {
+          "name": "鄠邑城区",
+          "url": "https://xa.anjuke.com/community/huyiqu-q-huxian/"
+        }
+      ]
+    },
+    "大兴新区": {
+      "url": "https://xa.anjuke.com/community/daxingxinqu/",
+      "slug": "daxingxinqu",
+      "shangquan": [
+        {
+          "name": "大兴东路",
+          "url": "https://xa.anjuke.com/community/daxingxinqu-q-dxdlxa/"
+        },
+        {
+          "name": "丰禾路",
+          "url": "https://xa.anjuke.com/community/daxingxinqu-q-fenghelu/"
+        },
+        {
+          "name": "梨园路",
+          "url": "https://xa.anjuke.com/community/daxingxinqu-q-lylxa/"
+        }
+      ]
+    },
+    "周至": {
+      "url": "https://xa.anjuke.com/community/zhouzhixian/",
+      "slug": "zhouzhixian",
+      "shangquan": [
+        {
+          "name": "周至",
+          "url": "https://xa.anjuke.com/community/zhouzhixian-q-zhouzhixian/"
+        }
+      ]
+    },
+    "蓝田": {
+      "url": "https://xa.anjuke.com/community/lantianxian/",
+      "slug": "lantianxian",
+      "shangquan": [
+        {
+          "name": "蓝田城区",
+          "url": "https://xa.anjuke.com/community/lantianxian-q-lantianxian/"
+        }
+      ]
+    },
+    "阎良": {
+      "url": "https://xa.anjuke.com/community/yanliangqu/",
+      "slug": "yanliangqu",
+      "shangquan": [
+        {
+          "name": "凤凰路",
+          "url": "https://xa.anjuke.com/community/yanliangqu-q-fenghuanglu/"
+        },
+        {
+          "name": "关山",
+          "url": "https://xa.anjuke.com/community/yanliangqu-q-guanshan/"
+        },
+        {
+          "name": "武屯",
+          "url": "https://xa.anjuke.com/community/yanliangqu-q-wudun/"
+        },
+        {
+          "name": "新华路",
+          "url": "https://xa.anjuke.com/community/yanliangqu-q-xinhualuxa/"
+        },
+        {
+          "name": "阎良周边",
+          "url": "https://xa.anjuke.com/community/yanliangqu-q-yanliangzhoubian/"
+        }
+      ]
+    },
+    "西安周边": {
+      "url": "https://xa.anjuke.com/community/xianzhoubianc/",
+      "slug": "xianzhoubianc",
+      "shangquan": [
+        {
+          "name": "咸阳",
+          "url": "https://xa.anjuke.com/community/xianzhoubianc-q-xianyangxa/"
+        }
+      ]
+    },
+    "国际港务区": {
+      "url": "https://xa.anjuke.com/community/gjgwqxa/",
+      "slug": "gjgwqxa",
+      "shangquan": [
+        {
+          "name": "保税区",
+          "url": "https://xa.anjuke.com/community/gjgwqxa-q-baoishuiquxa/"
+        },
+        {
+          "name": "港务大道",
+          "url": "https://xa.anjuke.com/community/gjgwqxa-q-gangwudadao/"
+        },
+        {
+          "name": "西安奥体中心",
+          "url": "https://xa.anjuke.com/community/gjgwqxa-q-xianaotizhongxin/"
+        },
+        {
+          "name": "西航花园",
+          "url": "https://xa.anjuke.com/community/gjgwqxa-q-xihanghuayuan/"
+        }
+      ]
+    }
+  },
+  "city_name": "西安"
+}

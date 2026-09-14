@@ -1,0 +1,1146 @@
+{
+  "city": "guangzhou",
+  "city_name": "广州",
+  "districts": {
+    "baiyun": {
+      "name": "白云",
+      "shangquan": [
+        {
+          "name": "白云大道北",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-baiyundadaobei/"
+        },
+        {
+          "name": "白云大道南",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-baiyundadaonan/"
+        },
+        {
+          "name": "大源",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-dayuan/"
+        },
+        {
+          "name": "东平",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-gzdongping/"
+        },
+        {
+          "name": "广花",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-guanghuagz/"
+        },
+        {
+          "name": "广园路",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-guangyuanlu/"
+        },
+        {
+          "name": "广州大道北",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-guangzhouddb/"
+        },
+        {
+          "name": "桂花岗",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-guihuagang/"
+        },
+        {
+          "name": "黄边",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-songzhou/"
+        },
+        {
+          "name": "黄石",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-huangshigz/"
+        },
+        {
+          "name": "黄庄",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-huangzhuanggz/"
+        },
+        {
+          "name": "嘉禾望岗",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-jiahewangg/"
+        },
+        {
+          "name": "江高镇",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-gzjgaozhen/"
+        },
+        {
+          "name": "江夏",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-gzjx/"
+        },
+        {
+          "name": "机场路",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-jichanglu/"
+        },
+        {
+          "name": "景泰",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-jingtai/"
+        },
+        {
+          "name": "京溪",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-jingxi/"
+        },
+        {
+          "name": "金沙洲",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-jinsha/"
+        },
+        {
+          "name": "九佛",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-jiufo/"
+        },
+        {
+          "name": "聚龙",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-julong/"
+        },
+        {
+          "name": "均禾",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-junhegz/"
+        },
+        {
+          "name": "龙归",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-longgui/"
+        },
+        {
+          "name": "罗冲围",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-luochongwei/"
+        },
+        {
+          "name": "梅花园",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-meihuayuan/"
+        },
+        {
+          "name": "南湖",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-yongping/"
+        },
+        {
+          "name": "庆丰",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-qingfengby/"
+        },
+        {
+          "name": "人和",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-renhe/"
+        },
+        {
+          "name": "沙贝",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-gzsb/"
+        },
+        {
+          "name": "沙太北",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-shataibei/"
+        },
+        {
+          "name": "沙太中",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-shataizhong/"
+        },
+        {
+          "name": "石井",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-shijing/"
+        },
+        {
+          "name": "太和",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-taihe/"
+        },
+        {
+          "name": "同德围",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-tongde/"
+        },
+        {
+          "name": "同和",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-tonghe/"
+        },
+        {
+          "name": "新市",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-xinshigz/"
+        },
+        {
+          "name": "鸦岗",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-gzyg/"
+        },
+        {
+          "name": "永泰",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-yongtai/"
+        },
+        {
+          "name": "增槎路",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-zengchalu/"
+        },
+        {
+          "name": "钟落潭",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-zhongluotan/"
+        },
+        {
+          "name": "竹料",
+          "url": "https://guangzhou.anjuke.com/community/baiyun-q-cailiao/"
+        }
+      ]
+    },
+    "tianhe": {
+      "name": "天河",
+      "shangquan": [
+        {
+          "name": "岑村",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzcencun/"
+        },
+        {
+          "name": "长湴",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzcb/"
+        },
+        {
+          "name": "长兴",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-changxinggz/"
+        },
+        {
+          "name": "车陂",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-chebei/"
+        },
+        {
+          "name": "东莞庄",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzdguanz/"
+        },
+        {
+          "name": "东圃",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-dongpu/"
+        },
+        {
+          "name": "岗顶",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gangding/"
+        },
+        {
+          "name": "广州东站",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzdzthq/"
+        },
+        {
+          "name": "黄村",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-huangcun/"
+        },
+        {
+          "name": "黄埔大道西",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-huangpudadaoxi/"
+        },
+        {
+          "name": "华师",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzhs/"
+        },
+        {
+          "name": "汇景新城",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzhjxc/"
+        },
+        {
+          "name": "金融城",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-jinrongchengabc/"
+        },
+        {
+          "name": "柯木塱",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-kemulang/"
+        },
+        {
+          "name": "科韵路",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-keyunlu/"
+        },
+        {
+          "name": "猎德",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-liede/"
+        },
+        {
+          "name": "林和",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-linhe/"
+        },
+        {
+          "name": "龙洞",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-longdonggz/"
+        },
+        {
+          "name": "龙口东",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-longkoudong/"
+        },
+        {
+          "name": "龙口西",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-xinghuagz/"
+        },
+        {
+          "name": "龙怡路",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzlyl/"
+        },
+        {
+          "name": "沙河",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzshahe/"
+        },
+        {
+          "name": "沙太南",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-shatainan/"
+        },
+        {
+          "name": "石牌",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-shipai/"
+        },
+        {
+          "name": "棠东",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gztd/"
+        },
+        {
+          "name": "棠下",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-tangxia/"
+        },
+        {
+          "name": "天河北",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-tianhebei/"
+        },
+        {
+          "name": "天河公园",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-tianhegongyuan/"
+        },
+        {
+          "name": "天河客运站",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-tianyuangz/"
+        },
+        {
+          "name": "天河智慧城",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzthzhc/"
+        },
+        {
+          "name": "天平架",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-tianpingjia/"
+        },
+        {
+          "name": "体育西路",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-tiyuxilu/"
+        },
+        {
+          "name": "体育中心",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-tiyuzx/"
+        },
+        {
+          "name": "五山",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-wushan/"
+        },
+        {
+          "name": "小新塘",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-xintang/"
+        },
+        {
+          "name": "杨箕东",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-yqdthq/"
+        },
+        {
+          "name": "燕塘",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzyt/"
+        },
+        {
+          "name": "员村",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-yuancun/"
+        },
+        {
+          "name": "粤垦",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-houtianhebei/"
+        },
+        {
+          "name": "中山大道",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-zhongshandadao/"
+        },
+        {
+          "name": "珠村",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-gzzhucun/"
+        },
+        {
+          "name": "珠吉",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-zhujigz/"
+        },
+        {
+          "name": "珠江新城东",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-zjxcd/"
+        },
+        {
+          "name": "珠江新城西",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-zjxcx/"
+        },
+        {
+          "name": "珠江新城中",
+          "url": "https://guangzhou.anjuke.com/community/tianhe-q-zhujiangxincheng/"
+        }
+      ]
+    },
+    "fanyu": {
+      "name": "番禺",
+      "shangquan": [
+        {
+          "name": "板桥",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-banqiaogs/"
+        },
+        {
+          "name": "大石",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-dashi/"
+        },
+        {
+          "name": "大学城",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzdaxuecheng/"
+        },
+        {
+          "name": "番禺广场",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzfygc/"
+        },
+        {
+          "name": "番禺节能科技园",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzfzjnkjy/"
+        },
+        {
+          "name": "广州雅居乐",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzyjl/"
+        },
+        {
+          "name": "汉溪长隆",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-hanxichanglonggz/"
+        },
+        {
+          "name": "化龙",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzhualong/"
+        },
+        {
+          "name": "华南碧桂园",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-huananbiguiyuan/"
+        },
+        {
+          "name": "华南新城",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-huananxincheng/"
+        },
+        {
+          "name": "会江",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-hjfy/"
+        },
+        {
+          "name": "金山谷",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzjsg/"
+        },
+        {
+          "name": "洛溪",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-luoxi/"
+        },
+        {
+          "name": "南村镇",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzncz/"
+        },
+        {
+          "name": "南浦",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-nanpugz/"
+        },
+        {
+          "name": "南站",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-nanzhanpy/"
+        },
+        {
+          "name": "桥南",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-qiaonan/"
+        },
+        {
+          "name": "祈福",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-qifu/"
+        },
+        {
+          "name": "厦滘",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-xiah/"
+        },
+        {
+          "name": "沙湾",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-shawangz/"
+        },
+        {
+          "name": "石楼",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-shilou/"
+        },
+        {
+          "name": "石碁",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-shiji/"
+        },
+        {
+          "name": "市桥",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-shiqiao/"
+        },
+        {
+          "name": "市桥北",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-sqb/"
+        },
+        {
+          "name": "顺德碧桂园",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-shundebgy/"
+        },
+        {
+          "name": "星河湾",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-guangzhouxinghewan/"
+        },
+        {
+          "name": "新造",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-xinzao/"
+        },
+        {
+          "name": "亚运城",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-gzyyc/"
+        },
+        {
+          "name": "钟村",
+          "url": "https://guangzhou.anjuke.com/community/fanyu-q-zhongcun/"
+        }
+      ]
+    },
+    "haizhu": {
+      "name": "海珠",
+      "shangquan": [
+        {
+          "name": "宝岗",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-baogang/"
+        },
+        {
+          "name": "滨江东",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-bingjiandong/"
+        },
+        {
+          "name": "滨江西",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-binjiangx/"
+        },
+        {
+          "name": "滨江中",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-binjianggz/"
+        },
+        {
+          "name": "昌岗",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-changgang/"
+        },
+        {
+          "name": "赤岗",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-chigang/"
+        },
+        {
+          "name": "东晓南",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-dongxiaon/"
+        },
+        {
+          "name": "工业大道北",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-gongyedadao/"
+        },
+        {
+          "name": "工业大道南",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-gongyedadaon/"
+        },
+        {
+          "name": "工业大道中",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-gyddzhz/"
+        },
+        {
+          "name": "广州大道南",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-guangzhoudadaonan/"
+        },
+        {
+          "name": "广州塔",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-guangzt/"
+        },
+        {
+          "name": "官洲",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-guanzhou/"
+        },
+        {
+          "name": "华洲",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-huazhougz/"
+        },
+        {
+          "name": "江南大道中",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-jiangnanddz/"
+        },
+        {
+          "name": "江南西",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-jiangnanxi/"
+        },
+        {
+          "name": "江燕路",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-jiangyanlu/"
+        },
+        {
+          "name": "客村",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-kecun/"
+        },
+        {
+          "name": "沥滘",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-llijiao/"
+        },
+        {
+          "name": "南洲",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-nanzhou/"
+        },
+        {
+          "name": "琶洲",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-pazhou/"
+        },
+        {
+          "name": "琶洲西区",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-gzpzxq/"
+        },
+        {
+          "name": "前进路",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-fengyang/"
+        },
+        {
+          "name": "上渡路",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-shangdulu/"
+        },
+        {
+          "name": "沙园",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-shayuan/"
+        },
+        {
+          "name": "下渡路",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-xiadulu/"
+        },
+        {
+          "name": "晓港",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-xiaoganghz/"
+        },
+        {
+          "name": "新港西",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-xingangxi/"
+        },
+        {
+          "name": "中大",
+          "url": "https://guangzhou.anjuke.com/community/haizhu-q-longfenggz/"
+        }
+      ]
+    },
+    "huadu": {
+      "name": "花都",
+      "shangquan": [
+        {
+          "name": "花城街",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-gzhcj/"
+        },
+        {
+          "name": "花东",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-huadong/"
+        },
+        {
+          "name": "花都广场",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-huadu/"
+        },
+        {
+          "name": "花果山公园",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-hgsgyhd/"
+        },
+        {
+          "name": "花山",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-huashangz/"
+        },
+        {
+          "name": "建设路",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-jianshelugz/"
+        },
+        {
+          "name": "镜湖大道",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-gzjhdd/"
+        },
+        {
+          "name": "旧区",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-jiuqu/"
+        },
+        {
+          "name": "山前大道",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-shanqiandd/"
+        },
+        {
+          "name": "狮岭",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-shiling/"
+        },
+        {
+          "name": "炭步",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-tanbugz/"
+        },
+        {
+          "name": "铁路西",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-gztlx/"
+        },
+        {
+          "name": "新区",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-xinqu/"
+        },
+        {
+          "name": "秀全",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-gzxq/"
+        },
+        {
+          "name": "雅瑶",
+          "url": "https://guangzhou.anjuke.com/community/huadu-q-yayaogz/"
+        }
+      ]
+    },
+    "yuexiu": {
+      "name": "越秀",
+      "shangquan": [
+        {
+          "name": "北京路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-beijinglu/"
+        },
+        {
+          "name": "大沙头",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-dashatou/"
+        },
+        {
+          "name": "东川",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-dongchuan/"
+        },
+        {
+          "name": "东风东",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-dongfengdong/"
+        },
+        {
+          "name": "东风路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-dongfenggz/"
+        },
+        {
+          "name": "东湖",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-guangzhoudonghu/"
+        },
+        {
+          "name": "东山口",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-dongshankou/"
+        },
+        {
+          "name": "二沙岛",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-ershadao/"
+        },
+        {
+          "name": "共和路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-gonghelu/"
+        },
+        {
+          "name": "公园前",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-gzgyq/"
+        },
+        {
+          "name": "广园东",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-guangyuandongs/"
+        },
+        {
+          "name": "海珠广场",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-haizhugc/"
+        },
+        {
+          "name": "黄花岗",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-huanghuagang/"
+        },
+        {
+          "name": "环市东",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-huanshidong/"
+        },
+        {
+          "name": "建设",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-guangzhoujianshe/"
+        },
+        {
+          "name": "解放北",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-jiefangbeilu/"
+        },
+        {
+          "name": "解放南",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-jiefangnanlu/"
+        },
+        {
+          "name": "解放中路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-gzjfzl/"
+        },
+        {
+          "name": "流花",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-liuhua/"
+        },
+        {
+          "name": "麓湖",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-lujinglu/"
+        },
+        {
+          "name": "梅花村",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-meihuacun/"
+        },
+        {
+          "name": "农讲所",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-nongjiangsuo/"
+        },
+        {
+          "name": "农林下路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-nonglinxialu/"
+        },
+        {
+          "name": "盘福",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-panfulu/"
+        },
+        {
+          "name": "水荫路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-shuiyin/"
+        },
+        {
+          "name": "淘金",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-taojin/"
+        },
+        {
+          "name": "五羊新城",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-wujiaoxincheng/"
+        },
+        {
+          "name": "小北",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-xiaobei/"
+        },
+        {
+          "name": "西门口",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-xmk/"
+        },
+        {
+          "name": "杨箕",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-yangqicun/"
+        },
+        {
+          "name": "一德路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-gzydl/"
+        },
+        {
+          "name": "越秀南",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-yuexiunan/"
+        },
+        {
+          "name": "中山路",
+          "url": "https://guangzhou.anjuke.com/community/yuexiu-q-zhongshanlugz/"
+        }
+      ]
+    },
+    "zengcheng": {
+      "name": "增城",
+      "shangquan": [
+        {
+          "name": "白江",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-baijiangabc/"
+        },
+        {
+          "name": "凤凰城",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzfenghc/"
+        },
+        {
+          "name": "广园东",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-guangyuandong/"
+        },
+        {
+          "name": "官湖",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-guanhuabc/"
+        },
+        {
+          "name": "经济技术开发区",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-jjjskfqzc/"
+        },
+        {
+          "name": "荔城",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-lichenggz/"
+        },
+        {
+          "name": "荔城富鹏",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzlcfp/"
+        },
+        {
+          "name": "荔城增江",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzlczj/"
+        },
+        {
+          "name": "荔城中区",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzlzzq/"
+        },
+        {
+          "name": "宁西街道",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-nxjdzc/"
+        },
+        {
+          "name": "沙村",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-shacunabc/"
+        },
+        {
+          "name": "沙埔",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-shapu/"
+        },
+        {
+          "name": "石滩",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-shitangz/"
+        },
+        {
+          "name": "新沙",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-xinshaabc/"
+        },
+        {
+          "name": "新塘",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-xintanggz/"
+        },
+        {
+          "name": "新塘大道东",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzxtddd/"
+        },
+        {
+          "name": "新塘大道西",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzxtddx/"
+        },
+        {
+          "name": "永和",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzyh/"
+        },
+        {
+          "name": "中新镇",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-gzzxz/"
+        },
+        {
+          "name": "朱村",
+          "url": "https://guangzhou.anjuke.com/community/zengcheng-q-zhucungz/"
+        }
+      ]
+    },
+    "huangpua": {
+      "name": "黄埔",
+      "shangquan": [
+        {
+          "name": "大沙地",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-gzdsd/"
+        },
+        {
+          "name": "黄陂",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-hunagpi/"
+        },
+        {
+          "name": "黄埔港",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-huangpugang/"
+        },
+        {
+          "name": "开发东区",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-kaifadq/"
+        },
+        {
+          "name": "开发西区",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-kaifaxq/"
+        },
+        {
+          "name": "科学城",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-kexuecheng/"
+        },
+        {
+          "name": "萝岗",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-luogang/"
+        },
+        {
+          "name": "南岗",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-nanganggz/"
+        },
+        {
+          "name": "南海神庙",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-nanhaishenmiaohp/"
+        },
+        {
+          "name": "文冲",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-wenchong/"
+        },
+        {
+          "name": "香雪",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-xiangxuehp/"
+        },
+        {
+          "name": "夏园",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-gzxy/"
+        },
+        {
+          "name": "永和开发区",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-yhkfq/"
+        },
+        {
+          "name": "鱼珠",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-gzyz/"
+        },
+        {
+          "name": "知识城",
+          "url": "https://guangzhou.anjuke.com/community/huangpua-q-zhishichenglg/"
+        }
+      ]
+    },
+    "liwan": {
+      "name": "荔湾",
+      "shangquan": [
+        {
+          "name": "长寿路",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-gzcsl/"
+        },
+        {
+          "name": "陈家祠",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-chenjiaci/"
+        },
+        {
+          "name": "芳村",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-fangcun/"
+        },
+        {
+          "name": "广钢新城",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-gzggxc/"
+        },
+        {
+          "name": "花地湾",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-huadiwan/"
+        },
+        {
+          "name": "黄沙",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-huangsha/"
+        },
+        {
+          "name": "环市西",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-huanshixi/"
+        },
+        {
+          "name": "滘口",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-baihedong/"
+        },
+        {
+          "name": "菊树",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-gzjs/"
+        },
+        {
+          "name": "坑口",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-kengkougz/"
+        },
+        {
+          "name": "荔湾路",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-liwanlu/"
+        },
+        {
+          "name": "龙津",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-longjin/"
+        },
+        {
+          "name": "龙溪",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-gzlx/"
+        },
+        {
+          "name": "南岸",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-nanyuangz/"
+        },
+        {
+          "name": "桥中",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-qiaozhong/"
+        },
+        {
+          "name": "沙面",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-shamian/"
+        },
+        {
+          "name": "文昌南路",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-wcnlgz/"
+        },
+        {
+          "name": "西村",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-xicun/"
+        },
+        {
+          "name": "西关",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-xiguan/"
+        },
+        {
+          "name": "西华路",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-xihualu/"
+        },
+        {
+          "name": "西塱",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-gzxl/"
+        },
+        {
+          "name": "站前路",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-zhanqianlu/"
+        },
+        {
+          "name": "中山八路",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-zhongshanbalu/"
+        },
+        {
+          "name": "周门",
+          "url": "https://guangzhou.anjuke.com/community/liwan-q-zhoumen/"
+        }
+      ]
+    },
+    "nansha": {
+      "name": "南沙",
+      "shangquan": [
+        {
+          "name": "大岗",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-gzdg/"
+        },
+        {
+          "name": "东涌",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-gzdy/"
+        },
+        {
+          "name": "横沥",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-henglins/"
+        },
+        {
+          "name": "黄阁",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-gzng/"
+        },
+        {
+          "name": "蕉门",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-nsjiaomen/"
+        },
+        {
+          "name": "进港大道",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-jingangdadao/"
+        },
+        {
+          "name": "金洲",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-gzjz/"
+        },
+        {
+          "name": "榄核",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-gzlh/"
+        },
+        {
+          "name": "南沙港",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-nsnanshagang/"
+        },
+        {
+          "name": "南沙湾",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-nanshawan/"
+        },
+        {
+          "name": "塘坑",
+          "url": "https://guangzhou.anjuke.com/community/nansha-q-tangkeng/"
+        }
+      ]
+    },
+    "conghua": {
+      "name": "从化",
+      "shangquan": [
+        {
+          "name": "鳌头",
+          "url": "https://guangzhou.anjuke.com/community/conghua-q-aotougz/"
+        },
+        {
+          "name": "街口中心区",
+          "url": "https://guangzhou.anjuke.com/community/conghua-q-gzjkzxq/"
+        },
+        {
+          "name": "太平镇",
+          "url": "https://guangzhou.anjuke.com/community/conghua-q-gztpz/"
+        },
+        {
+          "name": "温泉",
+          "url": "https://guangzhou.anjuke.com/community/conghua-q-wenquangz/"
+        }
+      ]
+    },
+    "guangzhouzhoubian": {
+      "name": "广州周边",
+      "shangquan": [
+        {
+          "name": "东莞",
+          "url": "https://guangzhou.anjuke.com/community/guangzhouzhoubian-q-dongguangz/"
+        },
+        {
+          "name": "佛山",
+          "url": "https://guangzhou.anjuke.com/community/guangzhouzhoubian-q-foshangz/"
+        },
+        {
+          "name": "清远",
+          "url": "https://guangzhou.anjuke.com/community/guangzhouzhoubian-q-qingyuangzs/"
+        },
+        {
+          "name": "肇庆",
+          "url": "https://guangzhou.anjuke.com/community/guangzhouzhoubian-q-zhaoqinggz/"
+        },
+        {
+          "name": "中山",
+          "url": "https://guangzhou.anjuke.com/community/guangzhouzhoubian-q-zhongshangz/"
+        }
+      ]
+    }
+  }
+}

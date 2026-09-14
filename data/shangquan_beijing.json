@@ -1,0 +1,1727 @@
+{
+  "city": "beijing",
+  "city_name": "北京",
+  "districts": {
+    "chaoyang": {
+      "name": "朝阳",
+      "shangquan": [
+        {
+          "name": "CBD",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-cbd/"
+        },
+        {
+          "name": "安慧桥",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-anhuili/"
+        },
+        {
+          "name": "安贞",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-anzhenqiao/"
+        },
+        {
+          "name": "奥林匹克公园",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-aolinpikegognyuan/"
+        },
+        {
+          "name": "百子湾",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-baiziwan/"
+        },
+        {
+          "name": "八里庄",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-dblz/"
+        },
+        {
+          "name": "北沙滩",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-beishatan/"
+        },
+        {
+          "name": "北苑",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjbeiyuan/"
+        },
+        {
+          "name": "常营",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-changying/"
+        },
+        {
+          "name": "朝青板块",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-chaoqingbankuai/"
+        },
+        {
+          "name": "朝外大街",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-chaowaidajie/"
+        },
+        {
+          "name": "朝阳公园",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-chaoyanggongyuan/"
+        },
+        {
+          "name": "朝阳周边",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-chaoyangzhoubian/"
+        },
+        {
+          "name": "慈云寺",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-ciyunsi/"
+        },
+        {
+          "name": "大山子",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-dashanzi/"
+        },
+        {
+          "name": "大屯",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-datun/"
+        },
+        {
+          "name": "大望路",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-dawanglu/"
+        },
+        {
+          "name": "定福庄",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-dingfuzhuang/"
+        },
+        {
+          "name": "东坝",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-dongba/"
+        },
+        {
+          "name": "东大桥",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-dongdaqiao/"
+        },
+        {
+          "name": "豆各庄",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-dougezhuang/"
+        },
+        {
+          "name": "垡头",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-fatou/"
+        },
+        {
+          "name": "甘露园",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-ganluyuan/"
+        },
+        {
+          "name": "高碑店",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-gaobeidianbj/"
+        },
+        {
+          "name": "工体",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-gongti/"
+        },
+        {
+          "name": "管庄",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-guanzhuang/"
+        },
+        {
+          "name": "国贸",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-guomao/"
+        },
+        {
+          "name": "国展",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-guozhan/"
+        },
+        {
+          "name": "和平街",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-hepingjie/"
+        },
+        {
+          "name": "红庙",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-hongmiao/"
+        },
+        {
+          "name": "花家地",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-huajiadi/"
+        },
+        {
+          "name": "欢乐谷",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-huanlegu/"
+        },
+        {
+          "name": "华威桥",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjhuaweiqiao/"
+        },
+        {
+          "name": "惠新里",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-huixl/"
+        },
+        {
+          "name": "惠新西街",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-hxxj/"
+        },
+        {
+          "name": "呼家楼",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-hujialou/"
+        },
+        {
+          "name": "将台路",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-jiangtailu/"
+        },
+        {
+          "name": "建外大街",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-jianwaidajie/"
+        },
+        {
+          "name": "健翔桥",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjjianxq/"
+        },
+        {
+          "name": "劲松",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-jinsong/"
+        },
+        {
+          "name": "酒仙桥",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-jiuxianqiao/"
+        },
+        {
+          "name": "来广营",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-laiguangying/"
+        },
+        {
+          "name": "亮马桥",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-liangmaqiaobb/"
+        },
+        {
+          "name": "柳芳",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-liufang/"
+        },
+        {
+          "name": "麦子店",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-maizidian/"
+        },
+        {
+          "name": "媒体村",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-meiticun/"
+        },
+        {
+          "name": "南磨房",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-nanmofang/"
+        },
+        {
+          "name": "南沙滩",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjnst/"
+        },
+        {
+          "name": "农业展览馆",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjnyzlg/"
+        },
+        {
+          "name": "潘家园",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-panjiayuan/"
+        },
+        {
+          "name": "三里屯",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-sanlitun/"
+        },
+        {
+          "name": "芍药居",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shaoyaoju/"
+        },
+        {
+          "name": "胜古",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjsg/"
+        },
+        {
+          "name": "十八里店",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shibalidian/"
+        },
+        {
+          "name": "石佛营",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shifoying/"
+        },
+        {
+          "name": "十里河",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shilihe/"
+        },
+        {
+          "name": "十里堡",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shilibao/"
+        },
+        {
+          "name": "首都机场",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shoudujichang/"
+        },
+        {
+          "name": "双井",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shuangjing/"
+        },
+        {
+          "name": "双桥",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjshuangqiao/"
+        },
+        {
+          "name": "水碓子",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-shuiduizi/"
+        },
+        {
+          "name": "四惠",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjsihui/"
+        },
+        {
+          "name": "松榆里",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjsyuli/"
+        },
+        {
+          "name": "孙河",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-bjsunhe/"
+        },
+        {
+          "name": "太阳宫",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-taiyanggong/"
+        },
+        {
+          "name": "甜水园",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-tianshuiyuan/"
+        },
+        {
+          "name": "团结湖",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-tuanjiehu/"
+        },
+        {
+          "name": "望京",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-wangjing/"
+        },
+        {
+          "name": "小关",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-xiaoguan/"
+        },
+        {
+          "name": "小红门",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-xiaohongmen/"
+        },
+        {
+          "name": "西坝河",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-xibahe/"
+        },
+        {
+          "name": "燕莎",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-yansha/"
+        },
+        {
+          "name": "姚家园",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-yaojiayuan/"
+        },
+        {
+          "name": "亚运村",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-yayuncun/"
+        },
+        {
+          "name": "亚运村小营",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-xiaoying/"
+        },
+        {
+          "name": "左家庄",
+          "url": "https://beijing.anjuke.com/community/chaoyang-q-zuojiazhuang/"
+        }
+      ]
+    },
+    "haidian": {
+      "name": "海淀",
+      "shangquan": [
+        {
+          "name": "安宁庄",
+          "url": "https://beijing.anjuke.com/community/haidian-q-annz/"
+        },
+        {
+          "name": "白石桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-baishiqiao/"
+        },
+        {
+          "name": "北航",
+          "url": "https://beijing.anjuke.com/community/haidian-q-beihangbj/"
+        },
+        {
+          "name": "北京大学",
+          "url": "https://beijing.anjuke.com/community/haidian-q-beijingdaxue/"
+        },
+        {
+          "name": "北太平庄",
+          "url": "https://beijing.anjuke.com/community/haidian-q-beitaipingzhuang/"
+        },
+        {
+          "name": "北洼路",
+          "url": "https://beijing.anjuke.com/community/haidian-q-beiwalu/"
+        },
+        {
+          "name": "厂洼",
+          "url": "https://beijing.anjuke.com/community/haidian-q-changwa/"
+        },
+        {
+          "name": "车道沟",
+          "url": "https://beijing.anjuke.com/community/haidian-q-chedg/"
+        },
+        {
+          "name": "大钟寺",
+          "url": "https://beijing.anjuke.com/community/haidian-q-dazhongsi/"
+        },
+        {
+          "name": "定慧寺",
+          "url": "https://beijing.anjuke.com/community/haidian-q-dinghuisi/"
+        },
+        {
+          "name": "恩济里",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjenjili/"
+        },
+        {
+          "name": "二里庄",
+          "url": "https://beijing.anjuke.com/community/haidian-q-erlizhuang/"
+        },
+        {
+          "name": "甘家口",
+          "url": "https://beijing.anjuke.com/community/haidian-q-ganjiakou/"
+        },
+        {
+          "name": "公主坟",
+          "url": "https://beijing.anjuke.com/community/haidian-q-gongzhufen/"
+        },
+        {
+          "name": "海淀周边",
+          "url": "https://beijing.anjuke.com/community/haidian-q-haidianzhoubian/"
+        },
+        {
+          "name": "航天桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-hangtianqiao/"
+        },
+        {
+          "name": "花园桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-huayuanqiao/"
+        },
+        {
+          "name": "交通大学",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjjiaoda/"
+        },
+        {
+          "name": "蓟门桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-jimenqiao/"
+        },
+        {
+          "name": "金沟河",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjjinhegou/"
+        },
+        {
+          "name": "军博",
+          "url": "https://beijing.anjuke.com/community/haidian-q-junbo/"
+        },
+        {
+          "name": "联想桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjlxqiao/"
+        },
+        {
+          "name": "马甸",
+          "url": "https://beijing.anjuke.com/community/haidian-q-madian/"
+        },
+        {
+          "name": "马连洼",
+          "url": "https://beijing.anjuke.com/community/haidian-q-malianwa/"
+        },
+        {
+          "name": "明光桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-minggq/"
+        },
+        {
+          "name": "牡丹园",
+          "url": "https://beijing.anjuke.com/community/haidian-q-mudanyuan/"
+        },
+        {
+          "name": "清河",
+          "url": "https://beijing.anjuke.com/community/haidian-q-qinghe/"
+        },
+        {
+          "name": "清华大学",
+          "url": "https://beijing.anjuke.com/community/haidian-q-qinghuadaxue/"
+        },
+        {
+          "name": "人民大学",
+          "url": "https://beijing.anjuke.com/community/haidian-q-renmindaxue/"
+        },
+        {
+          "name": "上地",
+          "url": "https://beijing.anjuke.com/community/haidian-q-shangdi/"
+        },
+        {
+          "name": "上庄",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjshangzhuang/"
+        },
+        {
+          "name": "世纪城",
+          "url": "https://beijing.anjuke.com/community/haidian-q-shijicheng/"
+        },
+        {
+          "name": "双榆树",
+          "url": "https://beijing.anjuke.com/community/haidian-q-shuangyushu/"
+        },
+        {
+          "name": "四季青",
+          "url": "https://beijing.anjuke.com/community/haidian-q-sijiqinghd/"
+        },
+        {
+          "name": "苏家坨",
+          "url": "https://beijing.anjuke.com/community/haidian-q-sujiatuo/"
+        },
+        {
+          "name": "苏州街",
+          "url": "https://beijing.anjuke.com/community/haidian-q-suzhoujie/"
+        },
+        {
+          "name": "苏州桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-suzhouqiao/"
+        },
+        {
+          "name": "田村",
+          "url": "https://beijing.anjuke.com/community/haidian-q-tiancunlu/"
+        },
+        {
+          "name": "魏公村",
+          "url": "https://beijing.anjuke.com/community/haidian-q-baiyilu/"
+        },
+        {
+          "name": "温泉",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjwq/"
+        },
+        {
+          "name": "五彩城",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjwcc/"
+        },
+        {
+          "name": "五道口",
+          "url": "https://beijing.anjuke.com/community/haidian-q-wudaokou/"
+        },
+        {
+          "name": "五棵松",
+          "url": "https://beijing.anjuke.com/community/haidian-q-wukesong/"
+        },
+        {
+          "name": "五路居",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjwuluju/"
+        },
+        {
+          "name": "香山",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xiangshanhd/"
+        },
+        {
+          "name": "肖家河",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjxjh/"
+        },
+        {
+          "name": "小西天",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xiaoxitian/"
+        },
+        {
+          "name": "西八里庄",
+          "url": "https://beijing.anjuke.com/community/haidian-q-balizhuang/"
+        },
+        {
+          "name": "西北旺",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xibeiwang/"
+        },
+        {
+          "name": "西二旗",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xierqi/"
+        },
+        {
+          "name": "西三旗",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xisanqi/"
+        },
+        {
+          "name": "西山",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xs/"
+        },
+        {
+          "name": "西苑",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xiyuanbj/"
+        },
+        {
+          "name": "学院路",
+          "url": "https://beijing.anjuke.com/community/haidian-q-xueyuanlu/"
+        },
+        {
+          "name": "学院路北",
+          "url": "https://beijing.anjuke.com/community/haidian-q-bjxylb/"
+        },
+        {
+          "name": "永定路",
+          "url": "https://beijing.anjuke.com/community/haidian-q-yongdinglu/"
+        },
+        {
+          "name": "皂君庙",
+          "url": "https://beijing.anjuke.com/community/haidian-q-zhaojunmiao/"
+        },
+        {
+          "name": "增光路",
+          "url": "https://beijing.anjuke.com/community/haidian-q-zengguanglu/"
+        },
+        {
+          "name": "知春路",
+          "url": "https://beijing.anjuke.com/community/haidian-q-zhichunlu/"
+        },
+        {
+          "name": "中关村",
+          "url": "https://beijing.anjuke.com/community/haidian-q-zhongguancun/"
+        },
+        {
+          "name": "紫竹桥",
+          "url": "https://beijing.anjuke.com/community/haidian-q-zizhuqiao/"
+        }
+      ]
+    },
+    "changping": {
+      "name": "昌平",
+      "shangquan": [
+        {
+          "name": "百善",
+          "url": "https://beijing.anjuke.com/community/changping-q-bjbaishan/"
+        },
+        {
+          "name": "北七家",
+          "url": "https://beijing.anjuke.com/community/changping-q-beiqijia/"
+        },
+        {
+          "name": "昌平县城",
+          "url": "https://beijing.anjuke.com/community/changping-q-changpingxiancheng/"
+        },
+        {
+          "name": "昌平周边",
+          "url": "https://beijing.anjuke.com/community/changping-q-changpingzhoubian/"
+        },
+        {
+          "name": "城北",
+          "url": "https://beijing.anjuke.com/community/changping-q-cpchengbei/"
+        },
+        {
+          "name": "城南",
+          "url": "https://beijing.anjuke.com/community/changping-q-cpchengnan/"
+        },
+        {
+          "name": "东小口",
+          "url": "https://beijing.anjuke.com/community/changping-q-dongxiaokou/"
+        },
+        {
+          "name": "回龙观",
+          "url": "https://beijing.anjuke.com/community/changping-q-huilongguan/"
+        },
+        {
+          "name": "霍营",
+          "url": "https://beijing.anjuke.com/community/changping-q-huoying/"
+        },
+        {
+          "name": "立水桥",
+          "url": "https://beijing.anjuke.com/community/changping-q-lishuiqiao/"
+        },
+        {
+          "name": "龙域",
+          "url": "https://beijing.anjuke.com/community/changping-q-longyucp/"
+        },
+        {
+          "name": "龙泽",
+          "url": "https://beijing.anjuke.com/community/changping-q-longze/"
+        },
+        {
+          "name": "马池口",
+          "url": "https://beijing.anjuke.com/community/changping-q-machikoubb/"
+        },
+        {
+          "name": "南口",
+          "url": "https://beijing.anjuke.com/community/changping-q-nankou/"
+        },
+        {
+          "name": "南邵镇",
+          "url": "https://beijing.anjuke.com/community/changping-q-bjnsz/"
+        },
+        {
+          "name": "沙河",
+          "url": "https://beijing.anjuke.com/community/changping-q-shahe/"
+        },
+        {
+          "name": "天通苑",
+          "url": "https://beijing.anjuke.com/community/changping-q-tiantongyuan/"
+        },
+        {
+          "name": "小汤山北",
+          "url": "https://beijing.anjuke.com/community/changping-q-xiaotangshan/"
+        },
+        {
+          "name": "小汤山南",
+          "url": "https://beijing.anjuke.com/community/changping-q-xtsnbj/"
+        },
+        {
+          "name": "阳坊",
+          "url": "https://beijing.anjuke.com/community/changping-q-yangfang/"
+        }
+      ]
+    },
+    "fengtai": {
+      "name": "丰台",
+      "shangquan": [
+        {
+          "name": "北大地",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-beidadi/"
+        },
+        {
+          "name": "菜户营",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-caihuying/"
+        },
+        {
+          "name": "草桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-caoqiao/"
+        },
+        {
+          "name": "长辛店",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-changxindian/"
+        },
+        {
+          "name": "成寿寺",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-chengshousi/"
+        },
+        {
+          "name": "大红门",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-dahongmen/"
+        },
+        {
+          "name": "东大街",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-dongdajieft/"
+        },
+        {
+          "name": "东高地",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-donggaodi/"
+        },
+        {
+          "name": "东铁匠营",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-dongtiejiangying/"
+        },
+        {
+          "name": "方庄",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-fangzhuang/"
+        },
+        {
+          "name": "丰台路",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-fengtailu/"
+        },
+        {
+          "name": "丰台体育馆",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-fengtaitiyuguan/"
+        },
+        {
+          "name": "丰台周边",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-fengtaizhoubian/"
+        },
+        {
+          "name": "丰益桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-fengyiqiao/"
+        },
+        {
+          "name": "和义",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-ftheyi/"
+        },
+        {
+          "name": "花乡",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-huaxiang/"
+        },
+        {
+          "name": "角门",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-jiaomen/"
+        },
+        {
+          "name": "看丹桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-bjkdq/"
+        },
+        {
+          "name": "科技园区",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-kejiyuanqu/"
+        },
+        {
+          "name": "莲花池",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-lianhuachi/"
+        },
+        {
+          "name": "刘家窑",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-liujiayao/"
+        },
+        {
+          "name": "六里桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-liuliqiao/"
+        },
+        {
+          "name": "丽泽桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-lizeqiao/"
+        },
+        {
+          "name": "卢沟桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-lugouqiao/"
+        },
+        {
+          "name": "马家堡",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-majiabao/"
+        },
+        {
+          "name": "木樨园",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-muxiyuan/"
+        },
+        {
+          "name": "南苑",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-nanyuan/"
+        },
+        {
+          "name": "蒲黄榆",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-puhuangyu/"
+        },
+        {
+          "name": "七里庄",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-qilizhuang/"
+        },
+        {
+          "name": "青塔",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-qingta/"
+        },
+        {
+          "name": "世界公园",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-shijiegongyuan/"
+        },
+        {
+          "name": "石榴庄",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-bjslz/"
+        },
+        {
+          "name": "宋家庄",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-songjiazhuang/"
+        },
+        {
+          "name": "太平桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-taipingqiao/"
+        },
+        {
+          "name": "五里店",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-wulidianbj/"
+        },
+        {
+          "name": "小屯路",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-bjxiaotunlu/"
+        },
+        {
+          "name": "西客站",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-xikezhan/"
+        },
+        {
+          "name": "西罗园",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-xiluoyuan/"
+        },
+        {
+          "name": "新发地",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-xinfadi/"
+        },
+        {
+          "name": "新宫",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-xingong/"
+        },
+        {
+          "name": "洋桥",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-yangqiao/"
+        },
+        {
+          "name": "右安门",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-youanmen/"
+        },
+        {
+          "name": "岳各庄",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-yuegezhuang/"
+        },
+        {
+          "name": "云岗",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-yungang/"
+        },
+        {
+          "name": "玉泉营",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-yuquanying/"
+        },
+        {
+          "name": "赵公口",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-zhaogongkou/"
+        },
+        {
+          "name": "总部基地",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-bjzbjd/"
+        },
+        {
+          "name": "左安门",
+          "url": "https://beijing.anjuke.com/community/fengtai-q-zuoanmen/"
+        }
+      ]
+    },
+    "daxing": {
+      "name": "大兴",
+      "shangquan": [
+        {
+          "name": "磁各庄",
+          "url": "https://beijing.anjuke.com/community/daxing-q-cigezhuang/"
+        },
+        {
+          "name": "大兴机场",
+          "url": "https://beijing.anjuke.com/community/daxing-q-daxingjichangbb/"
+        },
+        {
+          "name": "大兴周边",
+          "url": "https://beijing.anjuke.com/community/daxing-q-daxingzhoubian/"
+        },
+        {
+          "name": "高米店",
+          "url": "https://beijing.anjuke.com/community/daxing-q-bjgmd/"
+        },
+        {
+          "name": "观音寺",
+          "url": "https://beijing.anjuke.com/community/daxing-q-jingkaigaosu/"
+        },
+        {
+          "name": "海子角",
+          "url": "https://beijing.anjuke.com/community/daxing-q-haizijiao/"
+        },
+        {
+          "name": "河西区",
+          "url": "https://beijing.anjuke.com/community/daxing-q-hexiqudx/"
+        },
+        {
+          "name": "黄村",
+          "url": "https://beijing.anjuke.com/community/daxing-q-huangcunbj/"
+        },
+        {
+          "name": "旧宫",
+          "url": "https://beijing.anjuke.com/community/daxing-q-jiugong/"
+        },
+        {
+          "name": "林校路",
+          "url": "https://beijing.anjuke.com/community/daxing-q-linxiaolu/"
+        },
+        {
+          "name": "庞各庄",
+          "url": "https://beijing.anjuke.com/community/daxing-q-panggz/"
+        },
+        {
+          "name": "清源",
+          "url": "https://beijing.anjuke.com/community/daxing-q-qingy/"
+        },
+        {
+          "name": "生物医药基地",
+          "url": "https://beijing.anjuke.com/community/daxing-q-bjswyyjd/"
+        },
+        {
+          "name": "同兴园",
+          "url": "https://beijing.anjuke.com/community/daxing-q-tongxingyuan/"
+        },
+        {
+          "name": "西红门",
+          "url": "https://beijing.anjuke.com/community/daxing-q-xihongmen/"
+        },
+        {
+          "name": "兴丰大街",
+          "url": "https://beijing.anjuke.com/community/daxing-q-xingfengdajie/"
+        },
+        {
+          "name": "兴华大街",
+          "url": "https://beijing.anjuke.com/community/daxing-q-xinghuadajie/"
+        },
+        {
+          "name": "兴业大街",
+          "url": "https://beijing.anjuke.com/community/daxing-q-xingyedajie/"
+        },
+        {
+          "name": "新航城",
+          "url": "https://beijing.anjuke.com/community/daxing-q-xinhangchenggs/"
+        },
+        {
+          "name": "瀛海镇",
+          "url": "https://beijing.anjuke.com/community/daxing-q-bjyhz/"
+        },
+        {
+          "name": "亦庄",
+          "url": "https://beijing.anjuke.com/community/daxing-q-yizhuang/"
+        },
+        {
+          "name": "亦庄东区",
+          "url": "https://beijing.anjuke.com/community/daxing-q-yizhuangdongqu/"
+        },
+        {
+          "name": "亦庄西区",
+          "url": "https://beijing.anjuke.com/community/daxing-q-yizhuangxiqu/"
+        },
+        {
+          "name": "郁花园",
+          "url": "https://beijing.anjuke.com/community/daxing-q-qingheyuan/"
+        },
+        {
+          "name": "枣园",
+          "url": "https://beijing.anjuke.com/community/daxing-q-bjzy/"
+        }
+      ]
+    },
+    "tongzhou": {
+      "name": "通州",
+      "shangquan": [
+        {
+          "name": "八里桥",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-baliqiao/"
+        },
+        {
+          "name": "八通轻轨沿线",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-batongqinggui/"
+        },
+        {
+          "name": "北关",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-bgbeiguan/"
+        },
+        {
+          "name": "次渠",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-ciqu/"
+        },
+        {
+          "name": "果园",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-guoyuan/"
+        },
+        {
+          "name": "漷县",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-huoxian/"
+        },
+        {
+          "name": "九棵树",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-jiukeshu/"
+        },
+        {
+          "name": "临河里",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-linheli/"
+        },
+        {
+          "name": "梨园",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-liyuan/"
+        },
+        {
+          "name": "潞城",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-luc/"
+        },
+        {
+          "name": "潞苑",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-lytzx/"
+        },
+        {
+          "name": "马驹桥",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-majuqiao/"
+        },
+        {
+          "name": "乔庄",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-qiaozhuang/"
+        },
+        {
+          "name": "宋庄",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-songzhuantz/"
+        },
+        {
+          "name": "台湖镇",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-tztaihuzhen/"
+        },
+        {
+          "name": "通州北苑",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-beiyuan/"
+        },
+        {
+          "name": "通州周边",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-tongzhouzhoubian/"
+        },
+        {
+          "name": "土桥",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-tuqiao/"
+        },
+        {
+          "name": "武夷花园",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-wuyihuayuan/"
+        },
+        {
+          "name": "物资学院路",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-wuzixueyl/"
+        },
+        {
+          "name": "新华大街",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-xinhuadajie/"
+        },
+        {
+          "name": "永乐店",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-bjyld/"
+        },
+        {
+          "name": "永顺",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-yongshun/"
+        },
+        {
+          "name": "运河大街",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-yunhedajie/"
+        },
+        {
+          "name": "玉桥",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-yuqiao/"
+        },
+        {
+          "name": "张家湾",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-zhangjiawan/"
+        },
+        {
+          "name": "中仓",
+          "url": "https://beijing.anjuke.com/community/tongzhou-q-zhongcang/"
+        }
+      ]
+    },
+    "fangshan": {
+      "name": "房山",
+      "shangquan": [
+        {
+          "name": "长阳",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-changyangbj/"
+        },
+        {
+          "name": "窦店",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-doudian/"
+        },
+        {
+          "name": "房山城关",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-fangshancg/"
+        },
+        {
+          "name": "房山周边",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-fangshanzhoubian/"
+        },
+        {
+          "name": "韩村河",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-hanhecun/"
+        },
+        {
+          "name": "良乡",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-liangxiang/"
+        },
+        {
+          "name": "琉璃河",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-liulihe/"
+        },
+        {
+          "name": "阎村",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-yancun/"
+        },
+        {
+          "name": "燕山",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-yanshanfs/"
+        },
+        {
+          "name": "迎风",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-yingfeng/"
+        },
+        {
+          "name": "周口店",
+          "url": "https://beijing.anjuke.com/community/fangshan-q-zhoukd/"
+        }
+      ]
+    },
+    "shunyi": {
+      "name": "顺义",
+      "shangquan": [
+        {
+          "name": "东方太阳城",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-dftycbj/"
+        },
+        {
+          "name": "光明",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-guangming/"
+        },
+        {
+          "name": "后沙峪",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-houshayu/"
+        },
+        {
+          "name": "机场",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-jichangbj/"
+        },
+        {
+          "name": "李桥",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-liqiao/"
+        },
+        {
+          "name": "马坡",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-mapo/"
+        },
+        {
+          "name": "南彩",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-nancai/"
+        },
+        {
+          "name": "胜利",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-shenglibj/"
+        },
+        {
+          "name": "石门",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-bjsm/"
+        },
+        {
+          "name": "石园",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-shiyuan/"
+        },
+        {
+          "name": "顺义城区",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-shunyichengqu/"
+        },
+        {
+          "name": "顺义周边",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-shunyizhoubian/"
+        },
+        {
+          "name": "天竺",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-tianzhu/"
+        },
+        {
+          "name": "新国展",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-xinguozhan/"
+        },
+        {
+          "name": "杨镇",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-yangzhen/"
+        },
+        {
+          "name": "裕龙",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-yulong/"
+        },
+        {
+          "name": "中央别墅区",
+          "url": "https://beijing.anjuke.com/community/shunyi-q-zhongyangbsq/"
+        }
+      ]
+    },
+    "xicheng": {
+      "name": "西城",
+      "shangquan": [
+        {
+          "name": "白广路",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-baiguanglu/"
+        },
+        {
+          "name": "白纸坊",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-baizhifang/"
+        },
+        {
+          "name": "菜市口",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-caishikou/"
+        },
+        {
+          "name": "长椿街",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-changchunjie/"
+        },
+        {
+          "name": "车公庄",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-chegongzhuang/"
+        },
+        {
+          "name": "大栅栏",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-dazhalan/"
+        },
+        {
+          "name": "德胜门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-deshengmen/"
+        },
+        {
+          "name": "地安门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-dianmen/"
+        },
+        {
+          "name": "阜成门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-fuchengmen/"
+        },
+        {
+          "name": "复兴门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-fuxingmen/"
+        },
+        {
+          "name": "广安门内",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-guanganmennei/"
+        },
+        {
+          "name": "广安门外",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-guanganmenwai/"
+        },
+        {
+          "name": "官园",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-guanyuan/"
+        },
+        {
+          "name": "鼓楼",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-shishahai/"
+        },
+        {
+          "name": "和平门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-hepingmen/"
+        },
+        {
+          "name": "虎坊桥",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-hufangqiao/"
+        },
+        {
+          "name": "金融街",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-jierongjie/"
+        },
+        {
+          "name": "积水潭",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-jishuitan/"
+        },
+        {
+          "name": "六铺炕",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-liupukang/"
+        },
+        {
+          "name": "马连道",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-maliandao/"
+        },
+        {
+          "name": "木樨地",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-muxidi/"
+        },
+        {
+          "name": "南礼士路",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-baiyunlu/"
+        },
+        {
+          "name": "牛街",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-niujie/"
+        },
+        {
+          "name": "三里河",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-sanlihe/"
+        },
+        {
+          "name": "什刹海",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-shichahai/"
+        },
+        {
+          "name": "陶然亭",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-taoranting/"
+        },
+        {
+          "name": "天宁寺",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-tianningsi/"
+        },
+        {
+          "name": "天桥",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-bjtianqiao/"
+        },
+        {
+          "name": "西便门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-xibianmen/"
+        },
+        {
+          "name": "西单",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-xidan/"
+        },
+        {
+          "name": "新街口",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-xinjie/"
+        },
+        {
+          "name": "西四",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-xisi/"
+        },
+        {
+          "name": "西直门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-xizhimen/"
+        },
+        {
+          "name": "宣武门",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-xuanwumen/"
+        },
+        {
+          "name": "宣武周边",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-xuanwuzhoubian/"
+        },
+        {
+          "name": "月坛",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-yuetan/"
+        },
+        {
+          "name": "展览路",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-zhanlanlu/"
+        },
+        {
+          "name": "真武庙",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-zhenwumiao/"
+        },
+        {
+          "name": "珠市口",
+          "url": "https://beijing.anjuke.com/community/xicheng-q-zhushikou/"
+        }
+      ]
+    },
+    "dongchenga": {
+      "name": "东城",
+      "shangquan": [
+        {
+          "name": "安定门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-andingmen/"
+        },
+        {
+          "name": "北京站",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-beijingzhan/"
+        },
+        {
+          "name": "北新桥",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-beixinqiao/"
+        },
+        {
+          "name": "朝阳门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-chaoyangmen/"
+        },
+        {
+          "name": "崇文门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-chongwenmen/"
+        },
+        {
+          "name": "磁器口",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-ciqikou/"
+        },
+        {
+          "name": "灯市口",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-dengshikou/"
+        },
+        {
+          "name": "东单",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-dongsan/"
+        },
+        {
+          "name": "东花市",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-donghuashi/"
+        },
+        {
+          "name": "东四",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-dongsi/"
+        },
+        {
+          "name": "东四十条",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-dongsishitiao/"
+        },
+        {
+          "name": "东直门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-dongzhimen/"
+        },
+        {
+          "name": "东直门外",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-dongzhimenwai/"
+        },
+        {
+          "name": "光明楼",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-guangminglou/"
+        },
+        {
+          "name": "广渠门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-guangqumennei/"
+        },
+        {
+          "name": "海运仓",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-haiyuncang/"
+        },
+        {
+          "name": "和平里",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-hepingli/"
+        },
+        {
+          "name": "建国门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-jianguomen/"
+        },
+        {
+          "name": "交道口",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-jiaodaokou/"
+        },
+        {
+          "name": "景山",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-jingshan/"
+        },
+        {
+          "name": "龙潭湖",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-longtanhu/"
+        },
+        {
+          "name": "前门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-qianmen/"
+        },
+        {
+          "name": "沙滩",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-shatan/"
+        },
+        {
+          "name": "天坛",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-tiantan/"
+        },
+        {
+          "name": "体育馆路",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-tiyuguanlu/"
+        },
+        {
+          "name": "王府井",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-wangfujing/"
+        },
+        {
+          "name": "永定门",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-yongdingmen/"
+        },
+        {
+          "name": "雍和宫",
+          "url": "https://beijing.anjuke.com/community/dongchenga-q-yonghegong/"
+        }
+      ]
+    },
+    "miyun": {
+      "name": "密云",
+      "shangquan": [
+        {
+          "name": "不老屯",
+          "url": "https://beijing.anjuke.com/community/miyun-q-bulaotun/"
+        },
+        {
+          "name": "密云城区",
+          "url": "https://beijing.anjuke.com/community/miyun-q-miyunchengqu/"
+        },
+        {
+          "name": "密云水库别墅区",
+          "url": "https://beijing.anjuke.com/community/miyun-q-miyunshuikubies/"
+        },
+        {
+          "name": "密云周边",
+          "url": "https://beijing.anjuke.com/community/miyun-q-miyunzhoubian/"
+        },
+        {
+          "name": "溪翁庄",
+          "url": "https://beijing.anjuke.com/community/miyun-q-xiwengzhuang/"
+        }
+      ]
+    },
+    "shijingshan": {
+      "name": "石景山",
+      "shangquan": [
+        {
+          "name": "八宝山",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-babaoshan/"
+        },
+        {
+          "name": "八大处",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-badachu/"
+        },
+        {
+          "name": "八角",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-bajiao/"
+        },
+        {
+          "name": "北辛安",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-bxasjs/"
+        },
+        {
+          "name": "广宁",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-guangn/"
+        },
+        {
+          "name": "古城",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-guchenglu/"
+        },
+        {
+          "name": "金顶街",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-jindingjie/"
+        },
+        {
+          "name": "老山",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-laoshanbj/"
+        },
+        {
+          "name": "鲁谷",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-lugu/"
+        },
+        {
+          "name": "模式口",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-mushikou/"
+        },
+        {
+          "name": "苹果园",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-pingguoyuan/"
+        },
+        {
+          "name": "石景山周边",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-shijingshanzhoubian/"
+        },
+        {
+          "name": "五里坨",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-wulituo/"
+        },
+        {
+          "name": "衙门口",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-yamenkou/"
+        },
+        {
+          "name": "杨庄",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-yangzhuang/"
+        },
+        {
+          "name": "玉泉路",
+          "url": "https://beijing.anjuke.com/community/shijingshan-q-yuquanlu/"
+        }
+      ]
+    },
+    "huairou": {
+      "name": "怀柔",
+      "shangquan": [
+        {
+          "name": "渤海镇",
+          "url": "https://beijing.anjuke.com/community/huairou-q-bohaizhen/"
+        },
+        {
+          "name": "怀柔城区",
+          "url": "https://beijing.anjuke.com/community/huairou-q-huairoubj/"
+        },
+        {
+          "name": "怀柔周边",
+          "url": "https://beijing.anjuke.com/community/huairou-q-huairouzhoubian/"
+        },
+        {
+          "name": "庙城",
+          "url": "https://beijing.anjuke.com/community/huairou-q-miaoc/"
+        },
+        {
+          "name": "桥梓",
+          "url": "https://beijing.anjuke.com/community/huairou-q-qiaozi/"
+        },
+        {
+          "name": "雁栖",
+          "url": "https://beijing.anjuke.com/community/huairou-q-yanqi/"
+        }
+      ]
+    },
+    "mentougou": {
+      "name": "门头沟",
+      "shangquan": [
+        {
+          "name": "城子街道",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-chengzijiedao/"
+        },
+        {
+          "name": "大峪",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-bjdayu/"
+        },
+        {
+          "name": "东辛房",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-dongxinfang/"
+        },
+        {
+          "name": "军庄",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-junzhuang/"
+        },
+        {
+          "name": "龙泉",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-longquan/"
+        },
+        {
+          "name": "门头沟周边",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-mentougouzhoubian/"
+        },
+        {
+          "name": "潭柘寺",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-tanzhesi/"
+        },
+        {
+          "name": "永定",
+          "url": "https://beijing.anjuke.com/community/mentougou-q-yongding/"
+        }
+      ]
+    },
+    "yanqing": {
+      "name": "延庆",
+      "shangquan": [
+        {
+          "name": "八达岭",
+          "url": "https://beijing.anjuke.com/community/yanqing-q-badaling/"
+        },
+        {
+          "name": "大榆树",
+          "url": "https://beijing.anjuke.com/community/yanqing-q-dayushu/"
+        },
+        {
+          "name": "康庄",
+          "url": "https://beijing.anjuke.com/community/yanqing-q-bjkz/"
+        },
+        {
+          "name": "延庆城区",
+          "url": "https://beijing.anjuke.com/community/yanqing-q-yanqingchengqu/"
+        },
+        {
+          "name": "延庆周边",
+          "url": "https://beijing.anjuke.com/community/yanqing-q-yanqingzhoubian/"
+        }
+      ]
+    },
+    "pinggua": {
+      "name": "平谷",
+      "shangquan": [
+        {
+          "name": "滨河路",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-binhelu/"
+        },
+        {
+          "name": "金海湖",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-jinhaihu/"
+        },
+        {
+          "name": "马坊",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-mafangbj/"
+        },
+        {
+          "name": "平谷城区",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-pingguchengqu/"
+        },
+        {
+          "name": "平谷周边",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-pingguzhoubian/"
+        },
+        {
+          "name": "王辛庄",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-wangxz/"
+        },
+        {
+          "name": "兴谷",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-xingg/"
+        },
+        {
+          "name": "渔阳",
+          "url": "https://beijing.anjuke.com/community/pinggua-q-yuy/"
+        }
+      ]
+    },
+    "beijingzhoubiana": {
+      "name": "北京周边",
+      "shangquan": [
+        {
+          "name": "保定",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-bjzz/"
+        },
+        {
+          "name": "廊坊",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-langfangbj/"
+        },
+        {
+          "name": "秦皇岛",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-qinghuangdaobj/"
+        },
+        {
+          "name": "其他",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-beijingzhoubianqita/"
+        },
+        {
+          "name": "唐山",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-tangshanbj/"
+        },
+        {
+          "name": "威海",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-weihaibj/"
+        },
+        {
+          "name": "燕郊",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-yanjiaobj/"
+        },
+        {
+          "name": "烟台",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-yantaibj/"
+        },
+        {
+          "name": "张家口",
+          "url": "https://beijing.anjuke.com/community/beijingzhoubiana-q-zhangjaikoubj/"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1295 @@
+{
+  "city": "shanghai",
+  "city_name": "上海",
+  "districts": {
+    "pudong": {
+      "name": "浦东",
+      "shangquan": [
+        {
+          "name": "八佰伴",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-babaiban/"
+        },
+        {
+          "name": "北蔡",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-beicai/"
+        },
+        {
+          "name": "碧云",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-biyun/"
+        },
+        {
+          "name": "曹路",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-caolu/"
+        },
+        {
+          "name": "川沙",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-chuansha/"
+        },
+        {
+          "name": "大团",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shdatuanzhen/"
+        },
+        {
+          "name": "东昌路站",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-dclz/"
+        },
+        {
+          "name": "高东",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-gaodongaa/"
+        },
+        {
+          "name": "高桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shgq/"
+        },
+        {
+          "name": "高行",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-gaoxing/"
+        },
+        {
+          "name": "航头",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-hangtou/"
+        },
+        {
+          "name": "合庆",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-heqingsh/"
+        },
+        {
+          "name": "花木",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-huamu/"
+        },
+        {
+          "name": "惠南",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shhuinan/"
+        },
+        {
+          "name": "江镇",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shjiangzhen/"
+        },
+        {
+          "name": "金桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-jinqiao/"
+        },
+        {
+          "name": "金杨新村",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-jinyangxincun/"
+        },
+        {
+          "name": "康桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-kangqiao/"
+        },
+        {
+          "name": "老港",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shlaogangzhen/"
+        },
+        {
+          "name": "联洋",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-lianyang/"
+        },
+        {
+          "name": "临港新城",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-lingangxinc/"
+        },
+        {
+          "name": "龙阳路站",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-lylz/"
+        },
+        {
+          "name": "芦潮港",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-luchaogang/"
+        },
+        {
+          "name": "陆家嘴",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-lujiazui/"
+        },
+        {
+          "name": "梅园",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-mysh/"
+        },
+        {
+          "name": "南码头",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-nanmatou/"
+        },
+        {
+          "name": "泥城",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-nicheng/"
+        },
+        {
+          "name": "前滩",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-qiantangs/"
+        },
+        {
+          "name": "三林",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-sanlinsh/"
+        },
+        {
+          "name": "三灶",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shsanzaozhen/"
+        },
+        {
+          "name": "上钢新村",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-sgxc/"
+        },
+        {
+          "name": "上南",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shangnanxincun/"
+        },
+        {
+          "name": "世博",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-changlish/"
+        },
+        {
+          "name": "世博滨江",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shibobinjiangsh/"
+        },
+        {
+          "name": "世纪公园",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shijigongyuan/"
+        },
+        {
+          "name": "书院",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shshuyuanzhen/"
+        },
+        {
+          "name": "塘桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-tangqiao/"
+        },
+        {
+          "name": "唐镇",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-tangzhen/"
+        },
+        {
+          "name": "外高桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-waigaoqiao/"
+        },
+        {
+          "name": "王港",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shwanggang/"
+        },
+        {
+          "name": "潍坊新村",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-meiyuan/"
+        },
+        {
+          "name": "新场",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-xinchangsh/"
+        },
+        {
+          "name": "宣桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-shxuanqiaozhen/"
+        },
+        {
+          "name": "杨东",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-yangdong/"
+        },
+        {
+          "name": "洋泾",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-yangjing/"
+        },
+        {
+          "name": "杨思",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-zhoujiadu/"
+        },
+        {
+          "name": "源深",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-yuanshensh/"
+        },
+        {
+          "name": "御桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-yuanshenzhuyuan/"
+        },
+        {
+          "name": "张江",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-zhangjiang/"
+        },
+        {
+          "name": "周浦",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-zhoupu/"
+        },
+        {
+          "name": "祝桥",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-zhuqiao/"
+        },
+        {
+          "name": "竹园",
+          "url": "https://shanghai.anjuke.com/community/pudong-q-zhuyuanpd/"
+        }
+      ]
+    },
+    "minhang": {
+      "name": "闵行",
+      "shangquan": [
+        {
+          "name": "北桥",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-shbqqk/"
+        },
+        {
+          "name": "漕宝路",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-caobaolush/"
+        },
+        {
+          "name": "春申",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-chunshensh/"
+        },
+        {
+          "name": "古美罗阳",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-gumeiluoyang/"
+        },
+        {
+          "name": "航华",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-hanghualongbai/"
+        },
+        {
+          "name": "虹桥",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-hongqiaosh/"
+        },
+        {
+          "name": "华漕",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-huacaosh/"
+        },
+        {
+          "name": "江川路",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-jiangchuanlu/"
+        },
+        {
+          "name": "静安新城",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-jinganxincheng/"
+        },
+        {
+          "name": "金虹桥",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-jinhongqiao/"
+        },
+        {
+          "name": "老闵行",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-laominhang/"
+        },
+        {
+          "name": "龙柏金汇",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-longbojinhui/"
+        },
+        {
+          "name": "马桥",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-maqiaozhen/"
+        },
+        {
+          "name": "梅陇",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-meilongsh/"
+        },
+        {
+          "name": "浦江",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-pujiangzhen/"
+        },
+        {
+          "name": "七宝",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-qibao/"
+        },
+        {
+          "name": "七莘路",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-qixinlu/"
+        },
+        {
+          "name": "吴泾",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-wujingsh/"
+        },
+        {
+          "name": "莘庄北广场",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-xinzhuangbeiguangchangaa/"
+        },
+        {
+          "name": "莘庄工业区",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-xinzhuanggongyequ/"
+        },
+        {
+          "name": "莘庄南广场",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-xinzhuangnanguangc/"
+        },
+        {
+          "name": "颛桥",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-zhuanqiao/"
+        },
+        {
+          "name": "诸翟",
+          "url": "https://shanghai.anjuke.com/community/minhang-q-shzz/"
+        }
+      ]
+    },
+    "songjiang": {
+      "name": "松江",
+      "shangquan": [
+        {
+          "name": "车墩",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-chedun/"
+        },
+        {
+          "name": "大港",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-shdg/"
+        },
+        {
+          "name": "洞泾",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-dongjing/"
+        },
+        {
+          "name": "九亭",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-jiuting/"
+        },
+        {
+          "name": "泖港",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-shmg/"
+        },
+        {
+          "name": "茸北",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-shrb/"
+        },
+        {
+          "name": "莘闵",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-xinmin/"
+        },
+        {
+          "name": "佘山",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-sheshan/"
+        },
+        {
+          "name": "石湖荡",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-shihudangabc/"
+        },
+        {
+          "name": "泗泾",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-sijing/"
+        },
+        {
+          "name": "松江大学城",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-shdaxuecheng/"
+        },
+        {
+          "name": "松江工业区",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-songjianggongyequ/"
+        },
+        {
+          "name": "松江老城",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-songjianglaocheng/"
+        },
+        {
+          "name": "松江新城",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-songjiangxincheng/"
+        },
+        {
+          "name": "小昆山",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-shxks/"
+        },
+        {
+          "name": "新浜",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-xinbing/"
+        },
+        {
+          "name": "新桥",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-xinqiao/"
+        },
+        {
+          "name": "叶榭",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-yexie/"
+        },
+        {
+          "name": "永丰",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-yongfeng/"
+        },
+        {
+          "name": "岳阳",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-yueyangsh/"
+        },
+        {
+          "name": "中山",
+          "url": "https://shanghai.anjuke.com/community/songjiang-q-zhongshansh/"
+        }
+      ]
+    },
+    "baoshan": {
+      "name": "宝山",
+      "shangquan": [
+        {
+          "name": "大场",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-dachangsh/"
+        },
+        {
+          "name": "大华",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-dahualu/"
+        },
+        {
+          "name": "高境",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-gaojingsh/"
+        },
+        {
+          "name": "共富新村",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-gongfuxincun/"
+        },
+        {
+          "name": "共康",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-gongkang/"
+        },
+        {
+          "name": "顾村",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-gucunsh/"
+        },
+        {
+          "name": "刘行",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-liux/"
+        },
+        {
+          "name": "罗店",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-luodiansh/"
+        },
+        {
+          "name": "罗泾",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-luojinsh/"
+        },
+        {
+          "name": "罗南",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-shln/"
+        },
+        {
+          "name": "上海大学",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-shanghaidaxue/"
+        },
+        {
+          "name": "水产路站",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-shuichanlu/"
+        },
+        {
+          "name": "泗塘",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-sitangxincun/"
+        },
+        {
+          "name": "淞宝",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-songbao/"
+        },
+        {
+          "name": "淞南",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-songnansh/"
+        },
+        {
+          "name": "通河新村",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-tonghexincun/"
+        },
+        {
+          "name": "杨行",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-yanghangsh/"
+        },
+        {
+          "name": "友谊路",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-youyilush/"
+        },
+        {
+          "name": "月浦",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-yuepush/"
+        },
+        {
+          "name": "张庙",
+          "url": "https://shanghai.anjuke.com/community/baoshan-q-shiquanlu/"
+        }
+      ]
+    },
+    "jiading": {
+      "name": "嘉定",
+      "shangquan": [
+        {
+          "name": "安亭",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-anting/"
+        },
+        {
+          "name": "曹王",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-shcw/"
+        },
+        {
+          "name": "方泰",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-fangtaizhenjd/"
+        },
+        {
+          "name": "封浜",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-fengbing/"
+        },
+        {
+          "name": "丰庄",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-fengzhuang/"
+        },
+        {
+          "name": "黄渡",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-huangdu/"
+        },
+        {
+          "name": "华亭",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-shht/"
+        },
+        {
+          "name": "嘉定城区",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-jiadingsh/"
+        },
+        {
+          "name": "嘉定新城",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-jiacheng/"
+        },
+        {
+          "name": "江桥新城",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-jiangqiao/"
+        },
+        {
+          "name": "金鹤新城",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-jinhexincheng/"
+        },
+        {
+          "name": "菊园新区",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-juyuanxinqu/"
+        },
+        {
+          "name": "娄塘",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-shlt/"
+        },
+        {
+          "name": "马陆",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-malu/"
+        },
+        {
+          "name": "南翔",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-nanxiang/"
+        },
+        {
+          "name": "唐行",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-shth/"
+        },
+        {
+          "name": "外冈",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-shwg/"
+        },
+        {
+          "name": "徐行",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-shxx/"
+        },
+        {
+          "name": "真新",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-zhenxinxincun/"
+        },
+        {
+          "name": "朱桥",
+          "url": "https://shanghai.anjuke.com/community/jiading-q-shzq/"
+        }
+      ]
+    },
+    "xuhui": {
+      "name": "徐汇",
+      "shangquan": [
+        {
+          "name": "漕宝路站",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-caobaoluditie/"
+        },
+        {
+          "name": "漕河泾",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-caohejing/"
+        },
+        {
+          "name": "长桥",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-changqiao/"
+        },
+        {
+          "name": "复兴中路",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-fuxingzhonglu/"
+        },
+        {
+          "name": "衡山路",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-hengshanlu/"
+        },
+        {
+          "name": "华东理工",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-huadongligong/"
+        },
+        {
+          "name": "淮海西路",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-hhxl/"
+        },
+        {
+          "name": "华泾",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-huajing/"
+        },
+        {
+          "name": "湖南路",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-hunanlush/"
+        },
+        {
+          "name": "建国西路",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-jgxlsh/"
+        },
+        {
+          "name": "康健",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-kangj/"
+        },
+        {
+          "name": "龙华",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-xinlonghua/"
+        },
+        {
+          "name": "上海南站",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-shanghainanzhan/"
+        },
+        {
+          "name": "上海师大",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-shanghaishida/"
+        },
+        {
+          "name": "上海植物园",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-shanghaizhiwuyuan/"
+        },
+        {
+          "name": "田林",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-tianlinkangjian/"
+        },
+        {
+          "name": "襄阳公园",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-xiangyanggy/"
+        },
+        {
+          "name": "斜土路",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-xietulu/"
+        },
+        {
+          "name": "徐汇滨江",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-shbjl/"
+        },
+        {
+          "name": "徐家汇",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-xujiahui/"
+        },
+        {
+          "name": "肇嘉浜路站",
+          "url": "https://shanghai.anjuke.com/community/xuhui-q-zhaojiabinlu/"
+        }
+      ]
+    },
+    "qingpu": {
+      "name": "青浦",
+      "shangquan": [
+        {
+          "name": "白鹤",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-baihe/"
+        },
+        {
+          "name": "凤溪",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-shfx/"
+        },
+        {
+          "name": "华新",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-shhxz/"
+        },
+        {
+          "name": "金泽",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-shjz/"
+        },
+        {
+          "name": "练塘",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-liantangsh/"
+        },
+        {
+          "name": "青浦工业园区",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-shqpgyyq/"
+        },
+        {
+          "name": "青浦新城",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-qingpuxinc/"
+        },
+        {
+          "name": "香花桥",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-shxhq/"
+        },
+        {
+          "name": "夏阳",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-xaiyang/"
+        },
+        {
+          "name": "徐泾",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-xujing/"
+        },
+        {
+          "name": "徐泾北城",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-xbcsh/"
+        },
+        {
+          "name": "赵巷",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-zhaoxiang/"
+        },
+        {
+          "name": "重固",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-chonggu/"
+        },
+        {
+          "name": "朱家角",
+          "url": "https://shanghai.anjuke.com/community/qingpu-q-zhujiajiao/"
+        }
+      ]
+    },
+    "jingan": {
+      "name": "静安",
+      "shangquan": [
+        {
+          "name": "宝山路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-baoshanlush/"
+        },
+        {
+          "name": "北京西路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-beijingxilu/"
+        },
+        {
+          "name": "曹家渡",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-caijiadu/"
+        },
+        {
+          "name": "场中路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-changzhonglu/"
+        },
+        {
+          "name": "大宁",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-daninglu/"
+        },
+        {
+          "name": "江宁路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-jiangninglu/"
+        },
+        {
+          "name": "静安寺",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-jingansi/"
+        },
+        {
+          "name": "老北站",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-laobeizhan/"
+        },
+        {
+          "name": "南京西路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-nanjingxilu/"
+        },
+        {
+          "name": "彭浦",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-pengpu/"
+        },
+        {
+          "name": "市北工业园",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-wenshuilu/"
+        },
+        {
+          "name": "天目西路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-tianmuxilu/"
+        },
+        {
+          "name": "西藏北路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-xizangbeilu/"
+        },
+        {
+          "name": "西康路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-xikanglu/"
+        },
+        {
+          "name": "新客站",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-xinkezhan/"
+        },
+        {
+          "name": "新闸路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-xinzhalu/"
+        },
+        {
+          "name": "延长路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-yanchanglu/"
+        },
+        {
+          "name": "阳城永和",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-yangchengyonghe/"
+        },
+        {
+          "name": "玉佛寺",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-yufosi/"
+        },
+        {
+          "name": "闸北公园",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-zhabeigongyuan/"
+        },
+        {
+          "name": "芷江西路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-zhijiangxilu/"
+        },
+        {
+          "name": "中环共和新路",
+          "url": "https://shanghai.anjuke.com/community/jingan-q-gonghexinlu/"
+        }
+      ]
+    },
+    "putuo": {
+      "name": "普陀",
+      "shangquan": [
+        {
+          "name": "曹杨",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-caoyang/"
+        },
+        {
+          "name": "长风",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-changfenggongyuan/"
+        },
+        {
+          "name": "长寿路",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-changshoulu/"
+        },
+        {
+          "name": "长征",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-changzhengsh/"
+        },
+        {
+          "name": "甘泉宜川",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-ganquanlu/"
+        },
+        {
+          "name": "光新",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-guangxinsh/"
+        },
+        {
+          "name": "华东师大",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-huadongshida/"
+        },
+        {
+          "name": "环球港",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-jinshajianglu/"
+        },
+        {
+          "name": "李子园",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-shlzy/"
+        },
+        {
+          "name": "轻纺市场",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-qingfangshichang/"
+        },
+        {
+          "name": "桃浦",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-taopush/"
+        },
+        {
+          "name": "武宁",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-wuninglu/"
+        },
+        {
+          "name": "真光",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-zhenguangxincun/"
+        },
+        {
+          "name": "真如",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-zhenru/"
+        },
+        {
+          "name": "中远两湾城",
+          "url": "https://shanghai.anjuke.com/community/putuo-q-zhongyuanliangwancheng/"
+        }
+      ]
+    },
+    "yangpu": {
+      "name": "杨浦",
+      "shangquan": [
+        {
+          "name": "鞍山",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-anshansh/"
+        },
+        {
+          "name": "长白新村",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-changbxc/"
+        },
+        {
+          "name": "长阳路",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-changyanglu/"
+        },
+        {
+          "name": "东外滩",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-dongwaitan/"
+        },
+        {
+          "name": "黄兴",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-huangxinggongyuan/"
+        },
+        {
+          "name": "江浦路",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-jiangpulu/"
+        },
+        {
+          "name": "控江路",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-kongjianglu/"
+        },
+        {
+          "name": "平凉路",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-pinglianglu/"
+        },
+        {
+          "name": "五角场",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-wujiaochang/"
+        },
+        {
+          "name": "五角场北",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-wjcbyp/"
+        },
+        {
+          "name": "新华医院",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-xinhuayiyuansh/"
+        },
+        {
+          "name": "新江湾城",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-xinjiangwancheng/"
+        },
+        {
+          "name": "杨浦大桥",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-daqiaosh/"
+        },
+        {
+          "name": "杨浦公园",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-yangpugongyuan/"
+        },
+        {
+          "name": "运光/复旦",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-yunguangfudan/"
+        },
+        {
+          "name": "中原",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-zhongyuansh/"
+        },
+        {
+          "name": "周家嘴路",
+          "url": "https://shanghai.anjuke.com/community/yangpu-q-zhoujiazuilu/"
+        }
+      ]
+    },
+    "fengxian": {
+      "name": "奉贤",
+      "shangquan": [
+        {
+          "name": "奉城",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-fengchengsh/"
+        },
+        {
+          "name": "海湾",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-haiwan/"
+        },
+        {
+          "name": "金汇",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-jinhui/"
+        },
+        {
+          "name": "南桥",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-nanqiao/"
+        },
+        {
+          "name": "青村",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-shqingcun/"
+        },
+        {
+          "name": "西渡",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-xidu/"
+        },
+        {
+          "name": "柘林",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-zhelin/"
+        },
+        {
+          "name": "庄行",
+          "url": "https://shanghai.anjuke.com/community/fengxian-q-zhuangxing/"
+        }
+      ]
+    },
+    "huangpu": {
+      "name": "黄浦",
+      "shangquan": [
+        {
+          "name": "打浦桥",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-dapuqiao/"
+        },
+        {
+          "name": "董家渡",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-dongjiadu/"
+        },
+        {
+          "name": "复兴公园",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-fuxinggongyuan/"
+        },
+        {
+          "name": "淮海中路",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-huaihaizhonglu/"
+        },
+        {
+          "name": "黄浦世博滨江",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-shibobinjiang/"
+        },
+        {
+          "name": "老西门",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-laoximen/"
+        },
+        {
+          "name": "鲁班路",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-lubanlu/"
+        },
+        {
+          "name": "南京东路",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-nanjingdonglush/"
+        },
+        {
+          "name": "南浦大桥",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-nanpudaqiao/"
+        },
+        {
+          "name": "蓬莱公园",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-penglaigongyuan/"
+        },
+        {
+          "name": "人民广场",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-renminguangchang/"
+        },
+        {
+          "name": "外滩/十六铺",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-waitan/"
+        },
+        {
+          "name": "五里桥",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-wuliqiao/"
+        },
+        {
+          "name": "西藏南路",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-xizangnanlu/"
+        },
+        {
+          "name": "斜桥",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-xieqiao/"
+        },
+        {
+          "name": "新天地",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-xintiandi/"
+        },
+        {
+          "name": "豫园",
+          "url": "https://shanghai.anjuke.com/community/huangpu-q-yuyuan/"
+        }
+      ]
+    },
+    "hongkou": {
+      "name": "虹口",
+      "shangquan": [
+        {
+          "name": "北外滩",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-beiwaitan/"
+        },
+        {
+          "name": "大柏树",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-dabaishu/"
+        },
+        {
+          "name": "和平公园",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-hepinggongyuan/"
+        },
+        {
+          "name": "虹口周家嘴路",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-zhoujiazui/"
+        },
+        {
+          "name": "虹口足球场",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-hkzuqiuchang/"
+        },
+        {
+          "name": "江湾",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-jiangwan/"
+        },
+        {
+          "name": "凉城",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-liangcheng/"
+        },
+        {
+          "name": "临平路",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-linpinglu/"
+        },
+        {
+          "name": "鲁迅公园",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-luxungongyuan/"
+        },
+        {
+          "name": "曲阳",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-quyanglu/"
+        },
+        {
+          "name": "四川北路",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-sichuanbeilu/"
+        },
+        {
+          "name": "四平路",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-sipinglu/"
+        },
+        {
+          "name": "提篮桥",
+          "url": "https://shanghai.anjuke.com/community/hongkou-q-tilanqiao/"
+        }
+      ]
+    },
+    "changning": {
+      "name": "长宁",
+      "shangquan": [
+        {
+          "name": "北新泾",
+          "url": "https://shanghai.anjuke.com/community/changning-q-beixinjing/"
+        },
+        {
+          "name": "动物园",
+          "url": "https://shanghai.anjuke.com/community/changning-q-shdongwuyuan/"
+        },
+        {
+          "name": "古北",
+          "url": "https://shanghai.anjuke.com/community/changning-q-gubei/"
+        },
+        {
+          "name": "虹桥开发区",
+          "url": "https://shanghai.anjuke.com/community/changning-q-hongqiaokaifaquaa/"
+        },
+        {
+          "name": "虹桥路",
+          "url": "https://shanghai.anjuke.com/community/changning-q-hongqiao/"
+        },
+        {
+          "name": "江苏路站",
+          "url": "https://shanghai.anjuke.com/community/changning-q-jiangsuluditie/"
+        },
+        {
+          "name": "天山",
+          "url": "https://shanghai.anjuke.com/community/changning-q-tianshanlu/"
+        },
+        {
+          "name": "仙霞",
+          "url": "https://shanghai.anjuke.com/community/changning-q-xianxiaxincun/"
+        },
+        {
+          "name": "西郊公园",
+          "url": "https://shanghai.anjuke.com/community/changning-q-xijiaogongy/"
+        },
+        {
+          "name": "新华路",
+          "url": "https://shanghai.anjuke.com/community/changning-q-xinhualush/"
+        },
+        {
+          "name": "镇宁路",
+          "url": "https://shanghai.anjuke.com/community/changning-q-zhenning/"
+        },
+        {
+          "name": "中山公园",
+          "url": "https://shanghai.anjuke.com/community/changning-q-shanghaiyingcheng/"
+        },
+        {
+          "name": "周家桥",
+          "url": "https://shanghai.anjuke.com/community/changning-q-zhoujiaq/"
+        }
+      ]
+    },
+    "jinshan": {
+      "name": "金山",
+      "shangquan": [
+        {
+          "name": "漕泾",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-caojing/"
+        },
+        {
+          "name": "枫泾",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-fengjing/"
+        },
+        {
+          "name": "金山工业区",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shjsgyq/"
+        },
+        {
+          "name": "金山卫",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shjsjswz/"
+        },
+        {
+          "name": "金山新城",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-jinshanwei/"
+        },
+        {
+          "name": "廊下",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shlangxia/"
+        },
+        {
+          "name": "吕巷",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shlx/"
+        },
+        {
+          "name": "山阳",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shsyz/"
+        },
+        {
+          "name": "石化",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shjssh/"
+        },
+        {
+          "name": "亭林",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-tinglin/"
+        },
+        {
+          "name": "兴塔",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shxt/"
+        },
+        {
+          "name": "张堰",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-shzyz/"
+        },
+        {
+          "name": "朱泾",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-zhujing/"
+        },
+        {
+          "name": "朱行",
+          "url": "https://shanghai.anjuke.com/community/jinshan-q-jinshanzhongb/"
+        }
+      ]
+    },
+    "chongming": {
+      "name": "崇明",
+      "shangquan": [
+        {
+          "name": "堡镇",
+          "url": "https://shanghai.anjuke.com/community/chongming-q-puzhen/"
+        },
+        {
+          "name": "长兴岛",
+          "url": "https://shanghai.anjuke.com/community/chongming-q-shcxd/"
+        },
+        {
+          "name": "城桥",
+          "url": "https://shanghai.anjuke.com/community/chongming-q-chengqiao/"
+        },
+        {
+          "name": "陈家",
+          "url": "https://shanghai.anjuke.com/community/chongming-q-chenjia/"
+        }
+      ]
+    },
+    "shanghaizhoubian": {
+      "name": "上海周边",
+      "shangquan": [
+        {
+          "name": "慈溪",
+          "url": "https://shanghai.anjuke.com/community/shanghaizhoubian-q-cxshzb/"
+        },
+        {
+          "name": "湖州",
+          "url": "https://shanghai.anjuke.com/community/shanghaizhoubian-q-hzshzb/"
+        },
+        {
+          "name": "嘉兴",
+          "url": "https://shanghai.anjuke.com/community/shanghaizhoubian-q-jiaxingshanghai/"
+        },
+        {
+          "name": "昆山",
+          "url": "https://shanghai.anjuke.com/community/shanghaizhoubian-q-kunshanshanghaizhoubian/"
+        },
+        {
+          "name": "南通",
+          "url": "https://shanghai.anjuke.com/community/shanghaizhoubian-q-ntshzb/"
+        },
+        {
+          "name": "其他",
+          "url": "https://shanghai.anjuke.com/community/shanghaizhoubian-q-qitashanghaizhoubian/"
+        },
+        {
+          "name": "苏州",
+          "url": "https://shanghai.anjuke.com/community/shanghaizhoubian-q-suzhoushanghai/"
+        }
+      ]
+    }
+  }
+}

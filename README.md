@@ -2,7 +2,23 @@
 
 > **目标**: 覆盖全国 ~100 重点城市的小区数据，含详情、坐标、周边配套、价格趋势、业主评价，用于 LLM 自动化写探盘文案。
 >
-> **最后更新**: 2026-08-06（省市层级建立 + 两大历史 bug 修复）
+> **定位(2026-09-07 锁定)**: 全国**二手房社区**数据平台, 采集原则 = **应爬尽爬**(广度×深度爬满)。❌ huxingtu 户型永久不做; ❌ 新房 newhouse 本轮不做。
+>
+> **最后更新**: 2026-09-07（B4 商圈重爬 + B1 详情补 + 全部 BLOCK 清零）
+>
+> **决策/规划文档**: 最新待办见 **[TODO.md](TODO.md)**(唯一权威) | 全案评估/风险难点见 **[PROJECT_REVIEW.md](PROJECT_REVIEW.md)**
+
+---
+
+## 📊 最新数据现状 (2026-09-07)
+
+```
+总小区: 125,525   详情: 100.00%(剩雁荡大厦 1)   空名称: 0   零坐标: 1
+缺商圈: 1,006(含 langfang 750 + yangling 149 诚实空值; 有商圈城实缺 107)
+BLOCK: 0   商圈表: 1,708   9 城 (shanghai 37K/chengdu 24K/beijing 22K/guangzhou 20K/shenzhen 13K/xa 7.2K/datong/langfang/yangling)
+```
+
+详细分城/字段填充率/历史经过见 PROJECT_REVIEW.md。
 
 ---
 
@@ -401,6 +417,12 @@ WHERE shangquan_id IS NULL AND city_id = ?
 | `backup_db.sh` | 备份 DB → 本地 + CubeMini | `./backup_db.sh` |
 | `migrate_add_districts.py` | 创建 districts/shangquans 表 | 已执行 |
 | `gen_auto_regions.py` | 从商圈 JSON 生成 region config | `python3 gen_auto_regions.py` |
+| `fix_district_type.py` | districts.type 回填(2026-09) | `python3 fix_district_type.py` |
+| `resume_b4.sh` | B4 按商圈重爬·冷却续跑(崩溃自动恢复) | `nohup ./resume_b4.sh &` |
+| `run_b1_details.sh` | B1 补详情·冷却续跑 | `nohup ./run_b1_details.sh &` |
+| `data/scrape_anjuke.py --fix-names` | 空名称恢复(详情页提取, 只UPDATE name) | `--region X --fix-names --show` |
+
+> 📌 `validate.py` 四维校验 + `adversarial_test.py` 对抗自检 — 任何脚本改动/新爬后必跑。
 
 ### 已弃用脚本 (仅供参考)
 
@@ -614,6 +636,30 @@ DISPLAY=:99 PYTHONPATH=. nohup python3 data/scrape_anjuke.py \
 
 ---
 
+## 📋 会话交接 (2026-09-07 · 最新)
+
+> 完整决策/待办见 **TODO.md**, 全案评估见 **PROJECT_REVIEW.md**。本节为最新会话速记。
+
+### 本次完成 (2026-09-01~07)
+- **B4 按商圈重爬收官**: shenzhen/guangzhou/shanghai 全商圈遍历, 缺商圈 3,672 → 107(剩跨市盘/真孤儿诚实空值)
+  - 分页死循环修复: `scrape_listing` 加"连续 12 页 0 新增即停"(东莞桶曾翻 92 页)
+  - 健壮续跑: `resume_b4.sh`/`run_b1_details.sh`(崩溃 TargetClosedError 自动恢复 + 600s IP 冷却)
+- **B1 新社区详情补**: B4 周边桶发现 ~4,090 新社区(东莞/佛山/嘉兴等跨市)全量补详情 → 剩雁荡大厦 1(8-30 起被验证码墙, 需人工过码)
+- **G4**: districts.type 118 条回填(`fix_district_type.py`, 79市辖区/13县/13功能区/6县级市/6其他/1自治县)
+- **B3**: 空名称 103 条修复(`scrape_anjuke.py --fix-names` 新模式, 详情页 h1/og:title 恢复名称, 只 UPDATE name 列零数据丢失)
+- **Bug 修复**: 跨城商圈名称匹配(深圳"光明"匹配到北京顺义光明)→ 解析改城市限定; 清理 13 条跨城错配
+
+### 数据快照 (2026-09-07)
+125,525 小区 | 详情 100%(剩雁荡大厦) | 空名称 0 | BLOCK 0 | 商圈 1,708
+
+### 运营要点(09 月新增教训)
+1. **验证码墙 → 冷却而非硬闯**: resume 脚本每次爬虫退出 sleep 600s; 30-60min 冷却显著降验证码(实测 shanghai 尾段冷却后 275→301 全通)
+2. **长跑必崩**: Playwright TargetClosedError 每 ~8h 一次 → 所有大爬必须走 resume/循环脚本
+3. **跨市盘是 B4 副作用**: 周边桶净增 ~4,000 跨市社区(待加 is_cross_city 标记, 见 TODO ②-5)
+4. **详情字段天花板**: interpretation 仅 ~44% 小区有源数据; property_basic 08-11 才进解析器, 历史 45K 欠账待回填(见 TODO ②-4)
+
+---
+
 ## 📋 会话交接 (2026-08-06)
 
 ### 完成的工作（本会话）
@@ -646,17 +692,8 @@ DISPLAY=:99 PYTHONPATH=. nohup python3 data/scrape_anjuke.py \
 
 ### 待处理
 
-**高优先级**
-1. **回填 2,198 条 NULL 商圈**: 修复跨城 bug 清掉的错误值，对成都/北京/西安等有商圈城市 `--shangquan all --listings-only` 重爬回填精确商圈（langfang/yangling 899 保持 NULL，本就无商圈）
-2. **CubeMini 同步**: 本地 DB 领先，需备份推到 CubeMini
-3. **实例化县级 district**: 从 `data/anjuke_county_map.json`（335 个县级子域），真爬某个县时创建 district 行（避免臆想 ID）
-
-**低优先级（需先刷新会话，IP 疲劳期勿爬）**
-4. **补爬同页字段**: `--details-only` 重爬详情页，填 property_basic_json + community_interpretation_json（列和爬虫已就绪，存量未补）
-5. **全量户型爬取**: `python3 scrape_huxingtu.py` 独立跑，填 huxingtu_json（已测试解析正常）
-6. **北京朝阳/海淀**: 商圈填充率 94%/96%，按商圈重爬
-7. **同城跨区商圈检查**: 只保证城市一致（C1），同城内"区不对"需按商圈重爬才精确
-8. **非北京城市扩展**: 上海/广州/深圳 config 只定义少数 district slug
+> ⚠️ 本清单为 08-06 历史快照, 已大部分完成或被决策变更。**当前唯一权威待办见 [TODO.md](TODO.md)**。
+> 要点: B4 商圈重爬✅(3,672→107) / B1 详情补✅ / 全量户型爬取 ❌永久移除 / 新房 ❌本轮不做。
 
 ### 快速验证命令
 ```bash

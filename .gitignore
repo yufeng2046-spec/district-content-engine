@@ -1,4 +1,5 @@
 # Credentials & secrets
+.env
 anjuke_cookies.json
 anjuke_state.json
 detail_progress.json
@@ -22,6 +23,16 @@ build/
 
 # Debug artifacts
 debug_*.png
+data/captcha_debug/
+data/yidun_debug/
+*.db.backup-*
+
+# Pipeline state (crash recovery)
+.pipeline_state.json
+data/auto_regions.json
+
+# Log files
+data/*.log
 
 # Douyin + WeChat caches (reproducible)
 data/douyin_content.json
@@ -38,3 +49,11 @@ output/yangling_city_brief_v2.md
 # Old outputs
 output/yangling_communities.csv
 output/qinyuanchunju_3br_85w.md
+
+# 重装前保护: 排除大件/会话/敏感
+backups/
+chrome_profile/
+chrome_profile_v2/
+anjuke_state*.json
+anjuke_cookies.json
+data/captcha_debug/
